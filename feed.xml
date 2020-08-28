@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T10:36:51+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;PLOT 11 - JITTER&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T10:59:01+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;So, what’s a jitter? Jitter is a random value that is assigned to the variable so they don’t fall on top of each other.&lt;/p&gt;
 
@@ -309,7 +309,7 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 Code - ggplot(data=diamond, aes(y= price,x=carat,color=cut)) + geom_point() + geom_smooth(fill=NA)&lt;/p&gt;
 
 &lt;p&gt;We believe this gives a better picture of the prices as the data depicts the prices according to carat as well as clarity
-So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">s this image speaks for itself, we think this gives enough clarity about the elements, which are essential in making the plot. Before we proceed further, we’d like to tell that the first 3 layers are the essentials to making a plot.Otherwise, we’ll have nothing but an empty graph. Now, as the old saying goes “learn by doing”. We’ll jump on to GGPLOT, start from the basics and explore all layers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accounting Analytics</title><link href="http://localhost:4000/blog/Accounting-Analytics/" rel="alternate" type="text/html" title="Accounting Analytics" /><published>2020-06-03T00:00:00+05:30</published><updated>2020-06-03T00:00:00+05:30</updated><id>http://localhost:4000/blog/Accounting-Analytics</id><content type="html" xml:base="http://localhost:4000/blog/Accounting-Analytics/">&lt;p&gt;&lt;img src=&quot;/blog/Decoding Analytics Buzzwords.jpg&quot; alt=&quot;Decoding Analytics Buzzwords&quot; /&gt;
+So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">s this image speaks for itself, we think this gives enough clarity about the elements, which are essential in making the plot. Before we proceed further, we’d like to tell that the first 3 layers are the essentials to making a plot.Otherwise, we’ll have nothing but an empty graph. Now, as the old saying goes “learn by doing”. We’ll jump on to GGPLOT, start from the basics and explore all layers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accounting Analytics</title><link href="http://localhost:4000/blog/Accounting-Analytics/" rel="alternate" type="text/html" title="Accounting Analytics" /><published>2020-06-03T00:00:00+05:30</published><updated>2020-06-03T00:00:00+05:30</updated><id>http://localhost:4000/blog/Accounting-Analytics</id><content type="html" xml:base="http://localhost:4000/blog/Accounting-Analytics/">&lt;p&gt;&lt;img src=&quot;/blog/Accounting Analytics.jpg&quot; alt=&quot;Accounting Analytics&quot; /&gt;
 But what exactly is ‘accounting analytics’?&lt;/p&gt;
 
 &lt;p&gt;So, in layman’s language, Accounting analytics is the examination of big data using data science or data analytics tools to help answer accounting-related questions. We live in a world which is full of huge piles of online data. The Accountants, now a days, are required to have the skill of analyzing this huge data in the form of financial statements of a company. That is why, it is very important to be familiar with the concept of accounting analytics.&lt;/p&gt;
@@ -335,7 +335,8 @@ In this blog, we’re going to talk about three major aspects of accounting Anal
 
 &lt;p&gt;3) Trend Analysis in Auditing&lt;/p&gt;
 
-&lt;p&gt;1) Variance Analysis in Managerial Accounting&lt;/p&gt;
+&lt;p&gt;1) Variance Analysis in Managerial Accounting
+&lt;img src=&quot;/blog/01.png&quot; alt=&quot;Accounting Analytics&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Managerial Accounting is a domain in which accountants prepare and use data for internal decision making process. We’d like to introduce you to a couple of ways in which advanced data analytics skills will help you make better internal decisions.&lt;/p&gt;
 
@@ -359,7 +360,8 @@ In this blog, we’re going to talk about three major aspects of accounting Anal
 
 &lt;p&gt;This is just the start. If you can gather the names of the employees who are responsible for serving the pizza, then you can also quantify the extent to which each employee is serving the right amount of cheese, helping managers to identify employees who may need additional training. All of this can be done with the help of Excel.&lt;/p&gt;
 
-&lt;p&gt;2) The Concept of SVA in Financial Accounting&lt;/p&gt;
+&lt;p&gt;2) The Concept of SVA in Financial Accounting
+&lt;img src=&quot;/blog/02.png&quot; alt=&quot;Accounting Analytics&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Financial accounting is a domain of accounting that focuses on summarizing accounting transactions during a period of time for users external to an organization like investors, creditors, and regulators.&lt;/p&gt;
 
@@ -389,7 +391,8 @@ In this blog, we’re going to talk about three major aspects of accounting Anal
 
 &lt;p&gt;Shareholder value is created when a company’s profits exceed its costs. But there is more than one way to calculate this.&lt;/p&gt;
 
-&lt;p&gt;3) Trend Analysis in Auditing&lt;/p&gt;
+&lt;p&gt;3) Trend Analysis in Auditing
+&lt;img src=&quot;/blog/03.png&quot; alt=&quot;Accounting Analytics&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Auditing is the domain within accounting which focuses on whether the control procedures are being followed and whether the reported financial statements are accurate.&lt;/p&gt;
 
