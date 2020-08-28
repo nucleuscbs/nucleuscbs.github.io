@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T10:59:01+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;PLOT 11 - JITTER&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T11:34:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
+The topics covered in the series were,&lt;/p&gt;
+
+&lt;p&gt;All about Machine Learning
+Random Forest
+Logistic Regression
+K-Nearest Neighbours
+Support Vector Machines (SVMs)
+Clustering
+Association rule learning with Apriori
+Deep Learning and AI
+To provide hands on practice so that our followers can now learn while practicing we opened a Machine Learning Challenge based on Churn Modelling. An important area of operation of banks is Churn Analysis. Churn Modelling or Analysis is the evaluation of the customer loss rate in order to reduce it. Banks are intrigued to identify segments of such customer as the cost for associating with a new customer is usually higher than retaining the old one.&lt;/p&gt;
+
+&lt;p&gt;For this challenge, a dataset was provided wherein, a Bank is witnessing some unusual churn rates and thus they want to predict whether a customer will leave the bank or not, based on the data provided.&lt;/p&gt;
+
+&lt;p&gt;The winner of the Challenge, Soham Mukherjee, majorly performed following 4 steps to solve this Challenge-&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Exploratory Data Analysis&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Pre-Processing&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Data Modelling&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boosting Techniques&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Exploratory Data Analysis (EDA)
+Imagine your friends decide to go out for dinner to a restaurant you have never heard of before. Being a foodie, you will straight away find yourself perplexed with several questions. As a rule of thumb, you would go online to check for menu, reviews, and ratings. Furthermore, you will dig out details on the experience of people from the restaurant.&lt;/p&gt;
+
+&lt;p&gt;Whatever research you will undertake before finally booking your table for the dinner is nothing but what Data Scientists in their language call “Exploratory Data Analysis”&lt;/p&gt;
+
+&lt;p&gt;EDA refers to the analytical procedure of performing preliminary investigations on data in order to discover patterns, to detect abnormalities in data, to test hypothesis and to check assumptions with the support of insights on synopsis and graphical representations of data provided.&lt;/p&gt;
+
+&lt;p&gt;In this case, our Winner performed multiple EDA techniques including checking for skewness, visualizing with help of histogram plots, and checking the relationship between variables. Further distribution of dependent variable was depicted using a pie chart.&lt;/p&gt;
+
+&lt;p&gt;Data is always first available in human readable form due to which the data is labelled with words. However, Label Encoding is applied to convert the words into numeric values and make the data in machine-readable form. Therefore, the categorical variables (Geography, Gender) were first encoded with the help of following code-&lt;/p&gt;
+
+&lt;p&gt;Once data was verified for duplications, the participant checked the skewness of the variables and then further illustrated the frequency-variable chart for each variable as shown below-&lt;/p&gt;
+
+&lt;p&gt;Then, some detailed visualizations were prepared with help of Pair Plots. One of the most significant analysis is to check the relationship between the two variables. To accomplish that so that further decisions could be made, a heat map was plotted that illustrating the correlation between the variables-&lt;/p&gt;
+
+&lt;p&gt;Since Correlation of X with itself is always 1, we get a diagonal which divides data into two triangles.&lt;/p&gt;
+
+&lt;p&gt;Now that Exploratory Data Analysis has been performed and required results fetched, by going into the intricacies of data with help of certain visualizations, the next step would be Data Pre-processing to make data fit for Machine Learning Modelling.&lt;/p&gt;
+
+&lt;p&gt;Data Pre-processing
+This stage is one of the most significant steps in Machine Learning and no data scientist can ever skip this step in his/her analysis.&lt;/p&gt;
+
+&lt;p&gt;To define in simple words, Data Preprocessing is a technique to convert the raw data which has been gathered from numerous sources into cleaner and more meaningful pieces of information. Datasets are incredibly massive and usually contain unnecessary data as well. That vast amount of information is also heterogeneous by nature, which means that they don’t share the same structure and thus there is also a need to standardize the data first. Data Preprocessing technically deals with issues such as inconsistent data, missing values, insufficient data, imbalance data, etc.&lt;/p&gt;
+
+&lt;p&gt;In the winner’s entry, special attention was given to this step and he removed the “Balance” variable as it would decrease accuracy. It was observed from the correlation matrix between all the variables that Balance variable can reduce the accuracy of model as it was less related to the target and other variables.  Further to handle the imbalance and inconsistent data following two techniques were performed-&lt;/p&gt;
+
+&lt;p&gt;SMOTE for Handling Imbalanced Data- 
+Data imbalance usually reflects an unequal distribution of classes within a dataset and a major issue associated is that there are very few examples of the minority class in data for a model to effectively learn and predict. Therefore, to overcome this issue, one way is to oversample the examples in the minority class. The same can be achieved by replicating examples from the minority class in the training dataset before fitting a model. This can balance the class distribution without providing any additional information to the model. An improvement over replicating examples from the minority class is to synthesize new examples from the minority class.&lt;/p&gt;
+
+&lt;p&gt;For the same, the most widely used approach to synthesizing new examples is called the Synthetic Minority Oversampling Technique (SMOTE). SMOTE first selects a minority class instance at random and finds its k-nearest minority class neighbours. These synthetic training records are generated by randomly selecting one or more of the k-nearest neighbours for each example in the minority class. After the oversampling process, the data is reconstructed and several classification models can be applied for the processed data.&lt;/p&gt;
+
+&lt;p&gt;Standardization of Inconsistent Data-
+The purpose of standardising the dataset is to ensure that each of the variables contributes equally to the analysis without any bias. It becomes essential to do standardization before applying Machine Learning Models as variables are the core of the model and the analysis is pretty much sensitive regarding the variance of initial variables. That is if there are variables with large differences between the initial variables, the variable with larger range will dominate over the smaller ranges.&lt;/p&gt;
+
+&lt;p&gt;For example, consider two variables, distance within city and distance between cities. One of the variables is measured in meters while the other in Kilometres. Now if the data is not standardised then distance of 500 meters would be considered as greater than distance of 5KM, which isn’t true. Therefore, transforming the data to comparable scales can prevent this problem.&lt;/p&gt;
+
+&lt;p&gt;Mathematically, it is done by subtracting the mean and dividing by the standard deviation for each value of each variable.&lt;/p&gt;
+
+&lt;p&gt;z = (value – mean)/ (standard deviation)&lt;/p&gt;
+
+&lt;p&gt;All the variables will be transformed to the same scale once the standardization is completed. Finally, the data is divided into training and test sets for further steps.&lt;/p&gt;
+
+&lt;p&gt;Data Modelling
+This is a technique to analyse data and acquiring certain results from it. There are various data modelling techniques which can be used such as Random Forest Regression, Logistic Regression, K Nearest Neighbours etc. All these techniques can be used to fit in the dataset and then predict the required outcome. For this purpose, dataset is divided into two categories-&lt;/p&gt;
+
+&lt;p&gt;Train set- For fitting the model.
+Test set- To predict the required outcome.
+The various data modelling techniques used in this case are-&lt;/p&gt;
+
+&lt;p&gt;Logistic Regression
+Random Forest Classifier
+Decision Tree Classifier
+Support Vector Machines
+K nearest neighbours
+Here is the code and confusion matrix for the Random Forest Classifier;&lt;/p&gt;
+
+&lt;p&gt;Heatmap from the seaborn library has been used in the Confusion Matrix for better understanding-&lt;/p&gt;
+
+&lt;p&gt;The confusion matrix shows that among all positive predictions, 84.4% of the predictions were true positives and it was correctly predicted that a customer will churn. Rest 15.6% were false positives which means that it was wrongly predicted that these customers will churn.&lt;/p&gt;
+
+&lt;p&gt;Similarly, out of the negative predictions, 83.8% were true negatives while rest 16.2% were false negatives and they were wrongly predicted.&lt;/p&gt;
+
+&lt;p&gt;Boosting Techniques-
+Boosting techniques helps to convert weak learners into strong learners. The various boosting techniques used in the case are-&lt;/p&gt;
+
+&lt;p&gt;Gradient Boosting Classifier
+Ada boost Classifier
+XG Boost
+Here is a sample code for Gradient Boosting Classifier&lt;/p&gt;
+
+&lt;p&gt;The winner has used certain techniques to increase the accuracy of the model in the XG Boost technique-&lt;/p&gt;
+
+&lt;p&gt;Random search has been used to find out the best parameters with the help of a Param grid. It searches among a given set of values to find out parameters with highest accuracy.
+Stratified-K-Fold shuffles the data and then split the dataset into n-splits (specified number of splits) Then it uses each part as a test set.
+When applying machine learning models, one usually does data pre-processing (as explained above), feature engineering, feature extraction and, feature selection. After this, he/ she selects the best algorithm and tuning of the parameters is done in order to obtain the best results.&lt;/p&gt;
+
+&lt;p&gt;AutoML is a series of concepts and techniques used to automate these processes. It reduces the bias and errors that occur when a human being is designing the machine learning models. An organization can also reduce the cost of hiring many experts by applying AutoML in their data pipeline. The winner achieved the best accuracy with the help of Stacked Ensemble (Auto ML).&lt;/p&gt;
+
+&lt;p&gt;We hope that you understood the framework used in order to solve this Challenge. Also, if the training time of model was increased from 5 minutes to probably a couple of hours, the model, the accuracy would have been around a remarkable 94-96%. In case of any queries, feel free to reach out to us.
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/1.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/2.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/3.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/4.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/5.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/6.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/7.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">The topics covered in the series were,</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;So, what’s a jitter? Jitter is a random value that is assigned to the variable so they don’t fall on top of each other.&lt;/p&gt;
 
@@ -712,16 +829,4 @@ The accuracy of a Monte Carlo simulation is a function of the number of realizat
 Finding key factors that effect supply chain by combining the strengths of unsupervised, supervised and reinforcement learning. This helps in focusing more on the important factors and improves decision making process.
 Optimizing freight costs, improving supplier delivery performance,determining optimum order size and minimizing supplier risk are few of the many benefits machine learning is providing in collaborative supply chain networks.
 Machine learning is also proving to be very effective at automating inbound quality inspection throughout logistic processes, isolating product shipments with damage and wear. The machine learning algorithms in IBM’s Watson platform is one of the most common example of supply chain analytics. It was able to determine if a shipping container or product were damaged, classify it by damage time, and recommend the best corrective action to repair the assets.
-Machine learning is improving production planning and factory scheduling accuracy by taking into account multiple constraints and optimizing for each.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">FREEDOM OF A STATISTIC</title><link href="http://localhost:4000/blog/FREEDOM-OF-A-STATISTIC/" rel="alternate" type="text/html" title="FREEDOM OF A STATISTIC" /><published>2020-04-24T00:00:00+05:30</published><updated>2020-04-24T00:00:00+05:30</updated><id>http://localhost:4000/blog/FREEDOM-OF-A-STATISTIC</id><content type="html" xml:base="http://localhost:4000/blog/FREEDOM-OF-A-STATISTIC/">&lt;p&gt;&lt;img src=&quot;/blog/2020-04-24-FREEDOM-OF-A-STATISTIC/FREEDOM OF A STATISTIC.jpg&quot; alt=&quot;Freedom of statistics&quot; /&gt;
-Degrees of freedom, as the name suggests, refers to the number of variables in a data which are at freedom, that is they are independent of each other and can vary as they want to.&lt;/p&gt;
-
-&lt;p&gt;Think of it like this; there are 10 branches on a tree as well as 10 birds, who want to sit on those branches. The first bird has 10 branches to choose from, while the second bird has 9 branches to choose from, as the first bird has already sat down on one branch. Similarly, the last bird will have no choice, as when it arrives, birds will already be sitting on 9 out of 10 branches. Thus, only 9 out of 10 birds have the freedom to sit on the branch of their choice.&lt;/p&gt;
-
-&lt;p&gt;Now, consider this; we know the arithmetic mean of three unknown integers to be 8. If two of those three numbers are revealed to be 5 and 7, then the third number has to be 12, as per the formula of mean. So, in this case, the third number does not have any independence to vary and is dependent on the values of the first two numbers. Thus, in this case, degrees of freedom are 2 i.e. only two numbers out of three have the freedom to vary.&lt;/p&gt;
-
-&lt;p&gt;Now, another interesting question pops up: Why is (n-1) taken as the denominator to estimate sample variance rather than (n)?
-Well, the same concept is used. (n-1) is used to correct the inherent bias in estimating the population variance, where n is the sample size. This removal of bias is done by multiplying the biased estimator by (n) and dividing by (n-1), and this rectifying process has a name: Bessel’s Correction.&lt;/p&gt;
-
-&lt;p&gt;Degrees of Freedom are not always (n-1), typically it varies based on the data, where it is being used, and the number of parameters we are estimating. For instance, in the simplest Linear Regression model, we estimate 2 parameters; the intercept and the slope. Hence, in this case, the degrees of freedom of the residuals will be (n-2).&lt;/p&gt;
-
-&lt;p&gt;We hope that you’ve understood the concept of degrees of freedom well with the explanation given above. Do mention your feedback using the comments section. For more similar posts, stay tuned!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Degrees of freedom, as the name suggests, refers to the number of variables in a data which are at freedom, that is they are independent of each other and can vary as they want to.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+Machine learning is improving production planning and factory scheduling accuracy by taking into account multiple constraints and optimizing for each.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
