@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-28T11:34:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-30T14:19:53+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
 The topics covered in the series were,&lt;/p&gt;
 
 &lt;p&gt;All about Machine Learning
@@ -39,11 +39,14 @@ Imagine your friends decide to go out for dinner to a restaurant you have never 
 
 &lt;p&gt;In this case, our Winner performed multiple EDA techniques including checking for skewness, visualizing with help of histogram plots, and checking the relationship between variables. Further distribution of dependent variable was depicted using a pie chart.&lt;/p&gt;
 
-&lt;p&gt;Data is always first available in human readable form due to which the data is labelled with words. However, Label Encoding is applied to convert the words into numeric values and make the data in machine-readable form. Therefore, the categorical variables (Geography, Gender) were first encoded with the help of following code-&lt;/p&gt;
+&lt;p&gt;Data is always first available in human readable form due to which the data is labelled with words. However, Label Encoding is applied to convert the words into numeric values and make the data in machine-readable form. Therefore, the categorical variables (Geography, Gender) were first encoded with the help of following code-
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/1.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Once data was verified for duplications, the participant checked the skewness of the variables and then further illustrated the frequency-variable chart for each variable as shown below-&lt;/p&gt;
+&lt;p&gt;Once data was verified for duplications, the participant checked the skewness of the variables and then further illustrated the frequency-variable chart for each variable as shown below-
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/2.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Then, some detailed visualizations were prepared with help of Pair Plots. One of the most significant analysis is to check the relationship between the two variables. To accomplish that so that further decisions could be made, a heat map was plotted that illustrating the correlation between the variables-&lt;/p&gt;
+&lt;p&gt;Then, some detailed visualizations were prepared with help of Pair Plots. One of the most significant analysis is to check the relationship between the two variables. To accomplish that so that further decisions could be made, a heat map was plotted that illustrating the correlation between the variables-
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/3.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since Correlation of X with itself is always 1, we get a diagonal which divides data into two triangles.&lt;/p&gt;
 
@@ -59,7 +62,8 @@ This stage is one of the most significant steps in Machine Learning and no data 
 &lt;p&gt;SMOTE for Handling Imbalanced Data- 
 Data imbalance usually reflects an unequal distribution of classes within a dataset and a major issue associated is that there are very few examples of the minority class in data for a model to effectively learn and predict. Therefore, to overcome this issue, one way is to oversample the examples in the minority class. The same can be achieved by replicating examples from the minority class in the training dataset before fitting a model. This can balance the class distribution without providing any additional information to the model. An improvement over replicating examples from the minority class is to synthesize new examples from the minority class.&lt;/p&gt;
 
-&lt;p&gt;For the same, the most widely used approach to synthesizing new examples is called the Synthetic Minority Oversampling Technique (SMOTE). SMOTE first selects a minority class instance at random and finds its k-nearest minority class neighbours. These synthetic training records are generated by randomly selecting one or more of the k-nearest neighbours for each example in the minority class. After the oversampling process, the data is reconstructed and several classification models can be applied for the processed data.&lt;/p&gt;
+&lt;p&gt;For the same, the most widely used approach to synthesizing new examples is called the Synthetic Minority Oversampling Technique (SMOTE). SMOTE first selects a minority class instance at random and finds its k-nearest minority class neighbours. These synthetic training records are generated by randomly selecting one or more of the k-nearest neighbours for each example in the minority class. After the oversampling process, the data is reconstructed and several classification models can be applied for the processed data.
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/4.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Standardization of Inconsistent Data-
 The purpose of standardising the dataset is to ensure that each of the variables contributes equally to the analysis without any bias. It becomes essential to do standardization before applying Machine Learning Models as variables are the core of the model and the analysis is pretty much sensitive regarding the variance of initial variables. That is if there are variables with large differences between the initial variables, the variable with larger range will dominate over the smaller ranges.&lt;/p&gt;
@@ -86,11 +90,13 @@ Support Vector Machines
 K nearest neighbours
 Here is the code and confusion matrix for the Random Forest Classifier;&lt;/p&gt;
 
-&lt;p&gt;Heatmap from the seaborn library has been used in the Confusion Matrix for better understanding-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/5.png&quot; alt=&quot;ML Challenge&quot; /&gt;
+Heatmap from the seaborn library has been used in the Confusion Matrix for better understanding-&lt;/p&gt;
 
 &lt;p&gt;The confusion matrix shows that among all positive predictions, 84.4% of the predictions were true positives and it was correctly predicted that a customer will churn. Rest 15.6% were false positives which means that it was wrongly predicted that these customers will churn.&lt;/p&gt;
 
-&lt;p&gt;Similarly, out of the negative predictions, 83.8% were true negatives while rest 16.2% were false negatives and they were wrongly predicted.&lt;/p&gt;
+&lt;p&gt;Similarly, out of the negative predictions, 83.8% were true negatives while rest 16.2% were false negatives and they were wrongly predicted.
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/6.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Boosting Techniques-
 Boosting techniques helps to convert weak learners into strong learners. The various boosting techniques used in the case are-&lt;/p&gt;
@@ -98,7 +104,8 @@ Boosting techniques helps to convert weak learners into strong learners. The var
 &lt;p&gt;Gradient Boosting Classifier
 Ada boost Classifier
 XG Boost
-Here is a sample code for Gradient Boosting Classifier&lt;/p&gt;
+Here is a sample code for Gradient Boosting Classifier
+&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/7.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The winner has used certain techniques to increase the accuracy of the model in the XG Boost technique-&lt;/p&gt;
 
@@ -108,14 +115,8 @@ When applying machine learning models, one usually does data pre-processing (as 
 
 &lt;p&gt;AutoML is a series of concepts and techniques used to automate these processes. It reduces the bias and errors that occur when a human being is designing the machine learning models. An organization can also reduce the cost of hiring many experts by applying AutoML in their data pipeline. The winner achieved the best accuracy with the help of Stacked Ensemble (Auto ML).&lt;/p&gt;
 
-&lt;p&gt;We hope that you understood the framework used in order to solve this Challenge. Also, if the training time of model was increased from 5 minutes to probably a couple of hours, the model, the accuracy would have been around a remarkable 94-96%. In case of any queries, feel free to reach out to us.
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/1.png&quot; alt=&quot;ML Challenge&quot; /&gt;
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/2.png&quot; alt=&quot;ML Challenge&quot; /&gt;
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/3.png&quot; alt=&quot;ML Challenge&quot; /&gt;
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/4.png&quot; alt=&quot;ML Challenge&quot; /&gt;
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/5.png&quot; alt=&quot;ML Challenge&quot; /&gt;
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/6.png&quot; alt=&quot;ML Challenge&quot; /&gt;
-&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/Winner_s Python code/7.png&quot; alt=&quot;ML Challenge&quot; /&gt;&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">The topics covered in the series were,</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;PLOT 11 - JITTER&lt;/p&gt;
+&lt;p&gt;We hope that you understood the framework used in order to solve this Challenge. Also, if the training time of model was increased from 5 minutes to probably a couple of hours, the model, the accuracy would have been around a remarkable 94-96%. In case of any queries, feel free to reach out to us.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">The topics covered in the series were,</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;&lt;img src=&quot;/blog/Data Visualization in R Part1.jpg&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;So, what’s a jitter? Jitter is a random value that is assigned to the variable so they don’t fall on top of each other.&lt;/p&gt;
 
@@ -241,7 +242,7 @@ Coordinates –&lt;/p&gt;
 
 &lt;p&gt;GGPLOT2, in it has even more fascinating and useful tools. We suggest our readers to explore more of it and learn more about it.&lt;/p&gt;
 
-&lt;p&gt;The use of visualization techniques differ according to the purpose it serves but the underlying idea essentially remains the same. We hope that the basic idea and concept of visualization is clear to all of you. So, play around with these visualizations and do write to us in case of any queries. All the best!!!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">PLOT 11 - JITTER</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION</title><link href="http://localhost:4000/blog/SPURIOUS-CORRELATION/" rel="alternate" type="text/html" title="SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION" /><published>2020-06-30T00:00:00+05:30</published><updated>2020-06-30T00:00:00+05:30</updated><id>http://localhost:4000/blog/SPURIOUS-CORRELATION</id><content type="html" xml:base="http://localhost:4000/blog/SPURIOUS-CORRELATION/">&lt;p&gt;&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/Spurious Correlation – A Correlation with no Relation.jpg&quot; alt=&quot;Spurious Correlation&quot; /&gt;
+&lt;p&gt;The use of visualization techniques differ according to the purpose it serves but the underlying idea essentially remains the same. We hope that the basic idea and concept of visualization is clear to all of you. So, play around with these visualizations and do write to us in case of any queries. All the best!!!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">PLOT 11 - JITTER</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION</title><link href="http://localhost:4000/blog/Spurious-Correlation/" rel="alternate" type="text/html" title="SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION" /><published>2020-06-30T00:00:00+05:30</published><updated>2020-06-30T00:00:00+05:30</updated><id>http://localhost:4000/blog/Spurious-Correlation</id><content type="html" xml:base="http://localhost:4000/blog/Spurious-Correlation/">&lt;p&gt;&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/sp.jpg&quot; alt=&quot;Spurious Correlation&quot; /&gt;
 Correlation is used to test the relationship between 2 or more variables. For instance, Weight and height are correlated. A taller person would tend to have more weight than a shorter person. However, this may not be always true. Hence, we use the Correlation coefficient, which measures as to how strong/ weak, the relation is between the variables. The range of correlation coefficient varies between (-1,1). The higher the correlation coefficient, the higher is the positive correlation between the variables and vice versa.&lt;/p&gt;
 
 &lt;p&gt;ROLE OF CORRELATION IN BUSINESS LIFE&lt;/p&gt;
@@ -284,9 +285,12 @@ Relation of posts with images getting more shares across social media.&lt;/p&gt;
 
 &lt;p&gt;Given is an interesting example of spurious correlation, you may notice that the graph is perfectly correlated but there is no reason or cause between this way- apart- from each other events&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/http_www.tylervigen.com_spurious-correlations.jpg&quot; alt=&quot;Spurious Correlation&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;Photo credit - http -//www.tylervigen.com&lt;/p&gt;
 
-&lt;p&gt;In the above example, Ageing is a confounding variable. The apparent association between living in old age homes and having Alzheimer’s is confounded by age.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/image-18.png&quot; alt=&quot;Spurious Correlation&quot; /&gt;
+In the above example, Ageing is a confounding variable. The apparent association between living in old age homes and having Alzheimer’s is confounded by age.&lt;/p&gt;
 
 &lt;p&gt;If a researcher doesn’t take age into consideration, then he/ she may draw incorrect conclusions about the correlation between living in an old age home and Alzheimer’s.&lt;/p&gt;
 
@@ -294,9 +298,11 @@ Relation of posts with images getting more shares across social media.&lt;/p&gt;
 
 &lt;p&gt;Skewed Scales Manipulating Ranges to Align Data&lt;/p&gt;
 
-&lt;p&gt;Even when Y axes measure the same category, changing the scales can alter the lines to suggest a correlation. These Y axes for a company’s yearly revenue from a particular country, differ in range and proportional increase.&lt;/p&gt;
+&lt;p&gt;Even when Y axes measure the same category, changing the scales can alter the lines to suggest a correlation. These Y axes for a company’s yearly revenue from a particular country, differ in range and proportional increase.
+&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/graph 1.png&quot; alt=&quot;Spurious Correlation&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Eliminating the second axis shows how skewed this chart is. Such problems can arise during the analysis due to the misrepresentation of the data.&lt;/p&gt;
+&lt;p&gt;Eliminating the second axis shows how skewed this chart is. Such problems can arise during the analysis due to the misrepresentation of the data.
+&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/graph 2.png&quot; alt=&quot;Spurious Correlation&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;How to Spot Spurious Correlations -&lt;/p&gt;
 
