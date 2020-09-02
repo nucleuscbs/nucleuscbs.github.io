@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-30T14:19:53+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-02T09:31:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
 The topics covered in the series were,&lt;/p&gt;
 
 &lt;p&gt;All about Machine Learning
@@ -115,16 +115,18 @@ When applying machine learning models, one usually does data pre-processing (as 
 
 &lt;p&gt;AutoML is a series of concepts and techniques used to automate these processes. It reduces the bias and errors that occur when a human being is designing the machine learning models. An organization can also reduce the cost of hiring many experts by applying AutoML in their data pipeline. The winner achieved the best accuracy with the help of Stacked Ensemble (Auto ML).&lt;/p&gt;
 
-&lt;p&gt;We hope that you understood the framework used in order to solve this Challenge. Also, if the training time of model was increased from 5 minutes to probably a couple of hours, the model, the accuracy would have been around a remarkable 94-96%. In case of any queries, feel free to reach out to us.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">The topics covered in the series were,</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;&lt;img src=&quot;/blog/Data Visualization in R Part1.jpg&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
-PLOT 11 - JITTER&lt;/p&gt;
-
-&lt;p&gt;So, what’s a jitter? Jitter is a random value that is assigned to the variable so they don’t fall on top of each other.&lt;/p&gt;
+&lt;p&gt;We hope that you understood the framework used in order to solve this Challenge. Also, if the training time of model was increased from 5 minutes to probably a couple of hours, the model, the accuracy would have been around a remarkable 94-96%. In case of any queries, feel free to reach out to us.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">The topics covered in the series were,</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 2)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part2/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 2)" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part2</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part2/">&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Featured.jpg&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+PLOT 11 - JITTER
+&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot11 jitter.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+So, what’s a jitter? Jitter is a random value that is assigned to the variable so they don’t fall on top of each other.&lt;/p&gt;
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(y= price,x=cut,color=cut))  + geom_jitter(size=1.2, alpha= 0.5)&lt;/p&gt;
 
 &lt;p&gt;PLOT 12 - Box Plot&lt;/p&gt;
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(y= price,x=cut,color=cut))  + geom_boxplot(size=1.2)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/2.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Box pot is a method to show data through their quartiles. The line in middle shows the median of the range. This gives us a hint about skewness and some other characteristics of the data.&lt;/p&gt;
 
@@ -134,7 +136,8 @@ PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;PLOT 13 -  Histogram&lt;/p&gt;
 
-&lt;p&gt;Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, color= “Blue”, fill= “White”)&lt;/p&gt;
+&lt;p&gt;Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, color= “Blue”, fill= “White”)
+&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/3.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The histogram represents the price of a diamond and the no. of diamonds in each price range. Binwidth here represents the width of each bar in the histograms. Please note that here colour represents the outline colour of the bar and fill represents the inside. A key take away from here is that almost more than 15000 diamonds lie in the range of 1000$-2000$. But remember, what we’ve tried now is setting i.e assigning one colour to the whole plot. Let’s try mapping -&lt;/p&gt;
 
@@ -142,7 +145,8 @@ PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;Trying out mapping -&lt;/p&gt;
 
-&lt;p&gt;Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, aes( fill= clarity))&lt;/p&gt;
+&lt;p&gt;Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, aes( fill= clarity))
+&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/4-Plot15-Adding Color.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now we have the categorization based on clarity in each price range but the graph looks distorted and cluttered in. Let’s try to add a borderline to see a better view.&lt;/p&gt;
 
@@ -162,7 +166,8 @@ PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(x = carat ,y=price)) + geom_point() + facet_grid(clarity~.)&lt;/p&gt;
 
-&lt;p&gt;Here, we have a relation between price and carat of each category of clarity. Each category of clarity has a different scatter plot in the form of rows. We would like you to try the same thing in the column form of facet_grid. Code would appear something like this -&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot-16-Scatter Plot.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+Here, we have a relation between price and carat of each category of clarity. Each category of clarity has a different scatter plot in the form of rows. We would like you to try the same thing in the column form of facet_grid. Code would appear something like this -&lt;/p&gt;
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(x = carat ,y=price)) + geom_point() + facet_grid(~Clarity)&lt;/p&gt;
 
@@ -172,11 +177,15 @@ PLOT 11 - JITTER&lt;/p&gt;
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(x = carat ,y=price)) + geom_point() + facet_grid(clarity~cut)&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot 17.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;The chart now is depicting relationship between carat and price on the basis of the quality of cut as well as clarity.Let’s refine our chart to make it visually appealing.&lt;/p&gt;
 
 &lt;p&gt;PLOT 18 -  Refining Visualization&lt;/p&gt;
 
 &lt;p&gt;Code -  ggplot(data=diamond, aes(x = carat ,y=price)) + geom_point(aes(color= cut),size=0.5,alpha=0.5) + facet_grid(clarity~cut)+geom_smooth()&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot 18 Refining viz.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We’ve reduced the size of the dots to make it easy for us to interpret. Smoother is added to identify trends, if there’s any. It can be seen from the chart that diamonds with I1 clarity and very good cut has almost equal price range as the premium cut. 
 The cheapest diamonds are here seen to be of VVS2 category with fair cut, which makes sense.
@@ -190,7 +199,8 @@ Coordinates –&lt;/p&gt;
 
 &lt;p&gt;The y-axis is zoomed in from (0-10,000), there is also another method of limiting your axes. You can similarly limit the x-axis as well. However, that method sometimes cuts your data and is not advisable. The code is given here, we would suggest you to try it yourself and identify this limitation.&lt;/p&gt;
 
-&lt;p&gt;Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, aes( fill= clarity),color=”Black”) + ylim(0,10000)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot 19.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, aes( fill= clarity),color=”Black”) + ylim(0,10000)&lt;/p&gt;
 
 &lt;p&gt;PLOT 20 -&lt;/p&gt;
 
@@ -199,6 +209,8 @@ Coordinates –&lt;/p&gt;
 &lt;p&gt;Code - ggplot(data=diamond, aes( x = price)) + geom_histogram(binwidth = 1000, aes( fill= clarity),color=”Black”) +&lt;/p&gt;
 
 &lt;p&gt;coord_cartesian(ylim = c(0,10000),xlim = c(0,10000))&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot 20.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We’ve successfully zoomed in both the axes, we believe that is all there is tell about axes. Let’s move on to themes.&lt;/p&gt;
 
@@ -214,7 +226,8 @@ Coordinates –&lt;/p&gt;
 
 &lt;p&gt;PLOT 21 -  Giving label&lt;/p&gt;
 
-&lt;p&gt;The chart looks more descriptive, but there is still a lot of scope for improvement. Let’s try to change the font of labels.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot 21 giving labe_.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+The chart looks more descriptive, but there is still a lot of scope for improvement. Let’s try to change the font of labels.&lt;/p&gt;
 
 &lt;p&gt;PLOT 22 -  Adjusting Label&lt;/p&gt;
 
@@ -228,7 +241,8 @@ Coordinates –&lt;/p&gt;
 
 &lt;p&gt;axis.text.x = element_text(size=20), axis.text.y = element_text(size=20))&lt;/p&gt;
 
-&lt;p&gt;Finally, Lets adjust labels and get done with it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot22 Adjust label.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+Finally, Lets adjust labels and get done with it.&lt;/p&gt;
 
 &lt;p&gt;PLOT 23 -  Final Touch&lt;/p&gt;
 
@@ -236,13 +250,14 @@ Coordinates –&lt;/p&gt;
 
 &lt;p&gt;theme(axis.title.x = element_text(color = “Dark Blue”, size = 20),axis.title.y = element_text(color = “Dark Blue”, size = 20),axis.text.x = element_text(size=20),axis.text.y = element_text(size=20),legend.title = element_text(size = 15),legend.text  = element_text(size = 15),legend.position = c(1,1),legend.justification = c(1,1), plot.title = element_text(color=”Dark Blue”,size=20,family = “Courier”))&lt;/p&gt;
 
-&lt;p&gt;Finally, we’re done with everything. I would suggest you to try things on your own and experiment things in order to get a better view yourself.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R (Part 2)-20200902T032404Z-001/Data Viz in R (Part 2)/Plot23 final touch.png&quot; alt=&quot;Data Visualisation in R&quot; /&gt;
+Finally, we’re done with everything. I would suggest you to try things on your own and experiment things in order to get a better view yourself.&lt;/p&gt;
 
 &lt;p&gt;Before proceeding towards visualization, it is highly suggested to be aware about all the elements of your data set and what is to be achieved from it.&lt;/p&gt;
 
 &lt;p&gt;GGPLOT2, in it has even more fascinating and useful tools. We suggest our readers to explore more of it and learn more about it.&lt;/p&gt;
 
-&lt;p&gt;The use of visualization techniques differ according to the purpose it serves but the underlying idea essentially remains the same. We hope that the basic idea and concept of visualization is clear to all of you. So, play around with these visualizations and do write to us in case of any queries. All the best!!!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">PLOT 11 - JITTER</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION</title><link href="http://localhost:4000/blog/Spurious-Correlation/" rel="alternate" type="text/html" title="SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION" /><published>2020-06-30T00:00:00+05:30</published><updated>2020-06-30T00:00:00+05:30</updated><id>http://localhost:4000/blog/Spurious-Correlation</id><content type="html" xml:base="http://localhost:4000/blog/Spurious-Correlation/">&lt;p&gt;&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/sp.jpg&quot; alt=&quot;Spurious Correlation&quot; /&gt;
+&lt;p&gt;The use of visualization techniques differ according to the purpose it serves but the underlying idea essentially remains the same. We hope that the basic idea and concept of visualization is clear to all of you. So, play around with these visualizations and do write to us in case of any queries. All the best!!!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">PLOT 11 - JITTER So, what’s a jitter? Jitter is a random value that is assigned to the variable so they don’t fall on top of each other.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION</title><link href="http://localhost:4000/blog/Spurious-Correlation/" rel="alternate" type="text/html" title="SPURIOUS CORRELATION - A CORRELATION WITH NO RELATION" /><published>2020-06-30T00:00:00+05:30</published><updated>2020-06-30T00:00:00+05:30</updated><id>http://localhost:4000/blog/Spurious-Correlation</id><content type="html" xml:base="http://localhost:4000/blog/Spurious-Correlation/">&lt;p&gt;&lt;img src=&quot;/blog/2020-06-30- Spurious Correlation_ A Correlation with no Relation/sp.jpg&quot; alt=&quot;Spurious Correlation&quot; /&gt;
 Correlation is used to test the relationship between 2 or more variables. For instance, Weight and height are correlated. A taller person would tend to have more weight than a shorter person. However, this may not be always true. Hence, we use the Correlation coefficient, which measures as to how strong/ weak, the relation is between the variables. The range of correlation coefficient varies between (-1,1). The higher the correlation coefficient, the higher is the positive correlation between the variables and vice versa.&lt;/p&gt;
 
 &lt;p&gt;ROLE OF CORRELATION IN BUSINESS LIFE&lt;/p&gt;
@@ -316,8 +331,10 @@ In the above example, Ageing is a confounding variable. The apparent association
 
 &lt;p&gt;Well, the truth is that Spurious Correlations are everywhere, you will find it in the news, websites, blog posts, etc. Many times, these correlations may even be used to share fake news.&lt;/p&gt;
 
-&lt;p&gt;So, what are you waiting for start googling up and find correlation between events that may amuse you and us!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Correlation is used to test the relationship between 2 or more variables. For instance, Weight and height are correlated. A taller person would tend to have more weight than a shorter person. However, this may not be always true. Hence, we use the Correlation coefficient, which measures as to how strong/ weak, the relation is between the variables. The range of correlation coefficient varies between (-1,1). The higher the correlation coefficient, the higher is the positive correlation between the variables and vice versa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 1)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part2/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 1)" /><published>2020-06-16T00:00:00+05:30</published><updated>2020-06-16T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part2</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part2/">&lt;p&gt;&lt;img src=&quot;/blog/Data Visualization in R Part1.jpg&quot; alt=&quot;Data Visualization&quot; /&gt;
-s this image speaks for itself, we think this gives enough clarity about the elements, which are essential in making the plot. Before we proceed further, we’d like to tell that the first 3 layers are the essentials to making a plot.Otherwise, we’ll have nothing but an empty graph. Now, as the old saying goes “learn by doing”. We’ll jump on to GGPLOT, start from the basics and explore all layers.&lt;/p&gt;
+&lt;p&gt;So, what are you waiting for start googling up and find correlation between events that may amuse you and us!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Correlation is used to test the relationship between 2 or more variables. For instance, Weight and height are correlated. A taller person would tend to have more weight than a shorter person. However, this may not be always true. Hence, we use the Correlation coefficient, which measures as to how strong/ weak, the relation is between the variables. The range of correlation coefficient varies between (-1,1). The higher the correlation coefficient, the higher is the positive correlation between the variables and vice versa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 1)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 1)" /><published>2020-06-16T00:00:00+05:30</published><updated>2020-06-16T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;&lt;img src=&quot;/blog/Data Visualization in R Part1.jpg&quot; alt=&quot;Data Visualization&quot; /&gt;
+&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/1.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;s this image speaks for itself, we think this gives enough clarity about the elements, which are essential in making the plot. Before we proceed further, we’d like to tell that the first 3 layers are the essentials to making a plot.Otherwise, we’ll have nothing but an empty graph. Now, as the old saying goes “learn by doing”. We’ll jump on to GGPLOT, start from the basics and explore all layers.&lt;/p&gt;
 
 &lt;p&gt;Let’s Begin&lt;/p&gt;
 
@@ -337,7 +354,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 
 &lt;p&gt;The data taken here is life expectancy over the years in India since 1960.&lt;/p&gt;
 
-&lt;p&gt;Code - ggplot(data= life_expectancy, aes(x=expectancy, y = Years))&lt;/p&gt;
+&lt;p&gt;Code - ggplot(data= life_expectancy, aes(x=expectancy, y = Years))
+&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot 1-blank graph.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see, the plot is empty; this is because the minimum 3 elements i.e data, aesthetics, and geometries are not supplied in the code. The plot does contain data and aesthetics but before knowing what type of geometry is to be made, how can anything move forward?&lt;/p&gt;
 
@@ -346,7 +364,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 &lt;p&gt;Let’s make a simple point chart!&lt;/p&gt;
 
 &lt;p&gt;ggplot(data=x, aes(x=years, y=Expectancy) + geom_point
- Now that we’ve added geometry the plot is finally formed with a scatter plot.&lt;/p&gt;
+ Now that we’ve added geometry the plot is finally formed with a scatter plot.
+&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot2 scatter plot.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;MOVING FORWARD!&lt;/p&gt;
 
@@ -358,7 +377,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 
 &lt;p&gt;Summary(diamonds)&lt;/p&gt;
 
-&lt;p&gt;ggplot(data = x, aes(x=carat,y=price)) + geom_point()&lt;/p&gt;
+&lt;p&gt;ggplot(data = x, aes(x=carat,y=price)) + geom_point()
+&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot 3.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The plot is again a simple scatter plot with the relationship between price and carat. It can roughly be concluded that there exists a positive relationship between price and carat i.e as the carat increases price also increase. But again, this can also be done in excel, then why should we prefer R over excel? Let’s try to build over this only-&lt;/p&gt;
 
@@ -373,6 +393,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 &lt;p&gt;Even 3 variables is not enough and we want to classify the data  on the basis of the size too.&lt;/p&gt;
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(y=price,x=carat, color= cut,size=depth)) + geom_point()&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot4.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see the size of the points is adjusted according to the depth. The description is given in the legend. However, the plot looks horrible and hardly any interpretation can be made from it. It is just to give you an idea of how elements can be used.&lt;/p&gt;
 
@@ -390,6 +412,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 
 &lt;p&gt;q + geom_point()&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot5.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;It gave you the same result as plot 5 just with a lot of ease. You can develop a basic code store it an object just like we did and then explore your data set with convenience&lt;/p&gt;
 
 &lt;p&gt;OVERRIDING AESTHETICS&lt;/p&gt;
@@ -400,6 +424,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 
 &lt;p&gt;PLOT 6&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot6.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;The object q already had a command of depicting the relationship between price and carat but the command in geom_point overrode the command present in the basic plot. Hence, we will display the relationship between depth and price. Now you must be wondering why we had to put a label on the x-axis. This is because one of the limitations of overriding aesthetics is that the label doesn’t get changed. Hence, in this case if it weren’t for me changing the label. The label would’ve been Price and Carat giving out a false representation of the data. This is why you have to be extremely careful while overriding aesthetics.&lt;/p&gt;
 
 &lt;p&gt;MAPPING VS  SETTING&lt;/p&gt;
@@ -408,7 +434,8 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 
 &lt;p&gt;PLOT 7 - SETTING&lt;/p&gt;
 
-&lt;p&gt;Code - q + ggplot(aes(x= depth, y = price), color= “Red”) + xlab(“Depth”)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot7.png&quot; alt=&quot;Data Visualization&quot; /&gt;
+Code - q + ggplot(aes(x= depth, y = price), color= “Red”) + xlab(“Depth”)&lt;/p&gt;
 
 &lt;p&gt;This is what setting is, assigning a whole new color to the data set. Please note, while setting a color we don’t use a prefix of “aes”. Using aes will cause a misunderstanding and lead to an error. Hence, be cautious with that. We think we don’t need to present mapping as it has already been presented in the former part. We’ve explored the aesthetics enough, now let’s move to on exploring geometries.&lt;/p&gt;
 
@@ -418,21 +445,26 @@ s this image speaks for itself, we think this gives enough clarity about the ele
 
 &lt;p&gt;Code - ggplot(data=diamond, aes(y= price,x=carat)) +  geom_smooth(fill=NA)&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot8.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;This chart is simply depicting the relationship with carat. However, this chart in itself is not that informative, so lets also add some more geometries in it.&lt;/p&gt;
 
 &lt;p&gt;PLOT 9 - Line Plot + Scatter plot&lt;/p&gt;
 
 &lt;p&gt;Code  - ggplot(data=diamond, aes(y= price,x=carat)) + geom_point() +  geom_smooth(fill=NA)&lt;/p&gt;
 
-&lt;p&gt;This looks better. But, still it can be misleading as carat is not only deciding factor of price and looking only on this relationship independently can be misleading&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot9.png&quot; alt=&quot;Data Visualization&quot; /&gt;
+This looks better. But, still it can be misleading as carat is not only deciding factor of price and looking only on this relationship independently can be misleading&lt;/p&gt;
 
 &lt;p&gt;PLOT 10 - Mapping Clarity&lt;/p&gt;
 
 &lt;p&gt;To solve the problem let’s add variable  ‘clarity’ to our plot
 Code - ggplot(data=diamond, aes(y= price,x=carat,color=cut)) + geom_point() + geom_smooth(fill=NA)&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot10.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;We believe this gives a better picture of the prices as the data depicts the prices according to carat as well as clarity
-So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">s this image speaks for itself, we think this gives enough clarity about the elements, which are essential in making the plot. Before we proceed further, we’d like to tell that the first 3 layers are the essentials to making a plot.Otherwise, we’ll have nothing but an empty graph. Now, as the old saying goes “learn by doing”. We’ll jump on to GGPLOT, start from the basics and explore all layers.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accounting Analytics</title><link href="http://localhost:4000/blog/Accounting-Analytics/" rel="alternate" type="text/html" title="Accounting Analytics" /><published>2020-06-03T00:00:00+05:30</published><updated>2020-06-03T00:00:00+05:30</updated><id>http://localhost:4000/blog/Accounting-Analytics</id><content type="html" xml:base="http://localhost:4000/blog/Accounting-Analytics/">&lt;p&gt;&lt;img src=&quot;/blog/Accounting Analytics.jpg&quot; alt=&quot;Accounting Analytics&quot; /&gt;
+So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accounting Analytics</title><link href="http://localhost:4000/blog/Accounting-Analytics/" rel="alternate" type="text/html" title="Accounting Analytics" /><published>2020-06-03T00:00:00+05:30</published><updated>2020-06-03T00:00:00+05:30</updated><id>http://localhost:4000/blog/Accounting-Analytics</id><content type="html" xml:base="http://localhost:4000/blog/Accounting-Analytics/">&lt;p&gt;&lt;img src=&quot;/blog/Accounting Analytics.jpg&quot; alt=&quot;Accounting Analytics&quot; /&gt;
 But what exactly is ‘accounting analytics’?&lt;/p&gt;
 
 &lt;p&gt;So, in layman’s language, Accounting analytics is the examination of big data using data science or data analytics tools to help answer accounting-related questions. We live in a world which is full of huge piles of online data. The Accountants, now a days, are required to have the skill of analyzing this huge data in the form of financial statements of a company. That is why, it is very important to be familiar with the concept of accounting analytics.&lt;/p&gt;
