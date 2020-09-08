@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-08T17:14:42+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">The Business Intelligence Project</title><link href="http://localhost:4000/blog/The-Business-Intelligence-Project/" rel="alternate" type="text/html" title="The Business Intelligence Project" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/blog/The-Business-Intelligence-Project</id><content type="html" xml:base="http://localhost:4000/blog/The-Business-Intelligence-Project/">&lt;p&gt;Initially, BI used to be the work of just IT professionals, who would supply the whole organisation with the reports for decision-making, however now it is used at every stage of management by the managers (primarily due to the development in data science sphere and the rise of self- service BI tools).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-08T17:39:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">The Business Intelligence Project</title><link href="http://localhost:4000/blog/The-Business-Intelligence-Project/" rel="alternate" type="text/html" title="The Business Intelligence Project" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/blog/The-Business-Intelligence-Project</id><content type="html" xml:base="http://localhost:4000/blog/The-Business-Intelligence-Project/">&lt;p&gt;Initially, BI used to be the work of just IT professionals, who would supply the whole organisation with the reports for decision-making, however now it is used at every stage of management by the managers (primarily due to the development in data science sphere and the rise of self- service BI tools).&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Ways in which BI can help organisations make smart, data- driven decisions-&lt;/b&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -9,13 +9,16 @@
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;b&gt; Business Intelligence Tools &lt;/b&gt;
+&lt;br /&gt;
 Business intelligence tools are nothing but software that are used to analyse trends and extract insights out of the data in order to make tactical and strategic business decisions.
 There are many Business Intelligence tools like SAS BI, MicroStrategy, Datapine, Domo, etc that help in carrying out the necessary tasks but two of the most powerful and widely used tools in Business Intelligence on which this blog is also dedicated are Power BI and Tableau.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Power BI&lt;/b&gt;
+&lt;br /&gt;
 Power BI provides a brief summary of the data in the form of reports and dashboards while connecting with every data source across different. It makes data assessment, sharing scalable dashboards, embedded visualizations, interactive reports and various another feature which we will see further in the blog. It is amazing at importing visualizations with easy-to-use and user-friendly interfaces like Excel, etc. Power BI is simple for using that provides a full overview of your business performance.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Tableau&lt;/b&gt;
+&lt;br /&gt;
 While there are numerous intuitive business intelligence tools, Tableau uses data discovery and its interpretation for all types of the business user. It is sometimes quoted as the most user-friendly data science tool available. Being simple to handle, any user without much of a stretch can perform reading or writing data related tasks along with analysing key data insights, while creating visualizations and innovative reports, and finally sharing insights throughout the enterprise with help of dashboards and stories. Tableau is good at connecting to any data source with a drag-and-drop interface that is easy-to-use and makes transferring data simple. However, unlike Power BI it is weak at combining with different data sources for analysis.&lt;/p&gt;
 
 &lt;p&gt;INSIGHTS&lt;/p&gt;
@@ -27,6 +30,7 @@ While there are numerous intuitive business intelligence tools, Tableau uses dat
 
 &lt;p&gt;&lt;b&gt;Power BI Dashboard&lt;/b&gt; 
 &lt;img src=&quot;/blog/tableau/PowerBI Dashboard.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
+&lt;br /&gt;
 We have conducted a survey of sample size of 100 to gather and access the opinion of college students on Business Intelligence tools namely Power BI and Tableau. 
 The respondents had to answer various questions; like on what parameters would they favour one software from the other, rating these softwares on User- friendliness and attractiveness, their personal opinions/ experiences among others.
 Most of the students replied on the same lines and the results matched our findings/ expectations. Tableau was found to be the favourable of the two.&lt;/p&gt;
@@ -92,8 +96,8 @@ Power BI’s user interface is no less than that of Tableau’s but it can be a 
 Tableau remains the choice of BI Tool for students from non-technical background like us. However, the professional reports and perfect visualisations by Power BI would certainly add a feather in your cap in terms of both skillset and employability.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Authored by: Chaitanya Gupta and Ritik Garg&lt;/li&gt;
-  &lt;li&gt;Co-Authored by: Mr Shoury Anand and Mr Vikrant Sharma
+  &lt;li&gt;&lt;b&gt;&lt;u&gt;Authored by&lt;/u&gt;&lt;/b&gt;: Chaitanya Gupta and Ritik Garg&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;&lt;u&gt;Co-Authored by&lt;/u&gt;&lt;/b&gt;: Mr Shoury Anand and Mr Vikrant Sharma
 &lt;img src=&quot;/blog/tableau/3.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
 &lt;img src=&quot;/blog/tableau/4.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
 &lt;img src=&quot;/blog/tableau/5.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/li&gt;
