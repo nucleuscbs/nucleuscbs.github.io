@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-27T18:52:25+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Random Forest</title><link href="http://localhost:4000/blog/Random-Forest/" rel="alternate" type="text/html" title="Random Forest" /><published>2020-10-27T00:00:00+05:30</published><updated>2020-10-27T00:00:00+05:30</updated><id>http://localhost:4000/blog/Random-Forest</id><content type="html" xml:base="http://localhost:4000/blog/Random-Forest/">&lt;p&gt;&lt;img src=&quot;/blog/RF/rf.jpeg&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-02T18:05:47+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Autocorrelation</title><link href="http://localhost:4000/blog/Autocorrelation/" rel="alternate" type="text/html" title="Autocorrelation" /><published>2020-12-02T00:00:00+05:30</published><updated>2020-12-02T00:00:00+05:30</updated><id>http://localhost:4000/blog/Autocorrelation</id><content type="html" xml:base="http://localhost:4000/blog/Autocorrelation/">&lt;p&gt;Autocorrelation shows the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Lagged version of time series is simply the past period values of the concerned variable. This seemingly simple concept has wide application in fields of mathematics, statistics, and sciences. It is used in measuring optical spectra, short duration light pulses, in GPS system, portfolio and return optimization and much more. Unit root processes, trend-stationary processes, autoregressive processes, and moving average processes are specific forms of processes with autocorrelation.&lt;br /&gt;
+The resulting values ranges between -1 to 1, like the traditional correlation statistic. An autocorrelation of +1 represents a perfect positive correlation (an increase seen in one time series leads to a proportionate increase in the other time series). An autocorrelation of negative 1, on the other hand, represents perfect negative correlation (an increase seen in one time series results in a proportionate decrease in the other time series). But it must be remembered as words of caution that autocorrelation measures linear relationships. So even if the autocorrelation is minuscule, there may still be a nonlinear relationship between a time series and a lagged version of itself.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; Reasons of autocorrelation &lt;/b&gt;
+Some major reasons of autocorrelation include-&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Carryover of effect- Carry over effect of variables in data causes autocorrelation. For ex- Data on monthly expenditure of a family in a particular city, preceding month expenditure will influence the expenditure of next month. This is called carry over effect.&lt;/li&gt;
+  &lt;li&gt;Mis-specification of form of relationship in a model also causes autocorrelation. For ex- a study assumes that explanatory and study variables have linear relationship but they have logarithmic or exponential relation.&lt;/li&gt;
+  &lt;li&gt;Measurement error- Errors may creep in due to difference between observed and true value of variable, data collection issues etc.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;b&gt; Problems caused by autocorrelation &lt;/b&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Inefficient (but unbiased) ordinary least square estimate which fails to achieve smallest variance and any forecast based on them is hence inefficient. Efficient estimator gives most information about a sample and inefficient estimator may perform well but requires larger sample sizes to do so.&lt;/li&gt;
+  &lt;li&gt;Exaggerated goodness of fit for a time series with positive serial correlation and an independent variable that grows over time.&lt;/li&gt;
+  &lt;li&gt;Leads to overly optimistic view of R2.&lt;/li&gt;
+  &lt;li&gt;Large variance in predictions based on the model and narrow confidence interval. The T statistics and F value are often not reliable.&lt;/li&gt;
+  &lt;li&gt;It increases the occurrence of false negative for significant regression coefficient. Regression coefficients appear significant when they are not.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;b&gt; Graphical approach through MS-Excel &lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Plotting the data with its lag clearly shows us there exist a relationship between the two, because the plot denotes a nearly definite pattern. This high relation is also denoted with correlation coefficient of 0.83.
+But things are not always this simple. Such high value of correlation of a data with its past values would have made everything so predictable and easy eliminating the need of complex statistical analysis and modeling. Let’s take another example-&lt;/p&gt;
+
+&lt;p&gt;The plot shows data points paired with their lagged values are scattered without any pattern or direction. This is again confirmed with a low correlation coefficient.
+&lt;b&gt; Example 3 &lt;/b&gt;- For finding autocorrelation of a series with different lags on excel we simply create a table with suitable lags and find the correlation using CORREL() function. We can plot the various correlations so obtain to have a better picture of the case.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; Autocorrelation in R &lt;/b&gt;
+Finding autocorrelation is not always that simple because we test it with many lags. Repeating the same process with huge data sets becomes a tedious task in MS-Excel. Not to worry, we are again there for your rescue. Let’s try it out on R.
+Documentation-
+acf(x, lag.max = NULL,
+type = c(“correlation”, “covariance”, “partial”),
+plot = TRUE, na.action = na.fail, demean = TRUE, …)&lt;/p&gt;
+
+&lt;p&gt;x&amp;lt;- Time series data
+lag.max&amp;lt;- Number of lags upta which correlation needs to be calculated
+type&amp;lt;- Character string giving the type of acf to be computed. Allowed values are”correlation” (the default), “covariance” or “partial”
+plot&amp;lt;- True or False based on whether you want plot or not
+&lt;b&gt; What can you do? &lt;/b&gt;
+Removing autocorrelation involves making changing to the data, improvising the model and other tests and modifications. In layman language, for positive serial correlation one can add lags of dependent or independent variable in the model. For negative serial correlation one must check that none of the variables in over-differenced and for seasonal correlation one can add seasonal dummy variable to the model. It itself is a wide concept and we will surely cover it in detail in one of our subsequent blogs.
+&lt;b&gt; Example &lt;/b&gt;
+Mr. X is a trader. While monitoring stock of ABD ltd he realized that usually whenever stock price rallies on Monday it is followed by decrease in price by the next day and a increase in price on Wednesday. Amused to know this, he tries to prove his observations quantitatively. He takes the daily returns of the share price and run autocorrelation on it with lag 1 to lag 10. He finds that returns one day prior have a negative autocorrelation of -0.74, while the returns two days prior have a positive autocorrelation of +0.83. Past returns seem to influence future returns. Therefore, Mr.X can adjust his position to take advantage of the autocorrelation and resulting momentum by selling the share the next day after a rally and buy them on the following day again. While doing this he never forgets that the chances of error remains high because what was right yesterday may prove wrong tomorrow and he continuously monitors other factors that govern the stock price while repeatedly checking the relevance of auto-correlation at appropriate intervals.
+&lt;b&gt; Conclusion &lt;/b&gt;
+Autocorrelation is a wide concept. If discovered it can help us to detect patterns in our data, find seasonality and other interesting insights. If ignored it may distort our results. Just a basic awareness about its presence will help us improve our models and analysis. And I hope that we were successful in introducing and explaining the concept to you. Practice the methods we shared, explore new ones, and don’t forget to share your views and findings with us.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Autocorrelation shows the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Lagged version of time series is simply the past period values of the concerned variable. This seemingly simple concept has wide application in fields of mathematics, statistics, and sciences. It is used in measuring optical spectra, short duration light pulses, in GPS system, portfolio and return optimization and much more. Unit root processes, trend-stationary processes, autoregressive processes, and moving average processes are specific forms of processes with autocorrelation. The resulting values ranges between -1 to 1, like the traditional correlation statistic. An autocorrelation of +1 represents a perfect positive correlation (an increase seen in one time series leads to a proportionate increase in the other time series). An autocorrelation of negative 1, on the other hand, represents perfect negative correlation (an increase seen in one time series results in a proportionate decrease in the other time series). But it must be remembered as words of caution that autocorrelation measures linear relationships. So even if the autocorrelation is minuscule, there may still be a nonlinear relationship between a time series and a lagged version of itself.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Random Forest</title><link href="http://localhost:4000/blog/Random-Forest/" rel="alternate" type="text/html" title="Random Forest" /><published>2020-10-27T00:00:00+05:30</published><updated>2020-10-27T00:00:00+05:30</updated><id>http://localhost:4000/blog/Random-Forest</id><content type="html" xml:base="http://localhost:4000/blog/Random-Forest/">&lt;p&gt;&lt;img src=&quot;/blog/RF/rf.jpeg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Random Forest is a versatile machine learning method capable of performing both the regression and classification tasks. It is a type of the ensemble learning method, in which a group of weak models combine to form a powerful model.&lt;/p&gt;
 
@@ -933,105 +979,4 @@ Marketing Mix Modelling is one of the best methods available to value and analyz
 
 &lt;p&gt;There are innumerable other concepts that can be applied to model the 4 Ps of Marketing than Linear Regression and Incremental Drivers, such as Budget Optimization or Deep-dive analysis. Usually these concepts are not used in isolation, but rather a collection of all these concepts is used. Marketing Mix Modelling has a much wider scope and shows us how Analytics can be useful for business.&lt;/p&gt;
 
-&lt;p&gt;A customer’s journey of ‘from thinking to buying’ takes him/her through multiple touch points before deciding the final product to buy. As marketing is becoming more customer centric, the need of identification of right channels to target potential customers has become critical for companies. This helps companies to utilise their marketing funds in a better way and target the right customers in right places. So, we hope that you must have got the gist of the concept. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Marketing Mix Modelling is one of the best methods available to value and analyze various marketing tactics on sales and/or market share, and then forecast the future impact of the similar activities. This basically means quantifying the information available with the firm to analyze their impact on sales and market share.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">K-Means Clustering</title><link href="http://localhost:4000/blog/K-Means-Clustering/" rel="alternate" type="text/html" title="K-Means Clustering" /><published>2020-05-20T00:00:00+05:30</published><updated>2020-05-20T00:00:00+05:30</updated><id>http://localhost:4000/blog/K-Means-Clustering</id><content type="html" xml:base="http://localhost:4000/blog/K-Means-Clustering/">&lt;p&gt;&lt;img src=&quot;/blog/k mean clustering/K Means Clustering.png&quot; alt=&quot;K-Means Clustering&quot; /&gt;
-What is clustering?&lt;/p&gt;
-
-&lt;p&gt;Clustering refers to grouping of data under different groups based on their properties, nature, attributes and relationship. One cluster contains all the objects of similar nature that are atleast in some way different from other clusters. Clustering analysis is an essential part of both supervised and unsupervised learning. Whether exclusive (an item belongs exclusively to one cluster) or overlapping (item belongs to a number of clusters), it is of wide importance to all Data Scientists.&lt;/p&gt;
-
-&lt;p&gt;Categorizing news and articles into different groups like entertainment, sports, educational, political etc, spam filter (that automatically marks some mails as spam), classifying fake news, segmenting markets,  document analysis are some of the common real world applications of clustering algorithms.&lt;/p&gt;
-
-&lt;p&gt;K means clustering&lt;/p&gt;
-
-&lt;p&gt;K means clustering is one of the most popular clustering methods for unsupervised learning with wide application. It iteratively calculates the deviation from a point called centroid. Initially K number of so called centroids are chosen. A centroid is a data point (imaginary or real) at the center of a cluster. The initial centroids are randomly selected and then each data point is mapped to closest centroid. The second centroid is moved to mean of each cluster it defines. This is iteratively done till convergence or till the clusters become constant and centroid and composition of cluster no longer changes.
-&lt;img src=&quot;/blog/k mean clustering/1_IXGsBrC9FnSHGJVw9lDhQA.png&quot; alt=&quot;K-Means Clustering&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let us understand the concept with a simple inbuilt dataset in R. Suppose, we have a list of Sepal length and Sepal width of various species of flowers and for their nomenclature it is required to put them into appropriate clusters. These species are unknown to us and we can’t simply put them anywhere. That is when clustering comes into the picture. To be more precise this is when K-Means Clustering comes in.&lt;/p&gt;
-
-&lt;p&gt;Let us first start with loading the dataset. To avoid the trouble of downloading a dataset from the internet we have used a popular dataset inbuilt in R- IRIS. Let us look at it first. A brief overview of the data and detection of NAs will clean it for us to start.&lt;/p&gt;
-
-&lt;p&gt;install.packages(“datasets”)&lt;/p&gt;
-
-&lt;p&gt;library(datasets)&lt;/p&gt;
-
-&lt;p&gt;str(iris)&lt;/p&gt;
-
-&lt;p&gt;table(is.na(iris))&lt;/p&gt;
-
-&lt;p&gt;This summarizes the dataset for us with 5 variables and 150 observations and to our utter delight no NAs. The dataset is now all set to work upon.&lt;/p&gt;
-
-&lt;p&gt;We now divide our datasets into two parts– try and test. Although not essential but this little step helps us to appreciate the reliability of our models. We run it on train dataset and then introduce the test dataset to our model to check how well it works in unknown variables.&lt;/p&gt;
-
-&lt;p&gt;parting&amp;lt;-sample(2, nrow(iris),replace=TRUE, prob=c(0.5,0.5))&lt;/p&gt;
-
-&lt;p&gt;try&amp;lt;-iris[parting==1,]&lt;/p&gt;
-
-&lt;p&gt;test&amp;lt;-iris[parting==2,]&lt;/p&gt;
-
-&lt;p&gt;For K means this has to be then converted into a matrix. We select the columns which will form the basis for clustering. Though, we have used sepal length and sepal width you are free to try all possible combinations and write to us if you explore something more insightful.&lt;/p&gt;
-
-&lt;p&gt;try.short&amp;lt;-try[,c(1,2)]&lt;/p&gt;
-
-&lt;p&gt;try.matrix&amp;lt;-data.matrix(try.short)&lt;/p&gt;
-
-&lt;p&gt;Now, since we are all equipped; let’s use K means.&lt;/p&gt;
-
-&lt;p&gt;Syntax of K-means function in R…&lt;/p&gt;
-
-&lt;p&gt;Object=kmeans(x, centers, iter.max=, nstart=)&lt;/p&gt;
-
-&lt;p&gt;x =&amp;gt; Data matrix of data to be clustered&lt;br /&gt;
-centers =&amp;gt; Number of clusters
-iter.max =&amp;gt; Maximum iterations
-nstart =&amp;gt; Number of centers to start with
-A two line code will print a half page result. Big but significant.&lt;/p&gt;
-
-&lt;p&gt;traincluster&amp;lt;-kmeans(try.matrix,3)&lt;/p&gt;
-
-&lt;p&gt;traincluster&lt;/p&gt;
-
-&lt;p&gt;traincluster$size&lt;/p&gt;
-
-&lt;p&gt;traincluster$centers&lt;/p&gt;
-
-&lt;p&gt;This way the additional arguments can be used for specific and detailed results.&lt;/p&gt;
-
-&lt;p&gt;K means clustering have classified the data into three categories each possibly belonging to different species on the basis of their distance from mean sepal length and sepal width.&lt;/p&gt;
-
-&lt;p&gt;Visualizing the clusters make the results more attractive and comprehensible.&lt;/p&gt;
-
-&lt;p&gt;Install.packages(“ggplot2”)&lt;/p&gt;
-
-&lt;p&gt;Library(ggplot2)&lt;/p&gt;
-
-&lt;p&gt;traincluster$cluster&amp;lt;-as.character(traincluster$cluster)&lt;/p&gt;
-
-&lt;p&gt;ggplot()+geom_point(data=try, mapping=aes(x=Sepal.Length,y=Sepal.Width, color=traincluster$cluster)) +geom_point(mapping=aes_string(x= traincluster$centers[,”Sepal.Length”], y=traincluster$centers[,”Sepal.Width”]), size=4,color=”red”)&lt;/p&gt;
-
-&lt;p&gt;Within Cluster Sum of Squares&lt;/p&gt;
-
-&lt;p&gt;The sum of the squared deviations from each observation and the cluster centroid is called as within- cluster sum of square. The within-cluster sum of squares is a measure of the variability of the observations within each cluster. In general, a cluster that has a small sum of squares is more compact than a cluster that has a large sum of squares. Clusters that have higher values exhibit greater variability of the observations within the cluster. As the number of observations increases, the sum of squares becomes larger. Therefore, the within-cluster sum of squares is often not directly comparable across clusters with different numbers of observations. To compare the within-cluster variability of different clusters, use the average distance from centroid instead.&lt;/p&gt;
-
-&lt;p&gt;Determining the optimum number of clusters (Elbow method)&lt;/p&gt;
-
-&lt;p&gt;wss&amp;lt;-(nrow(try.matrix)-1)*sum(apply(try.matrix,2,var))&lt;/p&gt;
-
-&lt;p&gt;for(i in 2-15)&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wss[i]&amp;lt;-sum(kmeans(try.matrix,centers=i)$withinss)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;a&amp;lt;-plot(1-15,wss,type=”b”,xlab=”Number of Clusters”,ylab=”Within Cluster Sum of Square”)&lt;/p&gt;
-
-&lt;p&gt;Elbow method brings out the graphical representation of various combinations of within cluster sum of squares and number of clusters. So, usually a elbow like structure is formed. Considering that we require lower within cluster sum of squares, we use that number of cluster where bent of elbow is achieved. This shows a sharp decrease in within cluster sum of square with increasing a cluster and after this within cluster sum of squares tends to be constant. And this nearly constant within cluster sum of squares is often not useful because it arbitrarily increases the number of cluster and makes them all more homogeneous.&lt;/p&gt;
-
-&lt;p&gt;So, in the above graph we see that WSS significantly reduces from  1st to 3rd cluster, so here optimum clusters are 3.&lt;/p&gt;
-
-&lt;p&gt;Prediction and clustering&lt;/p&gt;
-
-&lt;p&gt;If we are using clustering to predict about the some categorical variable with same level of factors as we have the clusters, we can check the accuracy using simple table or even the confusion matrix&lt;/p&gt;
-
-&lt;p&gt;table(traincluster$cluster,try$species)&lt;/p&gt;
-
-&lt;p&gt;This would give us the number of values that are correctly predicted and number of that are incorrect. Since, clustering is part of unsupervised learning , we do not test the model accuracy. But for the sake of developing a understanding and reliability of the model this hack could be used. This alongwith some other tools like confusion matrix is used while we use clustering as part of supervised learning environment.&lt;/p&gt;
-
-&lt;p&gt;So, we hope that you have understood the concept through our blog. Do write your precious feedback and feel free to ask any related doubt.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">What is clustering?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;A customer’s journey of ‘from thinking to buying’ takes him/her through multiple touch points before deciding the final product to buy. As marketing is becoming more customer centric, the need of identification of right channels to target potential customers has become critical for companies. This helps companies to utilise their marketing funds in a better way and target the right customers in right places. So, we hope that you must have got the gist of the concept. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Marketing Mix Modelling is one of the best methods available to value and analyze various marketing tactics on sales and/or market share, and then forecast the future impact of the similar activities. This basically means quantifying the information available with the firm to analyze their impact on sales and market share.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
