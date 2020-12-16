@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-02T18:42:45+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Autocorrelation</title><link href="http://localhost:4000/blog/Autocorrelation/" rel="alternate" type="text/html" title="Autocorrelation" /><published>2020-12-02T00:00:00+05:30</published><updated>2020-12-02T00:00:00+05:30</updated><id>http://localhost:4000/blog/Autocorrelation</id><content type="html" xml:base="http://localhost:4000/blog/Autocorrelation/">&lt;p&gt;Autocorrelation shows the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Lagged version of time series is simply the past period values of the concerned variable. This seemingly simple concept has wide application in fields of mathematics, statistics, and sciences. It is used in measuring optical spectra, short duration light pulses, in GPS system, portfolio and return optimization and much more. Unit root processes, trend-stationary processes, autoregressive processes, and moving average processes are specific forms of processes with autocorrelation.&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-16T23:29:36+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Principal Component Analysis</title><link href="http://localhost:4000/blog/Principal-Component-Analysis/" rel="alternate" type="text/html" title="Principal Component Analysis" /><published>2020-12-16T00:00:00+05:30</published><updated>2020-12-16T00:00:00+05:30</updated><id>http://localhost:4000/blog/Principal-Component-Analysis</id><content type="html" xml:base="http://localhost:4000/blog/Principal-Component-Analysis/">&lt;p&gt;&lt;img src=&quot;/blog/pca/1.png&quot; /&gt;
+Let’s say we want to predict the impact of COVID-19 on Stock Markets and General Business Activities for different countries. For this we have tons of information like the opening and closing price, lowest and highest price, correlation of different indices over the world, inflation rate, unemployment rate, days of lockdown, cases reported, and so on… This sort of problem has an overwhelming number of variables, and someone who has worked earlier with a lot of variables knows what all obstructions this may present. The question is, “How do we take all of the variables collected and focus on only few of them?” In terms of Analytics, we simply want to “Reduce the Dimension Space.” By Dimensionality Reduction, we have fewer variable relationship to consider which makes data easy to explore and visualize to get the desired outcomes.&lt;/p&gt;
+
+&lt;p&gt;Principal Component Analysis is nothing but a Dimensionality Reduction technique to reduce the feature space of large data-sets with numerous variables by transforming a large data-set into a smaller one but still with maximum information so to make analysing data much easier and quicker for machine learning algorithms and tuning techniques without unrelated variables to process. PCA helps in Noise Filtering, Visualization, Feature Extraction, Stock Market Predictions, Gene Data Analysis and many more. Another fascination property of PCA is that it is both a technique of Feature Extraction as well as a medium to perform Feature Extraction, as it combines the input variables in such a way that it drops the extraneous variables while keeping the more important ones.
+Now since What, Why and When parts have been answered, let’s move to the most important question, that is How?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; HOW DOES PCA WORK? &lt;/b&gt;
+Let’s look at the step by step how Principal Component Analysis works-
+&lt;b&gt; 1. STANDARDIZATION &lt;/b&gt;
+The purpose of standardising the dataset is to ensure that each of the variable contributes equally to the analysis without any bias. It becomes essential to do standardization before PCA as variables are the core of the PCA and the analysis is pretty much sensitive regarding the variance of initial variables. That is if there are variables with large differences between the initial variables, the variable with larger range will dominate over the smaller ranges.
+For example, consider two variables, Distance within city and distance between cities. One of the variables is measured in meters while other in Kilometers. Now if the data is not standardised than distance of 500 meters would be considered as greater than distance of 5KM, which isn’t true. Therefore, transforming the data to comparable scales can prevent this problem. Mathematically, it is done by subtracting the mean and dividing by the standard deviation for each value of each variable.
+&lt;i&gt; z = value – mean/(standard deviation) &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;All the variables will be transformed to the same scale once the standardization is completed.
+&lt;b&gt; 2. COVARIENCE MATRIX COMPUTATION &lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/pca/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Often variables are correlated in such a way that they contain redundant information. Thus, to understand the relationship between the variables and identify such correlations, we compute the covariance matrix. The covariance matrix is an n×n symmetric matrix, where n is the number of dimensions. For example, for a 5-dimensional data set with 4 variables a, b, c, d and e, the covariance matrix is a 5×5 matrix of the from-&lt;/p&gt;
+
+&lt;p&gt;Since covariance of a Variable with itself is nothing but its variance [Cov(a,a) = V(a)] therefore the diagonal elements in the covariance matrix are the variance of each variable.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; 3. COMPUTING THE EIGENVECTORS AND EIGENVALUES OF THE COVARIANCE MATRIX &lt;/b&gt;
+Eigenvectors and eigenvalues are the linear algebra concepts that we are required to process from the covariance matrix to decide the “principal components” of the data. Principal components are the new variables that are constructed as a result of combinations done in a manner that the new components are uncorrelated and most of the information within the initial variables are compressed into the first components. For example, there is 10-dimensional data that provides 10 principal components, but PCA tries to put maximum possible information in the first component, then maximum remaining information in the second and so on as shown in the plot below-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/pca/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Computing the eigenvectors and eigenvalues to organising the principal components in this manner helps if dimensionalty reduction without losing much information. Statistically, Principal Components represent the direction of data that explains the maximum amount of variance.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; 4. FEATURE VECTOR &lt;/b&gt;
+Feature Vector is the first visible step of dimensionality reduction with help of Principal Component Analysis. It is a a matrix of the columns of those eigenvectors that we decide to keep say k, where k &amp;lt; n, that is k is always less than the n, which was the number of initial Eigenvectors. The decision of selection is based on the eigenvalues, i.e. components with lesser significance are discared.
+For Example, suppose we create a feature vector by discarding one of the eigenvector as it was carrying only 2% information and therefore even though dimension now becomes k=n-1, we still have the necessary 98% of information carried by the other eigenvectors.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; 5. LAST STEP - RECAST THE DATA ALONG THE PRINCIPAL COMPONENTS AXES &lt;/b&gt;
+In all the previous steps, excluding Standardisation, we didn’t make any change with the data and just selected the principal components and form the feature vector. The purpose of this step is to use the feature vector and reorient the data from the axis of the original variables (n axis) to the ones represented by the principal components, k axis (hence, the name Principal Components Analysis)
+This can be achieved by multiplying the transpose of the original data set by the transpose of the feature vector which we formed with the help of principal components.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt; FinalData = Feature_VectorT * Standardized_Original_Data &lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s an example from setosa.io where we transform 5 data points using PCA-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/pca/4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, we hope that you must have understood the concept of this not so explored technique in data science and statistics as we answered the final question of how PCA works. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway -)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Let’s say we want to predict the impact of COVID-19 on Stock Markets and General Business Activities for different countries. For this we have tons of information like the opening and closing price, lowest and highest price, correlation of different indices over the world, inflation rate, unemployment rate, days of lockdown, cases reported, and so on… This sort of problem has an overwhelming number of variables, and someone who has worked earlier with a lot of variables knows what all obstructions this may present. The question is, “How do we take all of the variables collected and focus on only few of them?” In terms of Analytics, we simply want to “Reduce the Dimension Space.” By Dimensionality Reduction, we have fewer variable relationship to consider which makes data easy to explore and visualize to get the desired outcomes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Autocorrelation</title><link href="http://localhost:4000/blog/Autocorrelation/" rel="alternate" type="text/html" title="Autocorrelation" /><published>2020-12-02T00:00:00+05:30</published><updated>2020-12-02T00:00:00+05:30</updated><id>http://localhost:4000/blog/Autocorrelation</id><content type="html" xml:base="http://localhost:4000/blog/Autocorrelation/">&lt;p&gt;Autocorrelation shows the degree of similarity between a given time series and a lagged version of itself over successive time intervals. Lagged version of time series is simply the past period values of the concerned variable. This seemingly simple concept has wide application in fields of mathematics, statistics, and sciences. It is used in measuring optical spectra, short duration light pulses, in GPS system, portfolio and return optimization and much more. Unit root processes, trend-stationary processes, autoregressive processes, and moving average processes are specific forms of processes with autocorrelation.&lt;br /&gt;
 The resulting values ranges between -1 to 1, like the traditional correlation statistic. An autocorrelation of +1 represents a perfect positive correlation (an increase seen in one time series leads to a proportionate increase in the other time series). An autocorrelation of negative 1, on the other hand, represents perfect negative correlation (an increase seen in one time series results in a proportionate decrease in the other time series). But it must be remembered as words of caution that autocorrelation measures linear relationships. So even if the autocorrelation is minuscule, there may still be a nonlinear relationship between a time series and a lagged version of itself.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt; Reasons of autocorrelation &lt;/b&gt;
@@ -22,19 +65,19 @@ Some major reasons of autocorrelation include-&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt; Graphical approach through MS-Excel &lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/autocorrelation/1.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Autocorrelation/1.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Plotting the data with its lag clearly shows us there exist a relationship between the two, because the plot denotes a nearly definite pattern. This high relation is also denoted with correlation coefficient of 0.83.&lt;/p&gt;
 
 &lt;p&gt;But things are not always this simple. Such high value of correlation of a data with its past values would have made everything so predictable and easy eliminating the need of complex statistical analysis and modeling. Let’s take another example-&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/autocorrelation/2.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Autocorrelation/2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The plot shows data points paired with their lagged values are scattered without any pattern or direction. This is again confirmed with a low correlation coefficient.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt; Example 3 &lt;/b&gt;- For finding autocorrelation of a series with different lags on excel we simply create a table with suitable lags and find the correlation using CORREL() function. We can plot the various correlations so obtain to have a better picture of the case.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/autocorrelation/3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Autocorrelation/3.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt; Autocorrelation in R &lt;/b&gt;
 Finding autocorrelation is not always that simple because we test it with many lags. Repeating the same process with huge data sets becomes a tedious task in MS-Excel. Not to worry, we are again there for your rescue. Let’s try it out on R.
@@ -952,45 +995,4 @@ We can see that the information in the table shows solid performance over the fi
 
 &lt;p&gt;This is just an example of how analytics can be used in auditing. There are many more applications being used in the corporate world.&lt;/p&gt;
 
-&lt;p&gt;So, we hope that you must have understood the concept of accounting analytics and how analytics is widely used in the field of accounting. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">But what exactly is ‘accounting analytics’?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Modelling the 4P Mix</title><link href="http://localhost:4000/blog/Modelling-the-4P-Mix/" rel="alternate" type="text/html" title="Modelling the 4P Mix" /><published>2020-05-30T00:00:00+05:30</published><updated>2020-05-30T00:00:00+05:30</updated><id>http://localhost:4000/blog/Modelling-the-4P-Mix</id><content type="html" xml:base="http://localhost:4000/blog/Modelling-the-4P-Mix/">&lt;p&gt;&lt;img src=&quot;/blog/Modelling-the-4P-Mix/Modelling the 4P Mix.png&quot; alt=&quot;Modelling the 4P mix&quot; /&gt;
-Marketing Mix Modelling is one of the best methods available to value and analyze various marketing tactics on sales and/or market share, and then forecast the future impact of the similar activities. This basically means quantifying the information available with the firm to analyze their impact on sales and market share.&lt;/p&gt;
-
-&lt;p&gt;It uses both the internal information (Pricing, Quality Metrics, Inventory Levels, Spending on Print Media) as well as the external information (Macroeconomic Situation, Seasonality and Competitors). The key objective is to maximize the return on investment while minimizing the budget required for the same.&lt;/p&gt;
-
-&lt;p&gt;Digital Transformation of various business processes have helped the collection of better data for modelling purposes. This is because in order to create an effective model, dynamic metrics, such as social media and customer engagement metrics, help. GRP (gross rating point) in TVs and Click-through rates in Online Advertising are some of the popular metrics often used to understand the impact of different promotion methods.&lt;/p&gt;
-
-&lt;p&gt;We will be illustrating two important concepts of Marketing Mix Modelling- Linear Regression and Incremental Drivers.&lt;/p&gt;
-
-&lt;p&gt;Using Linear Regression for Marketing Mix Modelling&lt;/p&gt;
-
-&lt;p&gt;Marketing Mix Modelling uses the concept of Multiple Regression. The dependent variable can be Sales while the independent variables commonly used are Price, Advertising spends, Location, product discounts, and so on.&lt;/p&gt;
-
-&lt;p&gt;Before diving into the exacts of Linear Regression, let’s understand an important component of Marketing Mix Modelling- Adstock. Adstock refers to the prolonged effect of advertising on consumers. This tool can help us quantify the impact of advertising.&lt;/p&gt;
-
-&lt;p&gt;The basic Adstock model is as follows&lt;/p&gt;
-
-&lt;p&gt;At = Tt + λAt-1&lt;/p&gt;
-
-&lt;p&gt;Where, At is Adstock at time t, Tt is value of advertising variable at time t, and λ refers to the decay parameter. Thus, when t approaches infinity, the Adstock value approaches 0. We will use Adstock as a component of the Linear Regression equation that we will create.&lt;/p&gt;
-
-&lt;p&gt;We will also include one component for seasonal trend in our equation, as well as one for the number of distribution points. To illustrate, imagine that there is a Clothing store which wants to know the relative importance of parts of its Marketing Mix. The store usually experiences higher sales in Summers than at other times of the year (Seasonal Trend). It has around 100 outlets across India (Number of Distribution Points) and advertises only through Online Media (for simplicity purposes).&lt;/p&gt;
-
-&lt;p&gt;Here is an example of how the regression equation would look like-&lt;/p&gt;
-
-&lt;p&gt;Sales = β0 + β1 (Seasonal Trend) + β2(Number of Distribution Points) + β3(Adstock of at time t)&lt;/p&gt;
-
-&lt;p&gt;The betas generated from Regression analysis will help in quantifying the impact of each of the inputs. Basically, the beta depicts that one unit increase in the input value would increase the sales by Beta times those units, keeping the other inputs constant.&lt;/p&gt;
-
-&lt;p&gt;Many other attributes can be added to this equation; even polynomial features can be used in order to show non-linear changes. Actual models are much more complicated than the one shown above.&lt;/p&gt;
-
-&lt;p&gt;Distinguishing Base Sales from Incremental Sales&lt;/p&gt;
-
-&lt;p&gt;Marketing Mix Modelling breaks down the Business metrics into two major contributors- Base Drivers and Incremental Drivers.&lt;/p&gt;
-
-&lt;p&gt;Incremental Drivers refer to the business results generated by using marketing tactics different from those used in the normal course of business, while Base Drivers refer to the business results generated in the normal course of business, mainly due to the goodwill and brand equity developed over the years.&lt;/p&gt;
-
-&lt;p&gt;Using the same example as before of a clothing store, the base drivers would be that of the number of outlets, its advertisement stock, and the average price level. A temporary reduction in the price would be an example of an incremental driver. The effect of this incremental driver can be separated and analysed to measure its impact.&lt;/p&gt;
-
-&lt;p&gt;There are innumerable other concepts that can be applied to model the 4 Ps of Marketing than Linear Regression and Incremental Drivers, such as Budget Optimization or Deep-dive analysis. Usually these concepts are not used in isolation, but rather a collection of all these concepts is used. Marketing Mix Modelling has a much wider scope and shows us how Analytics can be useful for business.&lt;/p&gt;
-
-&lt;p&gt;A customer’s journey of ‘from thinking to buying’ takes him/her through multiple touch points before deciding the final product to buy. As marketing is becoming more customer centric, the need of identification of right channels to target potential customers has become critical for companies. This helps companies to utilise their marketing funds in a better way and target the right customers in right places. So, we hope that you must have got the gist of the concept. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Marketing Mix Modelling is one of the best methods available to value and analyze various marketing tactics on sales and/or market share, and then forecast the future impact of the similar activities. This basically means quantifying the information available with the firm to analyze their impact on sales and market share.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;So, we hope that you must have understood the concept of accounting analytics and how analytics is widely used in the field of accounting. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">But what exactly is ‘accounting analytics’?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
