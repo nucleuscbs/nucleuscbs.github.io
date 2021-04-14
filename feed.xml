@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-16T23:33:38+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Principal Component Analysis</title><link href="http://localhost:4000/blog/Principal-Component-Analysis/" rel="alternate" type="text/html" title="Principal Component Analysis" /><published>2020-12-16T00:00:00+05:30</published><updated>2020-12-16T00:00:00+05:30</updated><id>http://localhost:4000/blog/Principal-Component-Analysis</id><content type="html" xml:base="http://localhost:4000/blog/Principal-Component-Analysis/">&lt;p&gt;&lt;img src=&quot;/blog/pca/1.png&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-14T16:32:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Quantitative Forecasting</title><link href="http://localhost:4000/blog/Quantitative-Forecasting/" rel="alternate" type="text/html" title="Quantitative Forecasting" /><published>2021-04-14T00:00:00+05:30</published><updated>2021-04-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Quantitative-Forecasting</id><content type="html" xml:base="http://localhost:4000/blog/Quantitative-Forecasting/">&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/feature.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What is Forecasting?&lt;/p&gt;
+
+&lt;p&gt;Forecasting in analytics carries the same meaning as in the English language i.e., predicting values and outcomes. As the term Quantitative suggests, we rely on mathematical data or numbers to forecast. And exactly how do we do that? What methods do we use? That’s the focus of this blog.&lt;/p&gt;
+
+&lt;p&gt;Before delving any deeper, let’s understand the importance of forecasting and why exactly do we need to understand the methods used for the same. Forecasting is valuable as it gives us the ability to make informed business decisions and develop data-driven strategies.&lt;/p&gt;
+
+&lt;p&gt;Forecasting quantitatively i.e., using data analysis to predict future trends, advances and changes helps us make calculated and prudent decisions. Most financial and operational decisions are made based on current market conditions and predictions on how the future looks, for which we naturally need to forecast. You can’t predict uncertainties, but forecasting helps you to be proactive rather than reactive when faced with dire situations.&lt;/p&gt;
+
+&lt;p&gt;The models we use to forecast outcomes quantitatively can be broadly classified into two categories:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Associative models
+Associative models are where we identify and analyze a causal relationship between the given variables. For that we require Pattern. A pattern between the outcome and the factors is what enables us to understand the model and extend it to predict the results for other data values.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Time series models
+So, what do we mean by a time series? Let’s just break it in simpler terms. It refers to any series that represents data in a chronological order. These models examine the past data patterns and predict the future outcomes based on underlying patterns which we identify in the given data.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;ASSOCIATIVE MODELS&lt;/p&gt;
+
+&lt;p&gt;Linear Regression is perhaps the most famous tool used for the same at the basic level. It basically identifies the pattern and states it in the form of a linear equation. Another thing it calculates is the P-Value, which is nothing but the coefficient of correlation between the dependent and independent variables.&lt;/p&gt;
+
+&lt;p&gt;As an example, let’s see if we can use a student’s reading capability to predict his acumen in mathematics. (Refer to the first 150 data entries in the dataset available at https://www.kaggle.com/spscientist/students-performance-in-exams).&lt;/p&gt;
+
+&lt;p&gt;First, we calculate the correlation (Multiple R) between reading score and the maths score, which comes out to be 0.867. This gives us the R-Squared as 0.751.&lt;/p&gt;
+
+&lt;p&gt;What R-Squared tells us is that how much of the variation seen in y-variable can be explained by the given x-variable. In this case, it is 0.751 i.e., around 75% of the variation in maths score can be explained by the variation in Reading score. Now this does not mean that the change is x-variable causes the change in y-variable. This has to do with the fact that correlation does not necessarily mean causality.&lt;/p&gt;
+
+&lt;p&gt;R-Squared as 0.751 is significant, which means that variables are linearly related to each other and the data is a good fit for linear regression. This can be visually seen in the following graph as the data points seem to neatly arrange themselves in a straight line (linear manner).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that we have established that the relationship exists, let’s analyze the linear equation received through the regression analysis. This is the equation of the line of the best fit (see the previous graph):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This means that an increase of 10 marks in reading score leads to an increase of around 9 marks in the math score. How do we interpret this? Logically, reading and mathematics are two polar opposite skills with seemingly no connection to each other. One possible explanation is that there might be a third factor (such as Parental Education level) which enables these students to be good at both the skills. This leaves the data open to further analysis.&lt;/p&gt;
+
+&lt;p&gt;One last factor we must take into account is the confidence we should have in the given results. It could be possible that the relationship we observed between the values was merely a coincidence. What is the chance that if we were to take some random values instead of the given dataset, we would get the same (or even stronger) relationship?&lt;/p&gt;
+
+&lt;p&gt;For that we turn to p-value. For the time being, we need not concern ourselves with its calculation. In this case the p-value is 1.42E-46, which is nearly zero. It means, that there is nearly 0% chance that we will be able to replicate the results by taking some random values. So, we can be confident of the relationship established by the regression analysis. Traditionally speaking, a p-value of less than 0.05 is a good indicator that the result established is not just a mere coincidence.&lt;/p&gt;
+
+&lt;p&gt;In Statistical Lingo, we have something called a Null Hypothesis, which generally means that result obtained is not special and is just a fluke. p-value is the evidence in the favour of Null Hypothesis. So higher the p-value, the less evidence we have in favour of the Null Hypothesis, and more confidence we have in the analysis.&lt;/p&gt;
+
+&lt;p&gt;But what if the data arranged itself into a shape other than a straight line? That’s when we turn to other more advanced forms of regressions viz: Polynomial Regression, Logistic Regression, among others. But again, this is a story for another time.&lt;/p&gt;
+
+&lt;p&gt;TIME SERIES MODELS&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most famous example for a data set in this category is the stock price. A good way to predict the future prices is to analyze past trends.&lt;/p&gt;
+
+&lt;p&gt;For that, first, we must account for extreme short-term fluctuations by making the curve smoother to focus on the long-term trends. Moving Average does the same, as can be seen in the following chart.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In Moving Average, each data entry is equated to the average of previous N entries, where N is a natural number whose magnitude depends upon the level of smoothness required.&lt;/p&gt;
+
+&lt;p&gt;Once we have the smooth curve, we can then use other more complex and advanced analytic tools to predict the prices. We have various types of time series models and methods to choose from based on the intended future like trend projections, simple mean, and exponential smoothing among many.&lt;/p&gt;
+
+&lt;p&gt;But once again, that is a story for another time…&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Principal Component Analysis</title><link href="http://localhost:4000/blog/Principal-Component-Analysis/" rel="alternate" type="text/html" title="Principal Component Analysis" /><published>2020-12-16T00:00:00+05:30</published><updated>2020-12-16T00:00:00+05:30</updated><id>http://localhost:4000/blog/Principal-Component-Analysis</id><content type="html" xml:base="http://localhost:4000/blog/Principal-Component-Analysis/">&lt;p&gt;&lt;img src=&quot;/blog/pca/1.png&quot; /&gt;
 Let’s say we want to predict the impact of COVID-19 on Stock Markets and General Business Activities for different countries. For this we have tons of information like the opening and closing price, lowest and highest price, correlation of different indices over the world, inflation rate, unemployment rate, days of lockdown, cases reported, and so on… This sort of problem has an overwhelming number of variables, and someone who has worked earlier with a lot of variables knows what all obstructions this may present. The question is, “How do we take all of the variables collected and focus on only few of them?” In terms of Analytics, we simply want to “Reduce the Dimension Space.” By Dimensionality Reduction, we have fewer variable relationship to consider which makes data easy to explore and visualize to get the desired outcomes.&lt;/p&gt;
 
 &lt;p&gt;Principal Component Analysis is nothing but a Dimensionality Reduction technique to reduce the feature space of large data-sets with numerous variables by transforming a large data-set into a smaller one but still with maximum information so to make analysing data much easier and quicker for machine learning algorithms and tuning techniques without unrelated variables to process. PCA helps in Noise Filtering, Visualization, Feature Extraction, Stock Market Predictions, Gene Data Analysis and many more. Another fascination property of PCA is that it is both a technique of Feature Extraction as well as a medium to perform Feature Extraction, as it combines the input variables in such a way that it drops the extraneous variables while keeping the more important ones.
@@ -186,111 +249,7 @@ For each of these Decision tree (CART models), following is the distribution acr
 Final Inference
 Random forest gives much more accurate predictions when compared to simple Decision Tree (CART) or regression models in many scenarios. These cases generally have high number of predictive variables and huge sample size. This is because it captures the variance of several input variables at the same time and enables high number of observations to participate in the prediction.&lt;/p&gt;
 
-&lt;p&gt;So, we hope that you must have understood the concept of ‘Random Forest’ in Machine Learning through the blog. Do write your precious feedback, and feel free to ask any doubt related.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Business Intelligence Project</title><link href="http://localhost:4000/blog/The-Business-Intelligence-Project/" rel="alternate" type="text/html" title="The Business Intelligence Project" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/blog/The-Business-Intelligence-Project</id><content type="html" xml:base="http://localhost:4000/blog/The-Business-Intelligence-Project/">&lt;p&gt;Initially, BI used to be the work of just IT professionals, who would supply the whole organisation with the reports for decision-making, however, now it is used at every stage of management by the managers (primarily due to the development in data science sphere and the rise of self- service BI tools).&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Ways in which BI can help organisations make smart, data- driven decisions-&lt;/b&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Tracking performance&lt;/li&gt;
-  &lt;li&gt;Analysing Key Performance Indicators (KPI)&lt;/li&gt;
-  &lt;li&gt;Analysing the market share and consumer behaviour&lt;/li&gt;
-  &lt;li&gt;Optimizing business operations using historical data&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;b&gt; Business Intelligence Tools &lt;/b&gt;
-&lt;br /&gt;
-Business intelligence tools are nothing but software that are used to analyse trends and extract insights out of the data in order to make tactical and strategic business decisions.
-There are many Business Intelligence tools like SAS BI, MicroStrategy, Datapine, Domo, etc that help in carrying out the necessary tasks but two of the most powerful and widely used tools in Business Intelligence on which this blog is also dedicated are Power BI and Tableau.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Power BI&lt;/b&gt;
-&lt;br /&gt;
-Power BI provides a summary of the data in the form of reports and dashboards while connecting with every data source across different. It makes data assessment, sharing scalable dashboards, embedded visualizations, interactive reports and various another feature which we will see further in the blog. It is amazing at importing visualizations with easy-to-use and user-friendly interfaces like Excel, etc. Power BI is simple for using that provides a full overview of your business performance.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Tableau&lt;/b&gt;
-&lt;br /&gt;
-While there are numerous intuitive business intelligence tools, Tableau uses data discovery and its interpretation for all types of the business user. It is sometimes quoted as the most user-friendly data science tool available. Being simple to handle, any user without much of a stretch can perform reading or writing data related tasks along with analysing key data insights, while creating visualizations and innovative reports, and finally sharing insights throughout the enterprise with help of dashboards and stories. Tableau is good at connecting to any data source with a drag-and-drop interface that is easy-to-use and makes transferring data simple. However, unlike Power BI it is weak at combining with different data sources for analysis.&lt;/p&gt;
-
-&lt;p&gt;INSIGHTS&lt;/p&gt;
-
-&lt;p&gt;As we have always said, hands-on real-time experience on analytics software are any day better than the theoretical concepts and is also our core strength, so to compare how the visualisations would look in Power BI and Tableau we took a same dataset and created a dashboard. We undertook a project under the supervision of our esteemed alumnus, &lt;u&gt;Mr. Vikrant Sharma&lt;/u&gt; (Analyst, InMobi) and &lt;u&gt;Mr. Shoury Anand&lt;/u&gt;(IIM Lucknow, PGP’22). This included a study on COVID-19 scenario where we took 5 datasets which contained data for number of COVID cases worldwide and in India. Also, to study what impact the current pandemic has on the indices we took time series data for S&amp;amp;P Global, FTSE 100 and Dow Jones along with Gold and Crude Oil prices starting from 1st January 2020 to 31st July 2020. To study how GDP has fared in the past years, we took Real GDP for 180 countries for past 13 years. Not surprisingly, the visualizations said for itself all the data which we collected and wanted to concluded our results. Finally, both the dashboards looked pretty amazing and gave us a hard time to choose one over another. So the question in on our readers which visualisation did they find better!&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Tableau Dashboard&lt;/b&gt;
-&lt;img src=&quot;/blog/tableau/Tableau Dashboard.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Power BI Dashboard&lt;/b&gt; 
-&lt;img src=&quot;/blog/tableau/PowerBI Dashboard.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
-&lt;br /&gt;
-We have conducted a survey of sample size of 100 to gather and access the opinion of college students on Business Intelligence tools namely Power BI and Tableau.
-The respondents had to answer various questions; like on what parameters would they favour one software from the other, rating these softwares on User- friendliness and attractiveness, their personal opinions/ experiences among others.
-Most of the students replied on the same lines and the results matched our findings/ expectations. Tableau was found to be the favourable of the two.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Some of the opinions-&lt;/b&gt;
-&lt;i&gt;“The Power BI Student Version has a lot of limitations and thus though it is capable to a large extent, cannot be used to its full capacity. Tableau has some limited features as compared to Power BI w.r.t graph styles, colour available, etc. Overall, Both the tools are very powerful for Data Viz”&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;“I feel that use of visualizations created in Tableau should be restricted to Tableau itself. Any presentation that requires only and only visualizations with little to none supporting text can be presented through Tableau’s story mode. For PowerPoint presentations, I like to connect excel sheets with it for charts, as it makes it easy for me to change the formatting of the chart within PowerPoint and any change in figures can also be speedily done.
-And about dashboards in presentations, I don’t think that is a good choice because the number of visualizations in a dashboard might distract an audience, and it is difficult to demonstrate its dynamic features on a presentation.”&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;I have had a better experience working with Power BI over tableau due to its user-friendly nature and a relatively easier visualisation capability.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Result of the survey were as follows-&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/tableau/1.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
-&lt;img src=&quot;/blog/tableau/2.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;BUSINESS INTELLIGENCE TOOLS FROM A STUDENTS’ PERSPECTIVE
-Microsoft’s Power BI is a suite of data visualization and business analytic tools. It offers tools to easily analyse, transform and visualize data pipelines, including the ability to build reusable models. The software enables users to integrate their apps, to deliver reports along with real-time dashboards.
-Tableau is a visualization tool that helps businesses transform their data into insights that can lead to action. The tool makes it easy to connect data in almost any format from almost any source. Interactive dashboard with visual analytics can be created with simple dragging and dropping, and data transformed in graphs, maps, charts, and other visualizations.&lt;/p&gt;
-
-&lt;p&gt;Data Visualizations tools are necessary when it comes to creating a visual representation of analytics and sharing insights with other.
-And as Management students, we faced difficulty initially in choosing the best tool for making reports and dashboards, because both Power BI and Tableau were terrific and had a lot to offer. So, to make life simpler and easier, we’ll be comparing these two on a range of parameters-&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Cost&lt;/b&gt;
-Tableau is expensive than Power BI when it comes to buying the complete version which usually is bought by the businesses and working professionals. Tableau’s annual price ranges around $1000 while Power BI’s annual price ranges around $100. Even though there is a great price difference in the full version, however if we compare only the free version Tableau has an upper hand. This is because many useful features were not included in Power BI’s free desktop version and this certainly impaired us during this project. We also had to face many hassles when it came to editing the shared files.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Data Analysis&lt;/b&gt;
-Power BI should be the choice if someone wants to have an in- depth analysis of the data. It offers DAX (Data Analysis Expressions) which is a delight to work with. It is designed to work with tables and relational database, creating meaningful relationships between various data sources.
-Tableau has in-built features like data blending and drill-down, which one can use to determine the variations, data patterns and for further data analysis.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Data Visualization&lt;/b&gt;
-There is no one best tool when it comes to Data Visualization as both Power BI and Tableau has some really powerful visuals to offer. While talking about simplicity, surely Tableau creates fascinating dashboards through simple drag- and- drop, and complex calculations can also be made with the help of simple line of codes. It offers various types of visualizations such as Heat maps, Treemaps, Scatter Plots etc. One can also create ‘Word clouds’ and ‘Bubble charts’ in Tableau.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;On the other hand, Power BI has loads of visualisations which help in depth analysis. Power BI boasts of a wide variety of visualizations, such as R script visuals and Python visuals as well. These visuals can be created in Power BI Desktop and then published online.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;Performance&lt;/b&gt;
-The Clock Rate in Power BI is faster than that in Tableau, it loads data sets faster than the latter, plus it saves the files in a compressed manner and takes lower disk space. One can also publish their Power BI Desktop reports online and thus can have an easy access.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;User community&lt;/b&gt;
-Both these tools offer great customer support, in terms of services and learning material. However, Tableau may have an upper edge in community support due to its huge user base and awareness in general.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;b&gt;User Interface&lt;/b&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Tableau has an edge over Power BI when it comes to the user interface. It has an intuitive user interface along with versatile features. Its Tool Tip is more efficient than Power BI’s and provides elaborate details.
-Power BI’s user interface is no less than that of Tableau’s but it can be a little intimidating for a novice.&lt;/p&gt;
-
-&lt;p&gt;After comparing the 2 tools on various parameters and from our personal experience, we felt that Tableau is the better of the two when it comes to creating Dashboards and visualizations.&lt;/p&gt;
-
-&lt;p&gt;Conclusion-
-Tableau remains the choice of BI Tool for students from non-technical background like us. However, the professional reports and perfect visualisations by Power BI would certainly add a feather in your cap in terms of both skillset and employability.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;&lt;u&gt;Authored by&lt;/u&gt;&lt;/b&gt;: Chaitanya Gupta and Ritik Garg&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;&lt;u&gt;Co-Authored by&lt;/u&gt;&lt;/b&gt;: Mr Shoury Anand and Mr Vikrant Sharma
-&lt;img src=&quot;/blog/tableau/3.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
-&lt;img src=&quot;/blog/tableau/4.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
-&lt;img src=&quot;/blog/tableau/5.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Initially, BI used to be the work of just IT professionals, who would supply the whole organisation with the reports for decision-making, however, now it is used at every stage of management by the managers (primarily due to the development in data science sphere and the rise of self- service BI tools).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decoding APIs?</title><link href="http://localhost:4000/blog/API-Basics/" rel="alternate" type="text/html" title="Decoding APIs?" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/blog/API-Basics</id><content type="html" xml:base="http://localhost:4000/blog/API-Basics/">&lt;p&gt;What is an API?&lt;/p&gt;
+&lt;p&gt;So, we hope that you must have understood the concept of ‘Random Forest’ in Machine Learning through the blog. Do write your precious feedback, and feel free to ask any doubt related.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Decoding APIs?</title><link href="http://localhost:4000/blog/API-Basics/" rel="alternate" type="text/html" title="Decoding APIs?" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/blog/API-Basics</id><content type="html" xml:base="http://localhost:4000/blog/API-Basics/">&lt;p&gt;What is an API?&lt;/p&gt;
 
 &lt;p&gt;Application Program Interface. Wait you didn’t ask for its expansion, you wanted to know what an API actually meant and what it is used for; but sadly, this what you get to know once you google for an API and then you get extremely confused. As always, we’re here to help.&lt;/p&gt;
 
@@ -425,7 +384,111 @@ print(json_response)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/api.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And we told you! API’s did it. They can do much more wonders when used the right way for the right projects. You can even create one (but that’s a blog for another day). Hope you have a good understanding of the use case of this beautiful piece of technology in data science.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">What is an API?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
+&lt;p&gt;And we told you! API’s did it. They can do much more wonders when used the right way for the right projects. You can even create one (but that’s a blog for another day). Hope you have a good understanding of the use case of this beautiful piece of technology in data science.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">What is an API?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Business Intelligence Project</title><link href="http://localhost:4000/blog/The-Business-Intelligence-Project/" rel="alternate" type="text/html" title="The Business Intelligence Project" /><published>2020-09-08T00:00:00+05:30</published><updated>2020-09-08T00:00:00+05:30</updated><id>http://localhost:4000/blog/The-Business-Intelligence-Project</id><content type="html" xml:base="http://localhost:4000/blog/The-Business-Intelligence-Project/">&lt;p&gt;Initially, BI used to be the work of just IT professionals, who would supply the whole organisation with the reports for decision-making, however, now it is used at every stage of management by the managers (primarily due to the development in data science sphere and the rise of self- service BI tools).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Ways in which BI can help organisations make smart, data- driven decisions-&lt;/b&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Tracking performance&lt;/li&gt;
+  &lt;li&gt;Analysing Key Performance Indicators (KPI)&lt;/li&gt;
+  &lt;li&gt;Analysing the market share and consumer behaviour&lt;/li&gt;
+  &lt;li&gt;Optimizing business operations using historical data&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;b&gt; Business Intelligence Tools &lt;/b&gt;
+&lt;br /&gt;
+Business intelligence tools are nothing but software that are used to analyse trends and extract insights out of the data in order to make tactical and strategic business decisions.
+There are many Business Intelligence tools like SAS BI, MicroStrategy, Datapine, Domo, etc that help in carrying out the necessary tasks but two of the most powerful and widely used tools in Business Intelligence on which this blog is also dedicated are Power BI and Tableau.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Power BI&lt;/b&gt;
+&lt;br /&gt;
+Power BI provides a summary of the data in the form of reports and dashboards while connecting with every data source across different. It makes data assessment, sharing scalable dashboards, embedded visualizations, interactive reports and various another feature which we will see further in the blog. It is amazing at importing visualizations with easy-to-use and user-friendly interfaces like Excel, etc. Power BI is simple for using that provides a full overview of your business performance.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Tableau&lt;/b&gt;
+&lt;br /&gt;
+While there are numerous intuitive business intelligence tools, Tableau uses data discovery and its interpretation for all types of the business user. It is sometimes quoted as the most user-friendly data science tool available. Being simple to handle, any user without much of a stretch can perform reading or writing data related tasks along with analysing key data insights, while creating visualizations and innovative reports, and finally sharing insights throughout the enterprise with help of dashboards and stories. Tableau is good at connecting to any data source with a drag-and-drop interface that is easy-to-use and makes transferring data simple. However, unlike Power BI it is weak at combining with different data sources for analysis.&lt;/p&gt;
+
+&lt;p&gt;INSIGHTS&lt;/p&gt;
+
+&lt;p&gt;As we have always said, hands-on real-time experience on analytics software are any day better than the theoretical concepts and is also our core strength, so to compare how the visualisations would look in Power BI and Tableau we took a same dataset and created a dashboard. We undertook a project under the supervision of our esteemed alumnus, &lt;u&gt;Mr. Vikrant Sharma&lt;/u&gt; (Analyst, InMobi) and &lt;u&gt;Mr. Shoury Anand&lt;/u&gt;(IIM Lucknow, PGP’22). This included a study on COVID-19 scenario where we took 5 datasets which contained data for number of COVID cases worldwide and in India. Also, to study what impact the current pandemic has on the indices we took time series data for S&amp;amp;P Global, FTSE 100 and Dow Jones along with Gold and Crude Oil prices starting from 1st January 2020 to 31st July 2020. To study how GDP has fared in the past years, we took Real GDP for 180 countries for past 13 years. Not surprisingly, the visualizations said for itself all the data which we collected and wanted to concluded our results. Finally, both the dashboards looked pretty amazing and gave us a hard time to choose one over another. So the question in on our readers which visualisation did they find better!&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Tableau Dashboard&lt;/b&gt;
+&lt;img src=&quot;/blog/tableau/Tableau Dashboard.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Power BI Dashboard&lt;/b&gt; 
+&lt;img src=&quot;/blog/tableau/PowerBI Dashboard.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
+&lt;br /&gt;
+We have conducted a survey of sample size of 100 to gather and access the opinion of college students on Business Intelligence tools namely Power BI and Tableau.
+The respondents had to answer various questions; like on what parameters would they favour one software from the other, rating these softwares on User- friendliness and attractiveness, their personal opinions/ experiences among others.
+Most of the students replied on the same lines and the results matched our findings/ expectations. Tableau was found to be the favourable of the two.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Some of the opinions-&lt;/b&gt;
+&lt;i&gt;“The Power BI Student Version has a lot of limitations and thus though it is capable to a large extent, cannot be used to its full capacity. Tableau has some limited features as compared to Power BI w.r.t graph styles, colour available, etc. Overall, Both the tools are very powerful for Data Viz”&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;“I feel that use of visualizations created in Tableau should be restricted to Tableau itself. Any presentation that requires only and only visualizations with little to none supporting text can be presented through Tableau’s story mode. For PowerPoint presentations, I like to connect excel sheets with it for charts, as it makes it easy for me to change the formatting of the chart within PowerPoint and any change in figures can also be speedily done.
+And about dashboards in presentations, I don’t think that is a good choice because the number of visualizations in a dashboard might distract an audience, and it is difficult to demonstrate its dynamic features on a presentation.”&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;I have had a better experience working with Power BI over tableau due to its user-friendly nature and a relatively easier visualisation capability.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Result of the survey were as follows-&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/tableau/1.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
+&lt;img src=&quot;/blog/tableau/2.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;BUSINESS INTELLIGENCE TOOLS FROM A STUDENTS’ PERSPECTIVE
+Microsoft’s Power BI is a suite of data visualization and business analytic tools. It offers tools to easily analyse, transform and visualize data pipelines, including the ability to build reusable models. The software enables users to integrate their apps, to deliver reports along with real-time dashboards.
+Tableau is a visualization tool that helps businesses transform their data into insights that can lead to action. The tool makes it easy to connect data in almost any format from almost any source. Interactive dashboard with visual analytics can be created with simple dragging and dropping, and data transformed in graphs, maps, charts, and other visualizations.&lt;/p&gt;
+
+&lt;p&gt;Data Visualizations tools are necessary when it comes to creating a visual representation of analytics and sharing insights with other.
+And as Management students, we faced difficulty initially in choosing the best tool for making reports and dashboards, because both Power BI and Tableau were terrific and had a lot to offer. So, to make life simpler and easier, we’ll be comparing these two on a range of parameters-&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Cost&lt;/b&gt;
+Tableau is expensive than Power BI when it comes to buying the complete version which usually is bought by the businesses and working professionals. Tableau’s annual price ranges around $1000 while Power BI’s annual price ranges around $100. Even though there is a great price difference in the full version, however if we compare only the free version Tableau has an upper hand. This is because many useful features were not included in Power BI’s free desktop version and this certainly impaired us during this project. We also had to face many hassles when it came to editing the shared files.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Data Analysis&lt;/b&gt;
+Power BI should be the choice if someone wants to have an in- depth analysis of the data. It offers DAX (Data Analysis Expressions) which is a delight to work with. It is designed to work with tables and relational database, creating meaningful relationships between various data sources.
+Tableau has in-built features like data blending and drill-down, which one can use to determine the variations, data patterns and for further data analysis.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Data Visualization&lt;/b&gt;
+There is no one best tool when it comes to Data Visualization as both Power BI and Tableau has some really powerful visuals to offer. While talking about simplicity, surely Tableau creates fascinating dashboards through simple drag- and- drop, and complex calculations can also be made with the help of simple line of codes. It offers various types of visualizations such as Heat maps, Treemaps, Scatter Plots etc. One can also create ‘Word clouds’ and ‘Bubble charts’ in Tableau.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;On the other hand, Power BI has loads of visualisations which help in depth analysis. Power BI boasts of a wide variety of visualizations, such as R script visuals and Python visuals as well. These visuals can be created in Power BI Desktop and then published online.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Performance&lt;/b&gt;
+The Clock Rate in Power BI is faster than that in Tableau, it loads data sets faster than the latter, plus it saves the files in a compressed manner and takes lower disk space. One can also publish their Power BI Desktop reports online and thus can have an easy access.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;User community&lt;/b&gt;
+Both these tools offer great customer support, in terms of services and learning material. However, Tableau may have an upper edge in community support due to its huge user base and awareness in general.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;User Interface&lt;/b&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tableau has an edge over Power BI when it comes to the user interface. It has an intuitive user interface along with versatile features. Its Tool Tip is more efficient than Power BI’s and provides elaborate details.
+Power BI’s user interface is no less than that of Tableau’s but it can be a little intimidating for a novice.&lt;/p&gt;
+
+&lt;p&gt;After comparing the 2 tools on various parameters and from our personal experience, we felt that Tableau is the better of the two when it comes to creating Dashboards and visualizations.&lt;/p&gt;
+
+&lt;p&gt;Conclusion-
+Tableau remains the choice of BI Tool for students from non-technical background like us. However, the professional reports and perfect visualisations by Power BI would certainly add a feather in your cap in terms of both skillset and employability.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;&lt;u&gt;Authored by&lt;/u&gt;&lt;/b&gt;: Chaitanya Gupta and Ritik Garg&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;&lt;u&gt;Co-Authored by&lt;/u&gt;&lt;/b&gt;: Mr Shoury Anand and Mr Vikrant Sharma
+&lt;img src=&quot;/blog/tableau/3.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
+&lt;img src=&quot;/blog/tableau/4.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;
+&lt;img src=&quot;/blog/tableau/5.jpeg&quot; alt=&quot;Tableau versus Power Bi&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Initially, BI used to be the work of just IT professionals, who would supply the whole organisation with the reports for decision-making, however, now it is used at every stage of management by the managers (primarily due to the development in data science sphere and the rise of self- service BI tools).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">ML CHALLENGE - CHURN MODELLING</title><link href="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/" rel="alternate" type="text/html" title="ML CHALLENGE - CHURN MODELLING" /><published>2020-07-28T00:00:00+05:30</published><updated>2020-07-28T00:00:00+05:30</updated><id>http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING</id><content type="html" xml:base="http://localhost:4000/blog/ML-CHALLENGE-CHURN-MODELLING/">&lt;p&gt;&lt;img src=&quot;/blog/2020-07-28-ML CHALLENGE - CHURN MODEL/ML CHALLENGE – CHURN MODEL.jpg&quot; alt=&quot;ML Challenge&quot; /&gt;
 The topics covered in the series were,&lt;/p&gt;
 
 &lt;p&gt;All about Machine Learning
@@ -891,117 +954,4 @@ Code - ggplot(data=diamond, aes(y= price,x=carat,color=cut)) + geom_point() + ge
 &lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot10.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We believe this gives a better picture of the prices as the data depicts the prices according to carat as well as clarity
-So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Accounting Analytics</title><link href="http://localhost:4000/blog/Accounting-Analytics/" rel="alternate" type="text/html" title="Accounting Analytics" /><published>2020-06-03T00:00:00+05:30</published><updated>2020-06-03T00:00:00+05:30</updated><id>http://localhost:4000/blog/Accounting-Analytics</id><content type="html" xml:base="http://localhost:4000/blog/Accounting-Analytics/">&lt;p&gt;&lt;img src=&quot;/blog/Accounting Analytics.jpg&quot; alt=&quot;Accounting Analytics&quot; /&gt;
-But what exactly is ‘accounting analytics’?&lt;/p&gt;
-
-&lt;p&gt;So, in layman’s language, Accounting analytics is the examination of big data using data science or data analytics tools to help answer accounting-related questions. We live in a world which is full of huge piles of online data. The Accountants, now a days, are required to have the skill of analyzing this huge data in the form of financial statements of a company. That is why, it is very important to be familiar with the concept of accounting analytics.&lt;/p&gt;
-
-&lt;p&gt;Here, we would learn about how data science is practically applied in the field of accounting analytics.There are various functions which the accountants are now a days using which originate from analytics. For example- budgeting, planning, data management, auditing; these are some fields where accountants are used to dealing with data. In fact, most professionals have already mastered two types of analytics-&lt;/p&gt;
-
-&lt;p&gt;Descriptive Analytics- By summarizing and interpreting raw data, accountants find answers to what has happened. For example, we see that usually, analysts use sums, averages, and percent changes to calculate sales results, inventory stock, cost per customer, average dollars spent, year-over-year change in sales, etc.&lt;/p&gt;
-
-&lt;p&gt;Diagnostic Analytics- Accountants often deploy data analytics and data mining to discover why something happened. They also create variance reports to show differences between budgeted amounts and actual income or expenses, employ tools and software to look for patterns and problems in large data sets.&lt;/p&gt;
-
-&lt;p&gt;These skills are great, but they’re not enough. As the automation takes over day-to-day tasks, accountants are increasingly being asked to act as data scientists. Accountants can use various tools of analytics such as- Excel, Tableau, Python, SQL, etc&lt;/p&gt;
-
-&lt;p&gt;Let us now examine how 3 different types of accounting studies which may use analytics to modify their current work through examples.&lt;/p&gt;
-
-&lt;p&gt;Managerial Accounting
-Financial Accounting
-Auditing
-In this blog, we’re going to talk about three major aspects of accounting Analytics with respect to each type of accounting study mentioned above-&lt;/p&gt;
-
-&lt;p&gt;1) Variance Analysis in Management Accounting&lt;/p&gt;
-
-&lt;p&gt;2) The concept of SVA in Financial Accounting&lt;/p&gt;
-
-&lt;p&gt;3) Trend Analysis in Auditing&lt;/p&gt;
-
-&lt;p&gt;1) Variance Analysis in Managerial Accounting
-&lt;img src=&quot;/blog/01.png&quot; alt=&quot;Accounting Analytics&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Managerial Accounting is a domain in which accountants prepare and use data for internal decision making process. We’d like to introduce you to a couple of ways in which advanced data analytics skills will help you make better internal decisions.&lt;/p&gt;
-
-&lt;p&gt;Case study of the usage of analytics in Dominos&lt;/p&gt;
-
-&lt;p&gt;Dominos India is a popular pizza restaurant chain in India. So, Dominos India implements standards to keep the costs of cheese in control with respect to every normal pizza size. They also measure how much cheese they start a day with, how much is prepared, and how much they end with so that they can see how much of it was used.&lt;/p&gt;
-
-&lt;p&gt;When a customer buys a pizza, say a medium size, the employees at Dominos are supposed to use a standard amount of cheese.&lt;/p&gt;
-
-&lt;p&gt;•If the employee doesn’t put enough cheese in the pizza, then customers may be dissatisfied.&lt;/p&gt;
-
-&lt;p&gt;•On the other hand, if employees put too much cheese on the pizza, then the profit margin decreases and Dominos’ shareholders are dissatisfied.&lt;/p&gt;
-
-&lt;p&gt;The company has to minimize the un-evenness.&lt;/p&gt;
-
-&lt;p&gt;Solution&lt;/p&gt;
-
-&lt;p&gt;Combining the point of sale data with inventory data and data about standard quantities of cheese can calculate variances to help identify if the employees are using the right amount of cheese.&lt;/p&gt;
-
-&lt;p&gt;Variance information can be criticized for being too old to make a difference. However, if one knows how to systematically fetch data at regular intervals and combine data, perhaps from, say, a point of sale system, spreadsheets, and QuickBooks, then one can help set up a process to calculate and communicate variances on a daily basis.&lt;/p&gt;
-
-&lt;p&gt;This is just the start. If you can gather the names of the employees who are responsible for serving the pizza, then you can also quantify the extent to which each employee is serving the right amount of cheese, helping managers to identify employees who may need additional training. All of this can be done with the help of Excel.&lt;/p&gt;
-
-&lt;p&gt;2) The Concept of SVA in Financial Accounting
-&lt;img src=&quot;/blog/02.png&quot; alt=&quot;Accounting Analytics&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Financial accounting is a domain of accounting that focuses on summarizing accounting transactions during a period of time for users external to an organization like investors, creditors, and regulators.&lt;/p&gt;
-
-&lt;p&gt;Shareholder Value Analytics&lt;/p&gt;
-
-&lt;p&gt;Shareholder value analysis (SVA) is one of several non-traditional metrics being used in business today. SVA determines the financial value of a company by looking at the returns it gives its stockholders and is based on the view that the objective of company directors is to maximize the wealth of company stockholders.&lt;/p&gt;
-
-&lt;p&gt;How is shareholder value calculated?&lt;/p&gt;
-
-&lt;p&gt;Shareholder value is calculated by dividing the estimated total net value of a company based on its present and future cash flows by the value of its shares of stock. The resulting figure indicates the company’s value to stockholders.&lt;/p&gt;
-
-&lt;p&gt;The Formula for Shareholder Value Added Is-&lt;/p&gt;
-
-&lt;p&gt;SVA=NOPAT−CC&lt;/p&gt;
-
-&lt;p&gt;Where-&lt;/p&gt;
-
-&lt;p&gt;NOPAT=Net operating profit after tax&lt;/p&gt;
-
-&lt;p&gt;CC=Cost of capital​&lt;/p&gt;
-
-&lt;p&gt;Why do the companies adopt SVA?&lt;/p&gt;
-
-&lt;p&gt;The principle of shareholder value is that a company adds value for its stockholders only when equity returns exceed equity costs. Once the amount of value is calculated, targets for improvement can be set and shareholder value can be used as a measure for managing performance.&lt;/p&gt;
-
-&lt;p&gt;Some of the value investors use SVA as a tool to judge the corporation’s profitability and management efficacy. This line of thinking often runs congruent with value-based management, which assumes that the foremost consideration of a corporation should be to maximize economic value for its shareholders.&lt;/p&gt;
-
-&lt;p&gt;Shareholder value is created when a company’s profits exceed its costs. But there is more than one way to calculate this.&lt;/p&gt;
-
-&lt;p&gt;3) Trend Analysis in Auditing
-&lt;img src=&quot;/blog/03.png&quot; alt=&quot;Accounting Analytics&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Auditing is the domain within accounting which focuses on whether the control procedures are being followed and whether the reported financial statements are accurate.&lt;/p&gt;
-
-&lt;p&gt;Case Study for the Application of Trend Analysis&lt;/p&gt;
-
-&lt;p&gt;Comfort Ltd. is a major player in the shoe industry in India and worldwide. We are here to have an audit examining how the number of orders shipped impacts its sales.&lt;/p&gt;
-
-&lt;p&gt;Let’s take a look at the following table showing the sales and number of orders shipped over five periods-&lt;/p&gt;
-
- 	Period 1	Period 2	Period 3	Period 4	Period 5
-&lt;p&gt;Sales	750,000	850,000	900,000	1,100,000	1,150,000
-Change ($)	 	100,000	50,000	200,000	50,000
-Change (%)	 	13%	6%	22%	5%&lt;/p&gt;
-
-&lt;p&gt;Orders Shipped	700	1,200	1,600	2,300	3,000
-Change (Count)	 	500	400	700	700
-Change (%)	 	71%	33%	44%	30%
-We can see that the information in the table shows solid performance over the five periods.  Sales and orders shipped increase during each period.&lt;/p&gt;
-
-&lt;p&gt;So, can the auditors come to the conclusion that the company has faired well in the 5 periods?&lt;/p&gt;
-
-&lt;p&gt;It’s hard to answer without digging a little deeper.  So, let’s take a look at the graph below which shows the sales and orders shipped information-&lt;/p&gt;
-
-&lt;p&gt;The graph clearly shows the same increasing sales and orders shipped. However, upon a closer examination, we see that the sales do not increase at the same rate as orders shipped.  This shows us that the sales per order shipped are deteriorating.&lt;/p&gt;
-
-&lt;p&gt;Does this decrease in sales per order shipped represent an alarming development over the five periods?  Not necessarily.  It can be the company’s intent to increase the orders shipped over time.  However, the company may want to investigate and take measures if the decreasing sales per order shipped numbers are not what the company wants or expects.&lt;/p&gt;
-
-&lt;p&gt;This is just an example of how analytics can be used in auditing. There are many more applications being used in the corporate world.&lt;/p&gt;
-
-&lt;p&gt;So, we hope that you must have understood the concept of accounting analytics and how analytics is widely used in the field of accounting. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">But what exactly is ‘accounting analytics’?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
