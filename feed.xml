@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-14T16:32:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Quantitative Forecasting</title><link href="http://localhost:4000/blog/Quantitative-Forecasting/" rel="alternate" type="text/html" title="Quantitative Forecasting" /><published>2021-04-14T00:00:00+05:30</published><updated>2021-04-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Quantitative-Forecasting</id><content type="html" xml:base="http://localhost:4000/blog/Quantitative-Forecasting/">&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/feature.png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-21T17:17:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Behavioral Analytics</title><link href="http://localhost:4000/blog/Behavioral-Analytics/" rel="alternate" type="text/html" title="Behavioral Analytics" /><published>2021-04-21T00:00:00+05:30</published><updated>2021-04-21T00:00:00+05:30</updated><id>http://localhost:4000/blog/Behavioral-Analytics</id><content type="html" xml:base="http://localhost:4000/blog/Behavioral-Analytics/">&lt;p&gt;&lt;img src=&quot;/blog/BehavioralAnalytics/feature.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The number of clicks you made, the amount of time you spent on each item, the type of items you spend your time on, etc. is stored. This massive volume of data is captured and analyzed by companies. You must have noticed, when you spend time on apps like Instagram, if you started to look at a lot of cute dog pictures on Instagram, your feed will automatically start having more and more dog content. This is because Instagram has been capturing your behavior and analyzing it to provide more personalized content for you. This process of analyzing user behavior is called behavioral analytics.
+Incorporating behavioral analytics into your operations can be a little intimidating, both in terms of implementation and expense. However, according to a report by McKinsey, organizations that use customer data to produce behavioral insights outperform their peers by 85 percent in sales growth and more than 25 percent in gross margin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/BehavioralAnalytics/11.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We usually see behavioral analytics being used by companies regularly (but often don’t realize it):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Netflix:
+Netflix provides its recommendations through a complex algorithm that takes into consideration the preferences of the customer who is watching and also the shows which were watched by people with similar preferences:
+&lt;img src=&quot;/blog/BehavioralAnalytics/16.png&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Analyzing user behavior like this has helped Netflix increase the lifetime of their customers and helped in making their content more personalized for them. Netflix executives estimated that this analysis saves the company $1 Billion a year.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Amazon:
+Amazon gives product recommendations through a complex machine learning algorithm that combines behavioral data such as:
+● A user’s purchase history
+● Items in their cart
+● Items they’ve liked and rated
+● What other customers have viewed and purchased
+This algorithm is estimated to be responsible for around 35% of Amazon’s total revenue.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/BehavioralAnalytics/13.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What are Behavioral Analysis Tools?&lt;/p&gt;
+
+&lt;p&gt;There are three main behavioral analysis tools involved in building a picture of your customer journey: segmentation analysis, funnel analysis, and cohort analysis.&lt;/p&gt;
+
+&lt;p&gt;SEGMENTATION ANALYSIS&lt;/p&gt;
+
+&lt;p&gt;The study of customers divided into smaller groups to understand specific characteristics such as their behavior, age, income, and personality is known as segmentation analysis. When a company is marketing a smaller segment of consumers, it is easier for them to advertise since each advertisement can be highly tailored and precise to the features of each group.&lt;/p&gt;
+
+&lt;p&gt;FUNNEL ANALYSIS&lt;/p&gt;
+
+&lt;p&gt;Funnel analysis is a method of evaluating the steps taken to achieve a certain outcome on a website, as well as the number of users who complete each step. Funnel analysis helps you spot where users are leaving your website, so you can optimize the problem area and increase conversion rates.
+To analyze a funnel, you have to find:
+● User Conversion rates
+● User Drop-off rates
+&lt;img src=&quot;/blog/BehavioralAnalytics/14.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;COHORT ANALYSIS&lt;/p&gt;
+
+&lt;p&gt;Cohort analysis breaks the data into a data set into related groups before analysis. These groups, or cohorts, usually share some common characteristics. Cohort analysis allows a company to find patterns throughout the life-cycle of a customer. By seeing these patterns, a company can adapt its service to those specific cohorts.&lt;/p&gt;
+
+&lt;p&gt;The 2 most common cohort types are:&lt;/p&gt;
+
+&lt;p&gt;● Acquisition Cohorts: divides users by when they signed up first for your product. For app users, you might break down cohorts by the day, the week, or the month they launched an app, and track daily weekly, or monthly cohorts.&lt;/p&gt;
+
+&lt;p&gt;● Behavioral Cohorts: divides users by their behavior in your app within a given period. These could be any number of actions that a user can perform – App Install, App Uninstall, Transaction, or any combination of these events.&lt;/p&gt;
+
+&lt;p&gt;Benefits of Behavioral Analytics&lt;/p&gt;
+
+&lt;p&gt;Behavioral analytics is critical for increasing conversion, commitment, and retention at a company. Every member of a team should be able to obtain the actionable knowledge they need to answer their questions and exploit data in ways that didn’t seem possible before with the right behavioral analytics tool.&lt;/p&gt;
+
+&lt;p&gt;According to the results, a large percentage of users use a particular e-commerce platform after searching “Thai food” on Google. Most of the users spent time on the homepage and went to the “Asian Food” tab and end up buying nothing. Examining each of these incidents as a single data point fails to shows what is going in consumers mind and not able to analyze why consumer isn’t buying the product&lt;/p&gt;
+
+&lt;p&gt;Both web traffic and page views are viewed as a timeline of related events that did not result in orders in behavioral analytics. Since the majority of users left after seeing the “Asian Food” page, there might be a discrepancy between what they’re looking for on Google and what the “Asian Food” page reveals. Knowing this, a glance at the “Asian Food” page shows that Thai food is not prominently displayed, leading people to assume it is not available, even though it is.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at a few examples of how behavioral analytics may be used:
+A travel company decides to use its website to monitor consumer events to improve its marketing efforts. A consumer might have looked at visiting a particular destination with a specific airline but abandoned the process before making an order. The business sends an email to the prospect in response to this material. To inspire a booking, the email may contain a travel discount or bid, as well as any valuable information on the destination of interest.&lt;/p&gt;
+
+&lt;p&gt;Another scenario may be that a car dealership sends out an email campaign with a PDF attachment providing information about a variety of vehicles. They can detect user events using behavioral analytics. They will see who opened the attachment, how long they left the PDF open, how much they got into it, and where they spent the most time. The data is then sent to the sales team, which is now in a stronger position to initiate talks with prospects. Prospects become more involved in discussions, and sales representatives may provide more accurate information and tailored deals.&lt;/p&gt;
+
+&lt;p&gt;Here are a couple of the benefits of behavioral data analytics:
+● Customized advertising and marketing campaigns
+● Heightened customer interaction and subsequent fulfillment
+● Better customer relations, and
+● Eventually more sales&lt;/p&gt;
+
+&lt;p&gt;To conclude, a company should use behavioral analytics to help understand its target audience’s expectations and preferences. In today’s world, not understanding it means resorting to a scattershot campaign, which does not work.&lt;/p&gt;
+
+&lt;p&gt;Criticism of Behavioral Analytics&lt;/p&gt;
+
+&lt;p&gt;Behavioral analytics raises substantial privacy questions because it necessitates the processing and aggregation of vast volumes of personal data, including extremely confidential data (such as sexual identity or sexual interests, health conditions, and location), which is then exchanged between hundreds of parties interested in targeted ads.
+Starting in 2015, Amazon joined Google and other tech giants in launching in-home voice devices that are expected to become a gold mine of behavioral insights for off-line life, just as the activities on their pages are a repository of data for your online life. Some people think this is invasive and unnecessarily informative to data providers and the government, but when they buy something, they are de facto subscribing to the terms.&lt;/p&gt;
+
+&lt;p&gt;Various Products and Websites
+&lt;img src=&quot;/blog/BehavioralAnalytics/15.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Amplitude, Indicative, and Mixpanel are common behavioral analytics providers, and each has its own set of advantages and disadvantages.&lt;/p&gt;
+
+&lt;p&gt;If a company is looking for the right behavioral analytics supplier, it’s critical to take your time to thoroughly study each tool. Some companies have a free trial period, which will help you get a clearer understanding of how the tools function and whether the product is right for your market and research needs.
+It’s important to check out behavioral intelligence resources that can help you to&lt;/p&gt;
+
+&lt;p&gt;● Optimize behavior through multiple paths and isolate the efficient ones
+● Diagnose and remove unwanted steps for customers
+● Focus on key behaviors that result in higher total customer value
+● Use targeted customer segments (cohorts) to inform and launch campaigns
+● Isolate and aim users at risk of churn ahead of time
+● Develop at-a-glance dashboards that can be shared with teams and executives&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quantitative Forecasting</title><link href="http://localhost:4000/blog/Quantitative-Forecasting/" rel="alternate" type="text/html" title="Quantitative Forecasting" /><published>2021-04-14T00:00:00+05:30</published><updated>2021-04-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Quantitative-Forecasting</id><content type="html" xml:base="http://localhost:4000/blog/Quantitative-Forecasting/">&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/feature.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;What is Forecasting?&lt;/p&gt;
 
@@ -821,137 +915,4 @@ In the above example, Ageing is a confounding variable. The apparent association
 
 &lt;p&gt;Well, the truth is that Spurious Correlations are everywhere, you will find it in the news, websites, blog posts, etc. Many times, these correlations may even be used to share fake news.&lt;/p&gt;
 
-&lt;p&gt;So, what are you waiting for start googling up and find correlation between events that may amuse you and us!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Correlation is used to test the relationship between 2 or more variables. For instance, Weight and height are correlated. A taller person would tend to have more weight than a shorter person. However, this may not be always true. Hence, we use the Correlation coefficient, which measures as to how strong/ weak, the relation is between the variables. The range of correlation coefficient varies between (-1,1). The higher the correlation coefficient, the higher is the positive correlation between the variables and vice versa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Data Visualization in R using ggplot2 (PART 1)</title><link href="http://localhost:4000/blog/Data-Visualization-in-R-Part1/" rel="alternate" type="text/html" title="Data Visualization in R using ggplot2 (PART 1)" /><published>2020-06-16T00:00:00+05:30</published><updated>2020-06-16T00:00:00+05:30</updated><id>http://localhost:4000/blog/Data-Visualization-in-R-Part1</id><content type="html" xml:base="http://localhost:4000/blog/Data-Visualization-in-R-Part1/">&lt;p&gt;&lt;img src=&quot;/blog/Data Visualization in R Part1.jpg&quot; alt=&quot;Data Visualization&quot; /&gt;
-&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/1.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;s this image speaks for itself, we think this gives enough clarity about the elements, which are essential in making the plot. Before we proceed further, we’d like to tell that the first 3 layers are the essentials to making a plot.Otherwise, we’ll have nothing but an empty graph. Now, as the old saying goes “learn by doing”. We’ll jump on to GGPLOT, start from the basics and explore all layers.&lt;/p&gt;
-
-&lt;p&gt;Let’s Begin&lt;/p&gt;
-
-&lt;p&gt;As you know before starting anything we need to make sure we’ve installed the package and activated it in our library. Please note the code for installing and activating the package&lt;/p&gt;
-
-&lt;p&gt;Instal.package(“ggplot2”)&lt;/p&gt;
-
-&lt;p&gt;library(ggplot2)&lt;/p&gt;
-
-&lt;p&gt;As soon as the package is installed and the data set is imported, we will start working on the visualization part.&lt;/p&gt;
-
-&lt;p&gt;Please do follow the codes and practice them simultaneously on R for a thorough and complete understanding of these beautiful visualizations.&lt;/p&gt;
-
-&lt;p&gt;Dataset Link- https-//vincentarelbundock.github.io/Rdatasets/datasets.html&lt;/p&gt;
-
-&lt;p&gt;PLOT 1 - Blank Graph&lt;/p&gt;
-
-&lt;p&gt;The data taken here is life expectancy over the years in India since 1960.&lt;/p&gt;
-
-&lt;p&gt;Code - ggplot(data= life_expectancy, aes(x=expectancy, y = Years))
-&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot 1-blank graph.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As you can see, the plot is empty; this is because the minimum 3 elements i.e data, aesthetics, and geometries are not supplied in the code. The plot does contain data and aesthetics but before knowing what type of geometry is to be made, how can anything move forward?&lt;/p&gt;
-
-&lt;p&gt;PLOT 2  - Scatter Plot&lt;/p&gt;
-
-&lt;p&gt;Let’s make a simple point chart!&lt;/p&gt;
-
-&lt;p&gt;ggplot(data=x, aes(x=years, y=Expectancy) + geom_point
- Now that we’ve added geometry the plot is finally formed with a scatter plot.
-&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot2 scatter plot.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;MOVING FORWARD!&lt;/p&gt;
-
-&lt;p&gt;But why would anyone go through all the trouble of making a visualization as simple as this, which can even be made in Excel? So let us look at some things which cannot be done in Excel. The data set we have taken has 6 columns. It is a data set of different categories of diamond according to their price, cut, clarity and some other elements.&lt;/p&gt;
-
-&lt;p&gt;PLOT 3 -  Scatter Plot&lt;/p&gt;
-
-&lt;p&gt;Preview of the data can be taken by&lt;/p&gt;
-
-&lt;p&gt;Summary(diamonds)&lt;/p&gt;
-
-&lt;p&gt;ggplot(data = x, aes(x=carat,y=price)) + geom_point()
-&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot 3.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The plot is again a simple scatter plot with the relationship between price and carat. It can roughly be concluded that there exists a positive relationship between price and carat i.e as the carat increases price also increase. But again, this can also be done in excel, then why should we prefer R over excel? Let’s try to build over this only-&lt;/p&gt;
-
-&lt;p&gt;PLOT 4-  Adding Colors and Size&lt;/p&gt;
-
-&lt;p&gt;Now what If you want to work with more than 2 variables? let’s say we want to see the price, carat as well as the cut in each carat category and its price&lt;/p&gt;
-
-&lt;p&gt;Code - ggplot(data=diamond, aes(y=price,x=carat, color= cut)) + geom_point()&lt;/p&gt;
-
-&lt;p&gt;Now,we have Price of diamonds with each carat along with the cut, so the color signifies the quality of cut in each category and its price.So, now we have a strong reason for choosing R over excel when it comes to visualizing big data&lt;/p&gt;
-
-&lt;p&gt;Even 3 variables is not enough and we want to classify the data  on the basis of the size too.&lt;/p&gt;
-
-&lt;p&gt;Code - ggplot(data=diamond, aes(y=price,x=carat, color= cut,size=depth)) + geom_point()&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot4.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As you can see the size of the points is adjusted according to the depth. The description is given in the legend. However, the plot looks horrible and hardly any interpretation can be made from it. It is just to give you an idea of how elements can be used.&lt;/p&gt;
-
-&lt;p&gt;SIMPLIFYING CODING&lt;/p&gt;
-
-&lt;p&gt;PLOT 5 -  Scatter Plot&lt;/p&gt;
-
-&lt;p&gt;It gets tedious to add again and again the primitive part of the code and then to add layers when it is nothing but the same code?&lt;/p&gt;
-
-&lt;p&gt;So ,we will store the code in an object to save us from the labor work and make things easier.&lt;/p&gt;
-
-&lt;p&gt;Code - q &amp;lt;- ggplot(data=diamond, aes(y=price,x=carat, color= cut))&lt;/p&gt;
-
-&lt;p&gt;We have saved the code in ‘q’ we don’t need to do anything but build layers on top  of the basic structure&lt;/p&gt;
-
-&lt;p&gt;q + geom_point()&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot5.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It gave you the same result as plot 5 just with a lot of ease. You can develop a basic code store it an object just like we did and then explore your data set with convenience&lt;/p&gt;
-
-&lt;p&gt;OVERRIDING AESTHETICS&lt;/p&gt;
-
-&lt;p&gt;Now that we’ve stored our basic plot details such as data and aesthetics, what if we change our mind and now we want different variables in the x and y-axis. Don’t you think going back and changing the plot again and storing it would be a lot of work? If yes, then you can try a thing called overriding aesthetics, all you need to do is re-enter the new aesthetics in your geometry, which in our case is geom_point. This will override the previously entered aesthetics in our basic object i.e ‘q’ and give us a greater flexibility and encourage to explore even more. Let’s try it out!&lt;/p&gt;
-
-&lt;p&gt;Code - q + geom_point(aes(x= depth, y = price)) + xlab(“Depth”)&lt;/p&gt;
-
-&lt;p&gt;PLOT 6&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot6.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The object q already had a command of depicting the relationship between price and carat but the command in geom_point overrode the command present in the basic plot. Hence, we will display the relationship between depth and price. Now you must be wondering why we had to put a label on the x-axis. This is because one of the limitations of overriding aesthetics is that the label doesn’t get changed. Hence, in this case if it weren’t for me changing the label. The label would’ve been Price and Carat giving out a false representation of the data. This is why you have to be extremely careful while overriding aesthetics.&lt;/p&gt;
-
-&lt;p&gt;MAPPING VS  SETTING&lt;/p&gt;
-
-&lt;p&gt;Mapping is what we’ve been doing till now i.e assigning colorsto a level detail. That means colour here is signifying a bifurcation based on different characteristics of the data set. Plot 4 is a perfect representation of mapping. But what if we don’t want to add color to a level of detail, we just want to change the color from black to Red. That’s where the setting comes in. Assigning one color to the whole data set is called setting. Let’s try it out.&lt;/p&gt;
-
-&lt;p&gt;PLOT 7 - SETTING&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot7.png&quot; alt=&quot;Data Visualization&quot; /&gt;
-Code - q + ggplot(aes(x= depth, y = price), color= “Red”) + xlab(“Depth”)&lt;/p&gt;
-
-&lt;p&gt;This is what setting is, assigning a whole new color to the data set. Please note, while setting a color we don’t use a prefix of “aes”. Using aes will cause a misunderstanding and lead to an error. Hence, be cautious with that. We think we don’t need to present mapping as it has already been presented in the former part. We’ve explored the aesthetics enough, now let’s move to on exploring geometries.&lt;/p&gt;
-
-&lt;p&gt;PLOT 8 - Line Chart&lt;/p&gt;
-
-&lt;p&gt;How about we make a line plot instead of a scatter plot&lt;/p&gt;
-
-&lt;p&gt;Code - ggplot(data=diamond, aes(y= price,x=carat)) +  geom_smooth(fill=NA)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot8.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This chart is simply depicting the relationship with carat. However, this chart in itself is not that informative, so lets also add some more geometries in it.&lt;/p&gt;
-
-&lt;p&gt;PLOT 9 - Line Plot + Scatter plot&lt;/p&gt;
-
-&lt;p&gt;Code  - ggplot(data=diamond, aes(y= price,x=carat)) + geom_point() +  geom_smooth(fill=NA)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot9.png&quot; alt=&quot;Data Visualization&quot; /&gt;
-This looks better. But, still it can be misleading as carat is not only deciding factor of price and looking only on this relationship independently can be misleading&lt;/p&gt;
-
-&lt;p&gt;PLOT 10 - Mapping Clarity&lt;/p&gt;
-
-&lt;p&gt;To solve the problem let’s add variable  ‘clarity’ to our plot
-Code - ggplot(data=diamond, aes(y= price,x=carat,color=cut)) + geom_point() + geom_smooth(fill=NA)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Data Viz in R Part 1-20200902T032430Z-001/Data Viz in R Part 1/plot10.png&quot; alt=&quot;Data Visualization&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We believe this gives a better picture of the prices as the data depicts the prices according to carat as well as clarity
-So, we hope that you must have understood the concept of visualization using ggplot2 in R. Worry not, because we will be posting the second part soon covering even more insightful and amazing visualization techniques under ggplot2. Hit the like button, if you liked our post; and subscribe our blog to be connected to us, as many more wonderful topics are underway-)&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;So, what are you waiting for start googling up and find correlation between events that may amuse you and us!&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Correlation is used to test the relationship between 2 or more variables. For instance, Weight and height are correlated. A taller person would tend to have more weight than a shorter person. However, this may not be always true. Hence, we use the Correlation coefficient, which measures as to how strong/ weak, the relation is between the variables. The range of correlation coefficient varies between (-1,1). The higher the correlation coefficient, the higher is the positive correlation between the variables and vice versa.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
