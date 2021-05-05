@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-05T15:22:32+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">The Birthday Problem</title><link href="http://localhost:4000/blog/Birthday-Problem/" rel="alternate" type="text/html" title="The Birthday Problem" /><published>2021-05-05T00:00:00+05:30</published><updated>2021-05-05T00:00:00+05:30</updated><id>http://localhost:4000/blog/Birthday-Problem</id><content type="html" xml:base="http://localhost:4000/blog/Birthday-Problem/">&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(1).png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-05T17:54:23+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">The Birthday Problem</title><link href="http://localhost:4000/blog/Birthday-Problem/" rel="alternate" type="text/html" title="The Birthday Problem" /><published>2021-05-05T00:00:00+05:30</published><updated>2021-05-05T00:00:00+05:30</updated><id>http://localhost:4000/blog/Birthday-Problem</id><content type="html" xml:base="http://localhost:4000/blog/Birthday-Problem/">&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(1).png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Alternatively, how many people must be there in a room such that the probability of two people sharing the same birthday is pretty high, 50% to 90%? Quite intriguing questions, right? Think about the problem before reading further on. Assume that there are no twins in the room, the no. of days in the year is 365 (sorry people who have birthdays on 29th Feb) and the distribution of birthdays throughout the year is uniform (Actually it’s the worst case, the results will be even better in real-world scenarios because the birthdays are more closely distributed in the real-world than the ideal world of uniform distribution).&lt;/p&gt;
 
@@ -16,19 +16,19 @@
 
 &lt;p&gt;For the first person, there are no birthdays already reserved, which means that there is a 365/365 chance that there is not a shared birthday. That makes sense since we have only one person.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(2).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(2).PNG&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Adding a second person to the mix gives us an interesting result. The first person covers one possible birthday, so the second person has a 364/365 chance of not sharing the same day. To find the probability of no match, we’ll multiply the probabilities of the first two people and subtract from one to calculate the probability of them sharing the same birthday.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(3).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(3).PNG&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When the third person comes, the previous two people already cover two dates. So, the third person has a probability of 363/365 for not sharing a birthday.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(4).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(4).PNG&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The pattern for how to calculate the probability for a given number of people must be quite visible now, though no worries if you couldn’t figure it out. Here’s the general form of the equation:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(5).png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(5).PNG&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;By assessing the probabilities, the solution to the Birthday Problem is that you need a group of 23 people to have a 50.73% chance of people sharing a birthday! Most people expect the group to be considerably larger than that (what was you guess?). The chart also depicts that a group of 57 has a probability of 0.99. It’s practically a guarantee that in a group of 57 people, two will share a birthday.&lt;/p&gt;
 
