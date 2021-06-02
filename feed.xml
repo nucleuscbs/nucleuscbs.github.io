@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-02T19:30:20+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Fibonacci and The Golden Ratio</title><link href="http://localhost:4000/blog/Fibonacci/" rel="alternate" type="text/html" title="Fibonacci and The Golden Ratio" /><published>2021-06-02T00:00:00+05:30</published><updated>2021-06-02T00:00:00+05:30</updated><id>http://localhost:4000/blog/Fibonacci</id><content type="html" xml:base="http://localhost:4000/blog/Fibonacci/">&lt;p&gt;&lt;img src=&quot;/blog/Fibonacci/Cover.jpg&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-02T19:39:38+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Fibonacci and The Golden Ratio</title><link href="http://localhost:4000/blog/Fibonacci/" rel="alternate" type="text/html" title="Fibonacci and The Golden Ratio" /><published>2021-06-02T00:00:00+05:30</published><updated>2021-06-02T00:00:00+05:30</updated><id>http://localhost:4000/blog/Fibonacci</id><content type="html" xml:base="http://localhost:4000/blog/Fibonacci/">&lt;p&gt;&lt;img src=&quot;/blog/Fibonacci/Cover.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Maths can be fun, right? In this article we’ll be going through one of the more popular as well as enthralling concepts from the world of numbers: Fibonacci Numbers.&lt;/p&gt;
 
@@ -19,7 +19,7 @@
 &lt;p&gt;The appearance and applications of Fibonacci numbers and the Golden Ratio are plenty and baffling, ranging from nature and biology to algorithms and even the stock market. Here, we’ll discuss some of these intriguing aspects of the two.
 Fibonacci in Nature, Space and Biology&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/Fibonacci/3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Fibonacci/3.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Image Credit: theincredibletruths.com&lt;/p&gt;
 
@@ -29,7 +29,7 @@ Fibonacci in Nature, Space and Biology&lt;/p&gt;
 
 &lt;p&gt;Outer space also encompasses the Golden Ratio in many forms and methods, like the spiral of a galaxy. Or that the ratio of diameter of Saturn’s rings to the diameter of the planet itself is very close to the Golden Ratio.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/Fibonacci/4.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Fibonacci/4.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Image Credit: unimelb.edu.au&lt;/p&gt;
 
