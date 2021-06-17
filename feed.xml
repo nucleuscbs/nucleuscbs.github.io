@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-17T19:16:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Conjoint Analysis</title><link href="http://localhost:4000/blog/Conjoint-Analysis/" rel="alternate" type="text/html" title="Conjoint Analysis" /><published>2021-06-17T00:00:00+05:30</published><updated>2021-06-17T00:00:00+05:30</updated><id>http://localhost:4000/blog/Conjoint-Analysis</id><content type="html" xml:base="http://localhost:4000/blog/Conjoint-Analysis/">&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Conjoint.jpg&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-17T19:31:00+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Conjoint Analysis</title><link href="http://localhost:4000/blog/Conjoint-Analysis/" rel="alternate" type="text/html" title="Conjoint Analysis" /><published>2021-06-17T00:00:00+05:30</published><updated>2021-06-17T00:00:00+05:30</updated><id>http://localhost:4000/blog/Conjoint-Analysis</id><content type="html" xml:base="http://localhost:4000/blog/Conjoint-Analysis/">&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Conjoint.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Conjoint analysis is the optimal market research approach for measuring the value that consumers place in features of a product or service.
 It is used to determine the value consumers associate with different features of a product. In the real world, we make a lot of buying decisions and choose out of hundreds of varieties of a product available. These buying decisions are guided by the value we associate with various features of that product.
@@ -6,7 +6,7 @@ Conjoint analysis involves conducting surveys and recording their responses. The
 For example, if one go to buy a phone there are many factors one would like to consider. For simplicity let’s consider only 6 factors- price, screen size, looks, storage, battery and camera, which would impact our decision.
 Now we survey 100 consumers about what would they prefer the most among these 6 features. The following are the results:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Consumer_Pref.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Consumer_Pref.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now using this data, a particular company can manufacture products keeping in mind the consumer preferences. However, conjoint analysis is a complex phenomenon it also involves series of permutations and combinations to determine the results. Using the above results, we can see that Battery and Screen size are the least looked at aspects while buying a phone and camera and price the most noticed aspect. Therefore, the company can save cost using average quality and specifications of battery and screen size and invest them in a good quality camera and reduce the price.&lt;/p&gt;
 
@@ -19,7 +19,7 @@ Now we survey 100 consumers about what would they prefer the most among these 6 
 &lt;p&gt;This type of conjoint analysis is the most popular because it asks consumers to imitate the real market’s purchasing behavior - which products they might choose, given specific criteria on price and features.
 For example, each product or service has a specific set of defining characters. Some of these characters might be almost like one another or will differ. For example, you might present the respondents with the following choice:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Device.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Device.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The devices are almost similar, but device 2 has triple cameras with better configuration, and Device 1 has a higher battery power than Device 2. This helps in knowing the vital trade-off between the number of cameras and battery capacity based on analysis of received responses.&lt;/p&gt;
 
@@ -29,7 +29,7 @@ The adaptive conjoint analysis is a graded-pair comparison task, where the respo
 
 &lt;p&gt;For example, a respondent might be asked to choose between the following two concepts:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/ACA.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/ACA.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The answers are used to determine the respondent’s part-worths of each of the attribute levels.  Once part-worths have been determined, the respondent’s overall preference for a given product can be estimated by summing the part-worths of each attribute level that describes that product.&lt;/p&gt;
 &lt;h3&gt;Max-Diff Conjoint Analysis:&lt;/h3&gt;
@@ -38,7 +38,7 @@ Max-Diff conjoint analysis is an ideal method when the decision task is to evalu
 
 &lt;p&gt;Below is an example, involving a set of four attributes where the respondents can be asked to indicate the attributes that are the most/ least important to them:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/MaxDiff.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/MaxDiff.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Conclusion:&lt;/h3&gt;
 &lt;p&gt;In conclusion, Conjoint Analysis helps in discovering the relative importance of the attributes of a product to the consumers. It is a marketing tool that is gaining momentum and is being used by product developers all over the world.&lt;/p&gt;
