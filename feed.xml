@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-22T17:01:44+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Logistic Regression And Surviving The Titanic</title><link href="http://localhost:4000/blog/Logistic-Regression/" rel="alternate" type="text/html" title="Logistic Regression And Surviving The Titanic" /><published>2021-07-22T00:00:00+05:30</published><updated>2021-07-22T00:00:00+05:30</updated><id>http://localhost:4000/blog/Logistic-Regression</id><content type="html" xml:base="http://localhost:4000/blog/Logistic-Regression/">&lt;p&gt;Logistic Regression, or the Logit Model, is one of the fundamental blocks of statistics and machine learning. It is used when the dependent variable is categorical, and is the go to method for binary classification (two class values). For example, the probability of win/lose or pass/fail an exam. Most popular use of logistic regression today is in determining if an email is spam or not.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-22T17:11:47+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Logistic Regression And Surviving The Titanic</title><link href="http://localhost:4000/blog/Logistic-Regression/" rel="alternate" type="text/html" title="Logistic Regression And Surviving The Titanic" /><published>2021-07-22T00:00:00+05:30</published><updated>2021-07-22T00:00:00+05:30</updated><id>http://localhost:4000/blog/Logistic-Regression</id><content type="html" xml:base="http://localhost:4000/blog/Logistic-Regression/">&lt;p&gt;Logistic Regression, or the Logit Model, is one of the fundamental blocks of statistics and machine learning. It is used when the dependent variable is categorical, and is the go to method for binary classification (two class values). For example, the probability of win/lose or pass/fail an exam. Most popular use of logistic regression today is in determining if an email is spam or not.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic1.jpg&quot; /&gt;&lt;/p&gt;
 
@@ -12,14 +12,7 @@ Example of Logistic Regression&lt;/p&gt;
 
 &lt;p&gt;We can use an example to learn Logistic Regression better. Let’s say we have data that can be used to predict a person’s gender based on their height. Given a height of 150cm is the person male or female.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Let’s say that the coefficients are b0 = -100 and b1 = 0.6. The above equation can be utilized to predict if a person is male given a height of 150cm or more formally P(male&lt;/td&gt;
-      &lt;td&gt;height=150).&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Let’s say that the coefficients are b0 = -100 and b1 = 0.6. The above equation can be utilized to predict if a person is male given a height of 150cm.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;y = e^(b0 + b1&lt;em&gt;x) / (1 + e^(b0 + b1&lt;/em&gt;x))&lt;/b&gt;&lt;/p&gt;
 
@@ -62,9 +55,11 @@ Since, this is classification and we want a crisp answer, we can create bins for
 
 &lt;h3&gt;Importing the dataset, and understanding the data: &lt;/h3&gt;
 
-&lt;p&gt;import pandas as pd
-titanic = pd.read_csv(“train.csv”)
-titanic.shape&lt;/p&gt;
+&lt;p&gt;import pandas as pd&lt;/p&gt;
+
+&lt;p&gt;titanic = pd.read_csv(“train.csv”)&lt;/p&gt;
+
+&lt;p&gt;titanic.shape&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic5.jpg&quot; /&gt;
 &lt;img src=&quot;/blog/LogisticRegression/Logistic6.jpg&quot; /&gt;
