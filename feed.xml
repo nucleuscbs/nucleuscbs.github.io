@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-22T17:11:47+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Logistic Regression And Surviving The Titanic</title><link href="http://localhost:4000/blog/Logistic-Regression/" rel="alternate" type="text/html" title="Logistic Regression And Surviving The Titanic" /><published>2021-07-22T00:00:00+05:30</published><updated>2021-07-22T00:00:00+05:30</updated><id>http://localhost:4000/blog/Logistic-Regression</id><content type="html" xml:base="http://localhost:4000/blog/Logistic-Regression/">&lt;p&gt;Logistic Regression, or the Logit Model, is one of the fundamental blocks of statistics and machine learning. It is used when the dependent variable is categorical, and is the go to method for binary classification (two class values). For example, the probability of win/lose or pass/fail an exam. Most popular use of logistic regression today is in determining if an email is spam or not.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-05T16:25:30+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">The Turing Test</title><link href="http://localhost:4000/blog/Turing-Test/" rel="alternate" type="text/html" title="The Turing Test" /><published>2021-08-05T00:00:00+05:30</published><updated>2021-08-05T00:00:00+05:30</updated><id>http://localhost:4000/blog/Turing-Test</id><content type="html" xml:base="http://localhost:4000/blog/Turing-Test/">&lt;p&gt;&lt;img src=&quot;/blog/TuringTest/Turing1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;WHAT IS THE TURING TEST?&lt;/h2&gt;
+
+&lt;p&gt;The Turing Test (originally known as an Imitation Game) is a method of inquiry into artificial intelligence (AI) for determining whether a computer is capable of thinking like a human being or not. The test is named after its creator Alan Turing, an English Computer Scientist, Theoretical Biologist, Mathematician, and Cryptanalyst.&lt;/p&gt;
+
+&lt;p&gt;Turing proposed that a computer can be said to possess artificial intelligence if it can replicate human responses under particular conditions. The Original Turing Test involved three entities, each of which would be physically separated from the rest. One of the entities would be operated by a computer, while the other two would be operated by humans.&lt;/p&gt;
+
+&lt;p&gt;During the test, one human is an interrogator, while the second human and the computer function as respondents or answer terminals. The questioner asks questions from the respondents within a particular subject area with a similar format and context. After a pre-set duration (usually 5 minutes), or a particular number of questions, the questioner is then asked to differentiate the human and the computer out of the two.&lt;/p&gt;
+
+&lt;p&gt;The test is repeated a number of times. If the questioner cannot reliably differentiate between the conversation of the computer and human then the computer is considered to have passed the test because its answers are “just as human” as the human respondent.&lt;/p&gt;
+
+&lt;h2&gt;THE WORKING OF THE TURING TEST&lt;/h2&gt;
+
+&lt;p&gt;According to Turing, the main motive of the test is that a machine has to try and pretend to be a human, by answering questions put to it, and it will only pass if it is successful in convincing to be a human.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/TuringTest/Turing2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The humans were restricted from giving away any of the personal information during the tests.&lt;/p&gt;
+
+&lt;p&gt;In the tests conducted at the Royal Society in June 2014, there were six different sessions with five parallel imitation games at a time occurring during each session. A different judge was selected for each game, which meant there were five judges in each session. Each session had five rounds, with five parallel imitation games in each round. Each anonymous human was part of the five games in a session.  All five machines (the five different competition bots) took part, so every machine was involved in five games per session, hence 30 games in totality.&lt;/p&gt;
+
+&lt;p&gt;In a particular session, a judge conducted five different tests. In their first test, they noticed a hidden human pitted against a hidden machine&lt;/p&gt;
+
+&lt;p&gt;The second test conducted involved a different human against a different machine. And so on. It would continue until the judge had conducted all five tests in that session. At the end of each test, they were asked to tell each entity if they were able to differentiate between a machine and a human.&lt;/p&gt;
+
+&lt;h2&gt;RESULTS&lt;/h2&gt;
+
+&lt;p&gt;There were five machines involved in total in the tests and their success rates were:&lt;/p&gt;
+
+&lt;p&gt;●	Eugene Goostman 33%&lt;/p&gt;
+
+&lt;p&gt;●	Elbot 27%&lt;/p&gt;
+
+&lt;p&gt;●	J. Fred 20%&lt;/p&gt;
+
+&lt;p&gt;●	Ultra-Hal 13%&lt;/p&gt;
+
+&lt;p&gt;●	Clever Bot 7%&lt;/p&gt;
+
+&lt;p&gt;In each case, their success rate was in respect of judges identifying them as humans. Eugene Goostman was the program that was considered to have passed the test with a success rate of 33%.&lt;/p&gt;
+
+&lt;h2&gt;EUGENE GOOSTMAN&lt;/h2&gt;
+
+&lt;p&gt;Eugene Goostman is a chatbot programmed by three Russian programmers in Saint Petersburg in 2001. The program replicates a thirteen-year-old Ukrainian boy and is said to have been successful in passing the Turing test at an event organized by the University of Reading.&lt;/p&gt;
+
+&lt;p&gt;According to Vladimir Veselov, one of the creators of the program, the choice of the age of Eugene Goostman was taken as thirteen because a thirteen-year-old is “neither too old to know a lot nor too young to know nothing”. This young age also leads to people ignoring any minor grammatical errors that the program might end up making.
+The following is the transcript of a conversation between one of the Judges of the test, and two respondents, one of which is a human and the other is Eugene Goostman. We would like you to read both the transcripts and see whether you are able to distinguish between the human respondent and Eugene or not.&lt;/p&gt;
+
+&lt;h2&gt;TRANSCRIPT 1:&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; Good afternoon&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; Good afternoon!&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; How many left hands do you have?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; The same as right hands, and how about you?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; The same of course. I love the scent of new-mown hay. How do you feel about scent?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; I find it exciting and refreshing! Does it make you feel anything?
+Judge: Well it depends..Which smell do you really hate?&lt;/p&gt;
+
+&lt;h2&gt;TRANSCRIPT 2:&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; Hello&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; Hello, I’m really glad to have the chance to chat with you! My guinea pig Bill sends his regards too!&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; Is Bill a male or a female?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; Ask Bill personally, please.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; Well I’d rather talk to you. My name is Jane and I am female. How about you? What’s your gender?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; I’m a male. A “guy”, I’d say.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; Pleased to meet you. What’s the weather like where you are?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; Let’s get on with our conversation!&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; Don’t you like talking about the weather?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; All these talks about weather is a waste of time&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; What would you like to discuss?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; I don’t know … Better tell me more about yourself! Where do you come from, by the way? Could you tell me about the place where you live?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Judge:&lt;/b&gt; It’s a lovely place with two bedrooms and a great view over London. What can you see from your bedroom window?&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Respondent:&lt;/b&gt; I’ve never been to London, but I’d really love to visit it! To see their … their … (damn, what do they have …) Oh yes – their Big-Ben!&lt;/p&gt;
+
+&lt;p&gt;In this conversation, the respondent in Transcript 1 was a female human whereas the Respondent in Transcript 2 was the machine Eugene. The judge considered the respondent in Transcript 1 to be definitely a machine, awarding it only 20 out of 100 (a very poor score) for humanlike conversation. However, they marked the respondent in Transcript 2 i.e Eugene Goostman as unsure.&lt;/p&gt;
+
+&lt;h2&gt;ALTERNATIVES TO THE TURING TEST&lt;/h2&gt;
+&lt;p&gt;There were many alternatives to Turing Tests that were later developed. These alternatives include:&lt;/p&gt;
+
+&lt;p&gt;●	The Marcus Test – A test in which a program can watch a visual show and is then interrogated by being asked meaningful questions about the show’s content.&lt;/p&gt;
+
+&lt;p&gt;●	The Lovelace Test 2.0 – A test made to detect AI through its ability to create art.&lt;/p&gt;
+
+&lt;p&gt;●	Winograd Schema Challenge – A test that asks multiple-choice questions in a particular format.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Logistic Regression And Surviving The Titanic</title><link href="http://localhost:4000/blog/Logistic-Regression/" rel="alternate" type="text/html" title="Logistic Regression And Surviving The Titanic" /><published>2021-07-22T00:00:00+05:30</published><updated>2021-07-22T00:00:00+05:30</updated><id>http://localhost:4000/blog/Logistic-Regression</id><content type="html" xml:base="http://localhost:4000/blog/Logistic-Regression/">&lt;p&gt;Logistic Regression, or the Logit Model, is one of the fundamental blocks of statistics and machine learning. It is used when the dependent variable is categorical, and is the go to method for binary classification (two class values). For example, the probability of win/lose or pass/fail an exam. Most popular use of logistic regression today is in determining if an email is spam or not.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic1.jpg&quot; /&gt;&lt;/p&gt;
 
@@ -714,67 +817,4 @@ It’s important to check out behavioral intelligence resources that can help yo
 ● Focus on key behaviors that result in higher total customer value
 ● Use targeted customer segments (cohorts) to inform and launch campaigns
 ● Isolate and aim users at risk of churn ahead of time
-● Develop at-a-glance dashboards that can be shared with teams and executives&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Quantitative Forecasting</title><link href="http://localhost:4000/blog/Quantitative-Forecasting/" rel="alternate" type="text/html" title="Quantitative Forecasting" /><published>2021-04-14T00:00:00+05:30</published><updated>2021-04-14T00:00:00+05:30</updated><id>http://localhost:4000/blog/Quantitative-Forecasting</id><content type="html" xml:base="http://localhost:4000/blog/Quantitative-Forecasting/">&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/feature.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;What is Forecasting?&lt;/p&gt;
-
-&lt;p&gt;Forecasting in analytics carries the same meaning as in the English language i.e., predicting values and outcomes. As the term Quantitative suggests, we rely on mathematical data or numbers to forecast. And exactly how do we do that? What methods do we use? That’s the focus of this blog.&lt;/p&gt;
-
-&lt;p&gt;Before delving any deeper, let’s understand the importance of forecasting and why exactly do we need to understand the methods used for the same. Forecasting is valuable as it gives us the ability to make informed business decisions and develop data-driven strategies.&lt;/p&gt;
-
-&lt;p&gt;Forecasting quantitatively i.e., using data analysis to predict future trends, advances and changes helps us make calculated and prudent decisions. Most financial and operational decisions are made based on current market conditions and predictions on how the future looks, for which we naturally need to forecast. You can’t predict uncertainties, but forecasting helps you to be proactive rather than reactive when faced with dire situations.&lt;/p&gt;
-
-&lt;p&gt;The models we use to forecast outcomes quantitatively can be broadly classified into two categories:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Associative models
-Associative models are where we identify and analyze a causal relationship between the given variables. For that we require Pattern. A pattern between the outcome and the factors is what enables us to understand the model and extend it to predict the results for other data values.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Time series models
-So, what do we mean by a time series? Let’s just break it in simpler terms. It refers to any series that represents data in a chronological order. These models examine the past data patterns and predict the future outcomes based on underlying patterns which we identify in the given data.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;ASSOCIATIVE MODELS&lt;/p&gt;
-
-&lt;p&gt;Linear Regression is perhaps the most famous tool used for the same at the basic level. It basically identifies the pattern and states it in the form of a linear equation. Another thing it calculates is the P-Value, which is nothing but the coefficient of correlation between the dependent and independent variables.&lt;/p&gt;
-
-&lt;p&gt;As an example, let’s see if we can use a student’s reading capability to predict his acumen in mathematics. (Refer to the first 150 data entries in the dataset available at https://www.kaggle.com/spscientist/students-performance-in-exams).&lt;/p&gt;
-
-&lt;p&gt;First, we calculate the correlation (Multiple R) between reading score and the maths score, which comes out to be 0.867. This gives us the R-Squared as 0.751.&lt;/p&gt;
-
-&lt;p&gt;What R-Squared tells us is that how much of the variation seen in y-variable can be explained by the given x-variable. In this case, it is 0.751 i.e., around 75% of the variation in maths score can be explained by the variation in Reading score. Now this does not mean that the change is x-variable causes the change in y-variable. This has to do with the fact that correlation does not necessarily mean causality.&lt;/p&gt;
-
-&lt;p&gt;R-Squared as 0.751 is significant, which means that variables are linearly related to each other and the data is a good fit for linear regression. This can be visually seen in the following graph as the data points seem to neatly arrange themselves in a straight line (linear manner).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/3.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now that we have established that the relationship exists, let’s analyze the linear equation received through the regression analysis. This is the equation of the line of the best fit (see the previous graph):&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This means that an increase of 10 marks in reading score leads to an increase of around 9 marks in the math score. How do we interpret this? Logically, reading and mathematics are two polar opposite skills with seemingly no connection to each other. One possible explanation is that there might be a third factor (such as Parental Education level) which enables these students to be good at both the skills. This leaves the data open to further analysis.&lt;/p&gt;
-
-&lt;p&gt;One last factor we must take into account is the confidence we should have in the given results. It could be possible that the relationship we observed between the values was merely a coincidence. What is the chance that if we were to take some random values instead of the given dataset, we would get the same (or even stronger) relationship?&lt;/p&gt;
-
-&lt;p&gt;For that we turn to p-value. For the time being, we need not concern ourselves with its calculation. In this case the p-value is 1.42E-46, which is nearly zero. It means, that there is nearly 0% chance that we will be able to replicate the results by taking some random values. So, we can be confident of the relationship established by the regression analysis. Traditionally speaking, a p-value of less than 0.05 is a good indicator that the result established is not just a mere coincidence.&lt;/p&gt;
-
-&lt;p&gt;In Statistical Lingo, we have something called a Null Hypothesis, which generally means that result obtained is not special and is just a fluke. p-value is the evidence in the favour of Null Hypothesis. So higher the p-value, the less evidence we have in favour of the Null Hypothesis, and more confidence we have in the analysis.&lt;/p&gt;
-
-&lt;p&gt;But what if the data arranged itself into a shape other than a straight line? That’s when we turn to other more advanced forms of regressions viz: Polynomial Regression, Logistic Regression, among others. But again, this is a story for another time.&lt;/p&gt;
-
-&lt;p&gt;TIME SERIES MODELS&lt;/p&gt;
-
-&lt;p&gt;Perhaps the most famous example for a data set in this category is the stock price. A good way to predict the future prices is to analyze past trends.&lt;/p&gt;
-
-&lt;p&gt;For that, first, we must account for extreme short-term fluctuations by making the curve smoother to focus on the long-term trends. Moving Average does the same, as can be seen in the following chart.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Quantitative_Forecasting/1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In Moving Average, each data entry is equated to the average of previous N entries, where N is a natural number whose magnitude depends upon the level of smoothness required.&lt;/p&gt;
-
-&lt;p&gt;Once we have the smooth curve, we can then use other more complex and advanced analytic tools to predict the prices. We have various types of time series models and methods to choose from based on the intended future like trend projections, simple mean, and exponential smoothing among many.&lt;/p&gt;
-
-&lt;p&gt;But once again, that is a story for another time…&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+● Develop at-a-glance dashboards that can be shared with teams and executives&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
