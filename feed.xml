@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-19T18:02:20+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Gradient Descent</title><link href="http://localhost:4000/blog/Gradient-Descent/" rel="alternate" type="text/html" title="Gradient Descent" /><published>2021-08-19T00:00:00+05:30</published><updated>2021-08-19T00:00:00+05:30</updated><id>http://localhost:4000/blog/Gradient-Descent</id><content type="html" xml:base="http://localhost:4000/blog/Gradient-Descent/">&lt;p&gt;&lt;img src=&quot;/blog/GradientDescent/9.png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-09-02T16:12:55+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">An Introduction To The Confusion Matrix</title><link href="http://localhost:4000/blog/Confusion-Matrix/" rel="alternate" type="text/html" title="An Introduction To The Confusion Matrix" /><published>2021-09-02T00:00:00+05:30</published><updated>2021-09-02T00:00:00+05:30</updated><id>http://localhost:4000/blog/Confusion-Matrix</id><content type="html" xml:base="http://localhost:4000/blog/Confusion-Matrix/">&lt;p&gt;A confusion matrix is a table of four different combinations of actual and the predicted values and is an important step in calculating the recall, precision, and accuracy of the values, as well as AUC-ROC curves.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/ConfusionMatrix/1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;●	The target variable is binary, that is, either Positive or Negative&lt;/p&gt;
+
+&lt;p&gt;●	Actual values of the target variable are represented by the columns&lt;/p&gt;
+
+&lt;p&gt;●	Predicted values of the target variable are shown in the rows of the matrix&lt;/p&gt;
+
+&lt;p&gt;The matrix has been divided into four parts:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;True Positive&lt;/li&gt;
+  &lt;li&gt;True Negative&lt;/li&gt;
+  &lt;li&gt;False Positive&lt;/li&gt;
+  &lt;li&gt;False Negative&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;True Positive (TP) &lt;/h2&gt;
+
+&lt;p&gt;●	The predicted value matches the actual value&lt;/p&gt;
+
+&lt;p&gt;●	The actual outcome was positive and the classifier predicted positive too&lt;/p&gt;
+
+&lt;h2&gt;True Negative (TN) &lt;/h2&gt;
+
+&lt;p&gt;●	The predicted value matches the actual value&lt;/p&gt;
+
+&lt;p&gt;●	The actual outcome was negative and the model’s prediction was negative as well&lt;/p&gt;
+
+&lt;h2&gt;False Positive (FP) – Type 1 error&lt;/h2&gt;
+
+&lt;p&gt;●	The predicted value was falsely predicted&lt;/p&gt;
+
+&lt;p&gt;●	The model predicted a positive value but the actual value was negative&lt;/p&gt;
+
+&lt;p&gt;●	Also known as the Type 1 error&lt;/p&gt;
+
+&lt;h2&gt;False Negative (FN) – Type 2 error&lt;/h2&gt;
+
+&lt;p&gt;●	The predicted value was falsely predicted&lt;/p&gt;
+
+&lt;p&gt;●	The model predicted a positive value but the actual outcome was positive&lt;/p&gt;
+
+&lt;p&gt;●	Also known as the Type 2 error&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/ConfusionMatrix/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;How do we use the Matrix?&lt;/h2&gt;
+
+&lt;p&gt;The confusion matrix helps in determining values that explain the results of the classifier through certain metrics to improve our understanding of its performance. These are:&lt;/p&gt;
+
+&lt;h2&gt;Precision &lt;/h2&gt;
+&lt;p&gt;Precision is the ratio of correct positive predictions to the total of all positive outcomes.&lt;/p&gt;
+
+&lt;p&gt;It is also called Positive predictive value.&lt;/p&gt;
+
+&lt;p&gt;Precision = TP/(TP+FP)&lt;/p&gt;
+
+&lt;h2&gt;Recall&lt;/h2&gt;
+&lt;p&gt;Recall is the ratio of the correct positive results to the total positive predictions.&lt;/p&gt;
+
+&lt;p&gt;It is also called Sensitivity, Probability of Detection, True Positive Rate.&lt;/p&gt;
+
+&lt;p&gt;Recall= TP/(TP+FN)&lt;/p&gt;
+
+&lt;h2&gt;Accuracy&lt;/h2&gt;
+
+&lt;p&gt;Accuracy is defined as the ratio of correct predictions by the total predictions.&lt;/p&gt;
+
+&lt;p&gt;Accuracy = Correct Predictions/ Total Predictions&lt;/p&gt;
+
+&lt;p&gt;In a confusion matrix, it can be derived using:&lt;/p&gt;
+
+&lt;p&gt;Accuracy = (TP+TN)/(TP+TN+FP+FN)&lt;/p&gt;
+
+&lt;p&gt;Accuracy is a handy metric for evaluation when all the classes are of equal importance. But this might not be the case if we are predicting if a patient has a fatal diagnosis or not. Here, False Positives are acceptable, but False Negatives are not.&lt;/p&gt;
+
+&lt;h2&gt;ROC curve&lt;/h2&gt;
+
+&lt;p&gt;A ROC curve (receiver operating characteristic curve) graphs the performance of a classification model at all classification thresholds.
+(Using thresholds: Say, if you want to compute TPR and FPR for the threshold equal to 0.6, you apply the model to each example, get the score, and, if the score &amp;gt;=0.6, you predict the positive class; otherwise, the prediction is negative)&lt;/p&gt;
+
+&lt;p&gt;It plots 2 parameters:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;True positive rate&lt;/b&gt; (Recall)= TP/(TP+FN)&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;False Positive rate&lt;/b&gt;= FP/(FP+TN)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/ConfusionMatrix/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lowering the threshold predicts more items as positive, thus increasing both False Positives and True Positives in the outcome.&lt;/p&gt;
+
+&lt;h2&gt;AUC&lt;/h2&gt;
+
+&lt;p&gt;AUC stands for &lt;b&gt;Area under the ROC&lt;/b&gt; Curve. It provides an average measure of performance across all possible probability thresholds of the results.&lt;/p&gt;
+
+&lt;p&gt;The higher the area under the ROC curve (AUC), the better the model and the more efficient the classifier. A perfect model would have an area of 1. Usually, if your model is efficient, you obtain a good performance class by selecting the value of the threshold whose TPR tends to 1 while FPR inches closer to 0.&lt;/p&gt;
+
+&lt;h2&gt;An Example of the Confusion Matrix&lt;/h2&gt;
+
+&lt;p&gt;Suppose we have 165 patients being tested for Covid-19, and have gotten the following results from the tests:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/ConfusionMatrix/1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are the most important metrics that we derive from the matrix:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Accuracy:&lt;/b&gt; Overall, how often is the test correctly predicting the patient’s diagnosis?&lt;/p&gt;
+
+&lt;p&gt;(TP+TN)/Total = (100+50)/165 = &lt;b&gt;0.91&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Misclassification Rate:&lt;/b&gt; Overall, how often is it wrong?&lt;/p&gt;
+
+&lt;p&gt;(FP+FN)/total = (10+5)/165 = &lt;b&gt;0.09&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;It is also equal to (1-Accuracy), and is also known as the “Error Rate”.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;True Positive Rate:&lt;/b&gt; When it’s actually positive, how often does it predict positive?&lt;/p&gt;
+
+&lt;p&gt;TP/(TP+FP) = 100/105 = &lt;b&gt;0.95&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;We’ve discussed this earlier, also known as “Sensitivity” or “Recall”.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;False Positive Rate:&lt;/b&gt; When it’s actually negative, how often does the test predict positive?&lt;/p&gt;
+
+&lt;p&gt;FP/(TN+FN) = 10/60 = &lt;b&gt;0.17&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;True Negative Rate:&lt;/b&gt; When it’s actually negative, how often does it give a negative outcome?&lt;/p&gt;
+
+&lt;p&gt;TN/(TN+FP) = 50/60 = &lt;b&gt;0.83&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;True Negative Rate is equal to (1-False Positive Rate), and is called “Specificity”.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Precision:&lt;/b&gt; When the outcome is positive, how often is it correct?&lt;/p&gt;
+
+&lt;p&gt;TP/predicted yes = 100/110 = &lt;b&gt;0.91&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Prevalence:&lt;/b&gt; How often does the test predict positive?&lt;/p&gt;
+
+&lt;p&gt;TP+FN/Total = 105/165 = &lt;b&gt;0.64&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;These metrics help us in understanding the results better as well as the efficiency of the classification.&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The Confusion Matrix and the metrics derived from it are really helpful in analyzing the data as well as the algorithm used for classification, like the following.&lt;/p&gt;
+
+&lt;p&gt;●	ROCs define the trade-off between the TPR and FPR for a predictive model using different probability thresholds.&lt;/p&gt;
+
+&lt;p&gt;●	Precision-Recall curves summarize the trade-off between the TPR and the positive prediction efficiency for a  model using different probability thresholds.&lt;/p&gt;
+
+&lt;p&gt;●	ROCs are suitable when the observations are balanced between each class, whereas precision-recall curves are more suitable when the data is imbalanced.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">A confusion matrix is a table of four different combinations of actual and the predicted values and is an important step in calculating the recall, precision, and accuracy of the values, as well as AUC-ROC curves.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Gradient Descent</title><link href="http://localhost:4000/blog/Gradient-Descent/" rel="alternate" type="text/html" title="Gradient Descent" /><published>2021-08-19T00:00:00+05:30</published><updated>2021-08-19T00:00:00+05:30</updated><id>http://localhost:4000/blog/Gradient-Descent</id><content type="html" xml:base="http://localhost:4000/blog/Gradient-Descent/">&lt;p&gt;&lt;img src=&quot;/blog/GradientDescent/9.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Introduction&lt;/h2&gt;
 
@@ -767,56 +918,4 @@ Points to be kept in mind:&lt;/p&gt;
 
 &lt;p&gt;An integral way to use backtesting, to reduce the adverse effect of the limitations&lt;/p&gt;
 
-&lt;p&gt;The best way to get started on trading a new strategy is to keep the leverage minimum and the possible losses under control. After all, losing is inevitable in trading, and losing an affordable amount of money in testing a new strategy may be the best way to go as it can be a vital part of the learning and tweaking process.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">The Birthday Problem</title><link href="http://localhost:4000/blog/Birthday-Problem/" rel="alternate" type="text/html" title="The Birthday Problem" /><published>2021-05-05T00:00:00+05:30</published><updated>2021-05-05T00:00:00+05:30</updated><id>http://localhost:4000/blog/Birthday-Problem</id><content type="html" xml:base="http://localhost:4000/blog/Birthday-Problem/">&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(1).png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Alternatively, how many people must be there in a room such that the probability of two people sharing the same birthday is pretty high, 50% to 90%? Quite intriguing questions, right? Think about the problem before reading further on. Assume that there are no twins in the room, the no. of days in the year is 365 (sorry people who have birthdays on 29th Feb) and the distribution of birthdays throughout the year is uniform (Actually it’s the worst case, the results will be even better in real-world scenarios because the birthdays are more closely distributed in the real-world than the ideal world of uniform distribution).&lt;/p&gt;
-
-&lt;p&gt;The Math&lt;/p&gt;
-
-&lt;p&gt;Let’s turn to math for an answer because our intuition can be wrong (wasn’t yours?) but math can’t be wrong. We as humans are a bit selfish (weren’t you thinking about your birthday matching with someone else, rather than any two people having the same birthday). Combinatorics tells us that there are nC2 pairs possible when we take any 2 people from the total of n people in the room.&lt;/p&gt;
-
-&lt;p&gt;For these calculations, we’ll make a few assumptions. First, we’ll disregard leap years. It simplifies the math without having too great an effect on the results. Second, we assume that birthdays are uniformly distributed throughout the year and have an equal probability of occurring (However, that is not usually the case. Studies have shown that more people are born in the first half of the year in India than the second, especially from April to June). Taking uniform distribution gives a truer mathematical approximation as the probability of two people sharing the same birthday is the least in case of uniform distribution.&lt;/p&gt;
-
-&lt;p&gt;We’ll start with one person, and then add people in one at a time to illustrate how the calculations work. It is simpler to find the probability that no one shares a birthday. We’ll then take that probability and subtract it from one to derive the probability that at least two people share a birthday because these two are complements of each other.&lt;/p&gt;
-
-&lt;p&gt;Using, P(A) = 1 - P(A’),&lt;/p&gt;
-
-&lt;p&gt;Probability of at least one same birthday = 1 – Probability of no same birthday&lt;/p&gt;
-
-&lt;p&gt;For the first person, there are no birthdays already reserved, which means that there is a 365/365 chance that there is not a shared birthday. That makes sense since we have only one person.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(2).PNG&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Adding a second person to the mix gives us an interesting result. The first person covers one possible birthday, so the second person has a 364/365 chance of not sharing the same day. To find the probability of no match, we’ll multiply the probabilities of the first two people and subtract from one to calculate the probability of them sharing the same birthday.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(3).PNG&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;When the third person comes, the previous two people already cover two dates. So, the third person has a probability of 363/365 for not sharing a birthday.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(4).PNG&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The pattern for how to calculate the probability for a given number of people must be quite visible now, though no worries if you couldn’t figure it out. Here’s the general form of the equation:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(5).PNG&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;By assessing the probabilities, the solution to the Birthday Problem is that you need a group of 23 people to have a 50.73% chance of people sharing a birthday! Most people expect the group to be considerably larger than that (what was you guess?). The chart also depicts that a group of 57 has a probability of 0.99. It’s practically a guarantee that in a group of 57 people, two will share a birthday.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/BirthdayProblem/BirthdayProblem%20(6).png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Credit: statisticsbyjim.com)&lt;/p&gt;
-
-&lt;p&gt;Explaining the small size of the group.&lt;/p&gt;
-
-&lt;p&gt;People consider the answer to the Birthday Problem difficult to believe: How can it be so small? However, the answer is correct, proven by probability and statistics. When thinking of the problem, people usually consider themselves. However, it could be any two people in the group. If we pair each person with another, this leads to the formation of a large number of pairs and therefore increases the possibility of the twin-birthday pair. The number of different pairs or unique combinations formed for 23 people (probability of 0.5) is 253.&lt;/p&gt;
-
-&lt;p&gt;=&amp;gt; nC2 = 23C2 = 253&lt;/p&gt;
-
-&lt;p&gt;As seen earlier, each pair’s probability of sharing a birthday is 0.0027, but for 253 pairs that number changes drastically.&lt;/p&gt;
-
-&lt;p&gt;Similarly, when there are 57 people when the probability is ~1, you have 1596 pairs. Now, we would find it absurd if none of the pairs share a birthday.&lt;/p&gt;
-
-&lt;p&gt;=&amp;gt; nC2 = 57C2 = 1596&lt;/p&gt;
-
-&lt;p&gt;Conclusion&lt;/p&gt;
-
-&lt;p&gt;We conclude that intuition doesn’t work in such problems because we humans are pretty bad at visualizing nonlinear functions and grossly underestimate the number of pairs formed from n number of people. Mathematics and statistics hence come to our rescue and prove to be pretty useful in such situations. So next time whenever you are in a room with 50 people make sure to find your birthday match.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;The best way to get started on trading a new strategy is to keep the leverage minimum and the possible losses under control. After all, losing is inevitable in trading, and losing an affordable amount of money in testing a new strategy may be the best way to go as it can be a vital part of the learning and tweaking process.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
