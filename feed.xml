@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-11T17:00:21+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Cool Python Libraries</title><link href="http://localhost:4000/blog/Cool-Python-Libraries/" rel="alternate" type="text/html" title="Cool Python Libraries" /><published>2021-11-01T00:00:00+05:30</published><updated>2021-11-01T00:00:00+05:30</updated><id>http://localhost:4000/blog/Cool-Python-Libraries</id><content type="html" xml:base="http://localhost:4000/blog/Cool-Python-Libraries/">&lt;p&gt;&lt;img src=&quot;/blog/Cool-Python-Libraries/1.png&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-11T17:15:38+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Cool Python Libraries</title><link href="http://localhost:4000/blog/Cool-Python-Libraries/" rel="alternate" type="text/html" title="Cool Python Libraries" /><published>2021-11-11T00:00:00+05:30</published><updated>2021-11-11T00:00:00+05:30</updated><id>http://localhost:4000/blog/Cool-Python-Libraries</id><content type="html" xml:base="http://localhost:4000/blog/Cool-Python-Libraries/">&lt;p&gt;&lt;img src=&quot;/blog/Python-Libraries/1.png&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;Features of Python&lt;/h3&gt;
 
 &lt;p&gt;&lt;b&gt;1) Portable:&lt;/b&gt; Python can run on a wide variety of platforms i.e. you can write your script locally on your system and distribute it to other machines with the help of an interpreter.&lt;/p&gt;
@@ -19,12 +19,12 @@ Use the following command in terminal:&lt;/p&gt;
 &lt;p&gt;To upgrade to the latest packages of emojis, use the following command:&lt;/p&gt;
 
 &lt;p&gt;pip install emoji –upgrade
-&lt;img src=&quot;/blog/Cool-Python-Libraries/2.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use the emoji cheat sheet to find your favorite emoji.&lt;/p&gt;
 
 &lt;p&gt;encode() function can also be used from emojis module to convert unicode to emojis
-&lt;img src=&quot;/blog/Cool-Python-Libraries/3.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/3.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;2. Wikipedia&lt;/h3&gt;
 
@@ -32,7 +32,7 @@ Use the following command in terminal:&lt;/p&gt;
 Install it as:&lt;/p&gt;
 
 &lt;p&gt;pip install wikipedia
-&lt;img src=&quot;/blog/Cool-Python-Libraries/4.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/4.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;3. Antigravity&lt;/h3&gt;
 
@@ -46,7 +46,7 @@ Install it with:&lt;/p&gt;
 &lt;p&gt;This opens up a page in your web browser which contains a comical abstract of Python. Woah!!&lt;/p&gt;
 
 &lt;p&gt;This can be done as follows:
-&lt;img src=&quot;/blog/Cool-Python-Libraries/5.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/5.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;4. Urllib&lt;/h3&gt;
 
@@ -61,27 +61,27 @@ Install it with:&lt;/p&gt;
 &lt;p&gt;● urllib.robotparser for parsing robot.txt files&lt;/p&gt;
 
 &lt;p&gt;You can also see the coding of the website by using read() function:,,
-&lt;img src=&quot;/blog/Cool-Python-Libraries/6.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/6.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;5. Turtle&lt;/h3&gt;
 
 &lt;p&gt;So in python, a turtle can be imported but don’t worry it’s not slow. Turtle is a Python library that is used to draw. It has various applications. This library is built-in with Python so we  need not install it.
-&lt;img src=&quot;/blog/Cool-Python-Libraries/7.png&quot; /&gt;
-&lt;img src=&quot;/blog/Cool-Python-Libraries/8.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/7.png&quot; /&gt;
+&lt;img src=&quot;/blog/Python-Libraries/8.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;6. Gramformer&lt;/h3&gt;
 
 &lt;p&gt;Yet another impressive and interesting module is Gramformer, which  is based on generative models helping us to correct the grammar in the sentences. This library has three tools which have a detector,0 a highlighter, and a corrector. The detector identifies if the text has incorrect grammar or not. The highlighter marks the faulty parts of speech and the corrector fixes the errors. One limitation of Gramformer is that it isn’t suitable for long paragraphs as it works only at a sentence level and has a limit for 64 length sentences.&lt;/p&gt;
 
 &lt;p&gt;Installation and instantiatiation of  Gramformer
-&lt;img src=&quot;/blog/Cool-Python-Libraries/9.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/9.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An example that can demonstrate the above process is giving sample text for correction under gf.correct
-&lt;img src=&quot;/blog/Cool-Python-Libraries/10.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/10.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;From the above output, we can see it corrects grammar and even spelling mistakes. 
-&lt;img src=&quot;/blog/Cool-Python-Libraries/11.png&quot; /&gt;
-&lt;img src=&quot;/blog/Cool-Python-Libraries/12.png&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/blog/Python-Libraries/11.png&quot; /&gt;
+&lt;img src=&quot;/blog/Python-Libraries/12.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 
