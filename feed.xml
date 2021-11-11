@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-10-29T17:08:14+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Getting Started with Support Vector Machine</title><link href="http://localhost:4000/blog/Support-Vector-Machine/" rel="alternate" type="text/html" title="Getting Started with Support Vector Machine" /><published>2021-10-29T00:00:00+05:30</published><updated>2021-10-29T00:00:00+05:30</updated><id>http://localhost:4000/blog/Support-Vector-Machine</id><content type="html" xml:base="http://localhost:4000/blog/Support-Vector-Machine/">&lt;p&gt;Every individual interested in data analysis and data science usually goes through a stage, where they are astonished by the staggering vastness of the field. The plethora of tools and methods, algorithms and concepts overwhelms us as we move on from the typical methods of analysis and predictions. At The Analytics Bay we try to break down new concepts for easier understanding, and in this article we focus on Support Vector Machine which is commonly known as SVM.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-11T17:00:21+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Cool Python Libraries</title><link href="http://localhost:4000/blog/Cool-Python-Libraries/" rel="alternate" type="text/html" title="Cool Python Libraries" /><published>2021-11-01T00:00:00+05:30</published><updated>2021-11-01T00:00:00+05:30</updated><id>http://localhost:4000/blog/Cool-Python-Libraries</id><content type="html" xml:base="http://localhost:4000/blog/Cool-Python-Libraries/">&lt;p&gt;&lt;img src=&quot;/blog/Cool-Python-Libraries/1.png&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;Features of Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;b&gt;1) Portable:&lt;/b&gt; Python can run on a wide variety of platforms i.e. you can write your script locally on your system and distribute it to other machines with the help of an interpreter.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;2) Scalable:&lt;/b&gt; Python is scalable, that is, it can be  implemented for complex tasks, that includes compiling large amounts of data and executing ML algorithms.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;3) Databases:&lt;/b&gt; Python maintains a different list of databases like SQLite, Oracle, MySQL, PostgreSQL,etc.&lt;/p&gt;
+
+&lt;p&gt;There are some interesting libraries in Python. In this article, some of them are discussed which will come in handy no matter if you are a beginner or a professional.&lt;/p&gt;
+
+&lt;h3&gt;1. Emoji&lt;/h3&gt;
+
+&lt;p&gt;Emojis have become a fancy way of expression that can enhance and comprehend the mood of simple boring texts. Now, the same can be used in Python programs too. Yes, really! You now have a magic code to use emojis in python. For this, emoji module needs to be installed.
+Use the following command in terminal:&lt;/p&gt;
+
+&lt;p&gt;pip install emoji&lt;/p&gt;
+
+&lt;p&gt;To upgrade to the latest packages of emojis, use the following command:&lt;/p&gt;
+
+&lt;p&gt;pip install emoji –upgrade
+&lt;img src=&quot;/blog/Cool-Python-Libraries/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use the emoji cheat sheet to find your favorite emoji.&lt;/p&gt;
+
+&lt;p&gt;encode() function can also be used from emojis module to convert unicode to emojis
+&lt;img src=&quot;/blog/Cool-Python-Libraries/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;2. Wikipedia&lt;/h3&gt;
+
+&lt;p&gt;With this module, we can now import the entire Wikipedia! Yes, We can now import Wikipedia in Python using the Wikipedia module. 
+Install it as:&lt;/p&gt;
+
+&lt;p&gt;pip install wikipedia
+&lt;img src=&quot;/blog/Cool-Python-Libraries/4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;3. Antigravity&lt;/h3&gt;
+
+&lt;p&gt;It’s basically used in Google App Engines. It was added to Google App Engines just as a source to amuse and entertain the users.
+Install it with:&lt;/p&gt;
+
+&lt;p&gt;pip install antigravity&lt;/p&gt;
+
+&lt;p&gt;import antigravity&lt;/p&gt;
+
+&lt;p&gt;This opens up a page in your web browser which contains a comical abstract of Python. Woah!!&lt;/p&gt;
+
+&lt;p&gt;This can be done as follows:
+&lt;img src=&quot;/blog/Cool-Python-Libraries/5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;4. Urllib&lt;/h3&gt;
+
+&lt;p&gt;Urllib library is the URL (Uniform Resource Locators) handling library for python that is useful in fetching URLs using a variety of different protocols. For this, it makes use of urlopen function. Urllib is a package that collects several libraries for working with URLs, such as:&lt;/p&gt;
+
+&lt;p&gt;● urllib.request for opening and reading.&lt;/p&gt;
+
+&lt;p&gt;● urllib.parse for parsing URLs&lt;/p&gt;
+
+&lt;p&gt;● urllib.error for the exceptions raised&lt;/p&gt;
+
+&lt;p&gt;● urllib.robotparser for parsing robot.txt files&lt;/p&gt;
+
+&lt;p&gt;You can also see the coding of the website by using read() function:,,
+&lt;img src=&quot;/blog/Cool-Python-Libraries/6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;5. Turtle&lt;/h3&gt;
+
+&lt;p&gt;So in python, a turtle can be imported but don’t worry it’s not slow. Turtle is a Python library that is used to draw. It has various applications. This library is built-in with Python so we  need not install it.
+&lt;img src=&quot;/blog/Cool-Python-Libraries/7.png&quot; /&gt;
+&lt;img src=&quot;/blog/Cool-Python-Libraries/8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;6. Gramformer&lt;/h3&gt;
+
+&lt;p&gt;Yet another impressive and interesting module is Gramformer, which  is based on generative models helping us to correct the grammar in the sentences. This library has three tools which have a detector,0 a highlighter, and a corrector. The detector identifies if the text has incorrect grammar or not. The highlighter marks the faulty parts of speech and the corrector fixes the errors. One limitation of Gramformer is that it isn’t suitable for long paragraphs as it works only at a sentence level and has a limit for 64 length sentences.&lt;/p&gt;
+
+&lt;p&gt;Installation and instantiatiation of  Gramformer
+&lt;img src=&quot;/blog/Cool-Python-Libraries/9.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An example that can demonstrate the above process is giving sample text for correction under gf.correct
+&lt;img src=&quot;/blog/Cool-Python-Libraries/10.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the above output, we can see it corrects grammar and even spelling mistakes. 
+&lt;img src=&quot;/blog/Cool-Python-Libraries/11.png&quot; /&gt;
+&lt;img src=&quot;/blog/Cool-Python-Libraries/12.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;This article covers all the cool Python libraries and is extremely helpful in making complex projects. These libraries are easy to use and install. They even offer a variety of modules and libraries by which coding becomes extremely easy. Thus, Python offers an advantage to access these libraries with utmost ease and make the coding fun learning and seamless.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Features of Python</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Getting Started with Support Vector Machine</title><link href="http://localhost:4000/blog/Support-Vector-Machine/" rel="alternate" type="text/html" title="Getting Started with Support Vector Machine" /><published>2021-10-29T00:00:00+05:30</published><updated>2021-10-29T00:00:00+05:30</updated><id>http://localhost:4000/blog/Support-Vector-Machine</id><content type="html" xml:base="http://localhost:4000/blog/Support-Vector-Machine/">&lt;p&gt;Every individual interested in data analysis and data science usually goes through a stage, where they are astonished by the staggering vastness of the field. The plethora of tools and methods, algorithms and concepts overwhelms us as we move on from the typical methods of analysis and predictions. At The Analytics Bay we try to break down new concepts for easier understanding, and in this article we focus on Support Vector Machine which is commonly known as SVM.&lt;/p&gt;
 
 &lt;p&gt;A very popular analogy to understand the difference between SVM and other models using Regression is: Regression is a sword which is used bluntly and is applicable for large but simpler data. SVM is a carefully crafted knife and provides precision in predictions that other algorithms cannot. SVM is built to work on smaller, but highly complex data used in the creation of stronger, more efficient models.&lt;/p&gt;
 
@@ -671,49 +758,4 @@ One thing to keep in mind is that this is a basic formula where we only have two
 
 &lt;h2&gt;CONCLUSION&lt;/h2&gt;
 
-&lt;p&gt;Hope you got to know something about Linear Discriminant Analysis. It helps one separate different classes of objects, things, people, etc. based on their differentiators by reducing them. This can also be done by Principal Component Analysis covered by us &lt;a href=&quot;https://theanalyticsbay.com/blog/Principal-Component-Analysis/&quot; style=&quot;color:#a0f1ff&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt;, but Linear Discriminant Analysis focuses on maximum separability of the objects to be classified and hence is more accurate.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Conjoint Analysis</title><link href="http://localhost:4000/blog/Conjoint-Analysis/" rel="alternate" type="text/html" title="Conjoint Analysis" /><published>2021-06-17T00:00:00+05:30</published><updated>2021-06-17T00:00:00+05:30</updated><id>http://localhost:4000/blog/Conjoint-Analysis</id><content type="html" xml:base="http://localhost:4000/blog/Conjoint-Analysis/">&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Conjoint.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Conjoint analysis is the optimal market research approach for measuring the value that consumers place in features of a product or service.
-It is used to determine the value consumers associate with different features of a product. In the real world, we make a lot of buying decisions and choose out of hundreds of varieties of a product available. These buying decisions are guided by the value we associate with various features of that product.
-Conjoint analysis involves conducting surveys and recording their responses. These surveys should include various characteristics of a particular product. It may also involve associating numeric values or rankings to various features of the product. The analysis of the responses gives us the ability to peek into the mind of the target audience and see what they value the most. The information gathered acts as a decision-maker.
-For example, if one go to buy a phone there are many factors one would like to consider. For simplicity let’s consider only 6 factors- price, screen size, looks, storage, battery and camera, which would impact our decision.
-Now we survey 100 consumers about what would they prefer the most among these 6 features. The following are the results:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Consumer_Pref.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now using this data, a particular company can manufacture products keeping in mind the consumer preferences. However, conjoint analysis is a complex phenomenon it also involves series of permutations and combinations to determine the results. Using the above results, we can see that Battery and Screen size are the least looked at aspects while buying a phone and camera and price the most noticed aspect. Therefore, the company can save cost using average quality and specifications of battery and screen size and invest them in a good quality camera and reduce the price.&lt;/p&gt;
-
-&lt;h3&gt;Types of Conjoint Analysis&lt;/h3&gt;
-
-&lt;p&gt;There are three main types of conjoint analysis: Choice-based Conjoint (CBC) Analysis and Adaptive Conjoint Analysis (ACA) and Maxdiff Conjoint Analysis&lt;/p&gt;
-
-&lt;h3&gt;Choice-based Conjoint (CBC) Analysis:&lt;/h3&gt;
-
-&lt;p&gt;This type of conjoint analysis is the most popular because it asks consumers to imitate the real market’s purchasing behavior - which products they might choose, given specific criteria on price and features.
-For example, each product or service has a specific set of defining characters. Some of these characters might be almost like one another or will differ. For example, you might present the respondents with the following choice:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/Device.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The devices are almost similar, but device 2 has triple cameras with better configuration, and Device 1 has a higher battery power than Device 2. This helps in knowing the vital trade-off between the number of cameras and battery capacity based on analysis of received responses.&lt;/p&gt;
-
-&lt;h3&gt;Adaptive conjoint analysis (ACA):&lt;/h3&gt;
-&lt;p&gt;This type of conjoint analysis is often used in scenarios where the number of attributes/features exceeds what can be done in a choice-based scenario. ACA is suitable for product design and segmentation research, but not for determining the ideal price.
-The adaptive conjoint analysis is a graded-pair comparison task, where the respondents are asked to assess their relative preferences between groups of attributes.  Each pair is evaluated thereafter on a predefined scale.&lt;/p&gt;
-
-&lt;p&gt;For example, a respondent might be asked to choose between the following two concepts:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/ACA.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The answers are used to determine the respondent’s part-worths of each of the attribute levels.  Once part-worths have been determined, the respondent’s overall preference for a given product can be estimated by summing the part-worths of each attribute level that describes that product.&lt;/p&gt;
-&lt;h3&gt;Max-Diff Conjoint Analysis:&lt;/h3&gt;
-&lt;p&gt;The max-Diff conjoint analysis shows a variety of packages to be selected under best/most preferred and worst/least preferred scenarios. Respondents can quickly indicate the best and worst items in a list, but struggle to decipher their feelings for the ‘middle ground’. Max-Diff is an easier task to undertake when consumers are well trained at making comparative judgments.
-Max-Diff conjoint analysis is an ideal method when the decision task is to evaluate product choice. An experimental design is used to balance and properly represent the sets of items. Several methods can be taken with analyzing Max-Diff studies, including Hierarchical Bayes conjoint analysis to derive utility score estimates, best/worst counting analysis, and TURF analysis.&lt;/p&gt;
-
-&lt;p&gt;Below is an example, involving a set of four attributes where the respondents can be asked to indicate the attributes that are the most/ least important to them:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/Conjoint%20Analysis/MaxDiff.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Conclusion:&lt;/h3&gt;
-&lt;p&gt;In conclusion, Conjoint Analysis helps in discovering the relative importance of the attributes of a product to the consumers. It is a marketing tool that is gaining momentum and is being used by product developers all over the world.&lt;/p&gt;
-
-&lt;p&gt;Hopefully, this blog has enlightened about Conjoint Analysis and it’s different types.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Conjoint analysis is the optimal market research approach for measuring the value that consumers place in features of a product or service. It is used to determine the value consumers associate with different features of a product. In the real world, we make a lot of buying decisions and choose out of hundreds of varieties of a product available. These buying decisions are guided by the value we associate with various features of that product. Conjoint analysis involves conducting surveys and recording their responses. These surveys should include various characteristics of a particular product. It may also involve associating numeric values or rankings to various features of the product. The analysis of the responses gives us the ability to peek into the mind of the target audience and see what they value the most. The information gathered acts as a decision-maker. For example, if one go to buy a phone there are many factors one would like to consider. For simplicity let’s consider only 6 factors- price, screen size, looks, storage, battery and camera, which would impact our decision. Now we survey 100 consumers about what would they prefer the most among these 6 features. The following are the results:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Hope you got to know something about Linear Discriminant Analysis. It helps one separate different classes of objects, things, people, etc. based on their differentiators by reducing them. This can also be done by Principal Component Analysis covered by us &lt;a href=&quot;https://theanalyticsbay.com/blog/Principal-Component-Analysis/&quot; style=&quot;color:#a0f1ff&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt;, but Linear Discriminant Analysis focuses on maximum separability of the objects to be classified and hence is more accurate.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
