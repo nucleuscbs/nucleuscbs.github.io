@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-11-29T16:44:55+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Ethics in Data Science</title><link href="http://localhost:4000/blog/Ethics-in-Data-Science/" rel="alternate" type="text/html" title="Ethics in Data Science" /><published>2021-11-29T00:00:00+05:30</published><updated>2021-11-29T00:00:00+05:30</updated><id>http://localhost:4000/blog/Ethics-in-Data-Science</id><content type="html" xml:base="http://localhost:4000/blog/Ethics-in-Data-Science/">&lt;p&gt;&lt;img src=&quot;/blog/EthicsDS.jpg&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-10T16:51:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Analytics Bay</title><subtitle>Always Analyzing</subtitle><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><entry><title type="html">Benford’s Law</title><link href="http://localhost:4000/blog/Benfords-Law/" rel="alternate" type="text/html" title="Benford’s Law" /><published>2021-12-10T00:00:00+05:30</published><updated>2021-12-10T00:00:00+05:30</updated><id>http://localhost:4000/blog/Benfords-Law</id><content type="html" xml:base="http://localhost:4000/blog/Benfords-Law/">&lt;p&gt;&lt;img src=&quot;/blog/BenfordsLaw/Cover.jpeg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Benford law states that the numbers occurring in any dataset follow a distribution where number “1” has a frequency to occur the maximum number of times, number “2” the second-highest frequency, and so on. This law also holds true for the prediction of 2 and 3-digit numbers in a dataset.
+A general distribution of numbers occurring in a dataset is shown below:
+&lt;img src=&quot;/blog/BenfordsLaw/1.png&quot; /&gt;
+&lt;img src=&quot;/blog/BenfordsLaw/2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is believed that a large fluctuation of your dataset from these calculated values points towards data manipulation and other ill-treatment to your dataset. It has been seen that Benford law conclusions apply to a wide variety of datasets. Datasets of Population numbers, death rate, stock prices, electricity and water bills, length of rivers, length of the tallest building, etc generally follow this law.&lt;/p&gt;
+
+&lt;p&gt;A lot of times Benford law applies to data where a simple explanation can’t justify its applicability but the conclusion and applicability of Benford Law hold true in a fair dataset.&lt;/p&gt;
+
+&lt;h2&gt;History &lt;/h2&gt;
+
+&lt;p&gt;The law is named after Frank Benford. He stated the law in 1938 in a paper titled &lt;b&gt;“The Law of Anomalous Numbers”&lt;/b&gt;
+However, its discovery goes back to 1881, when an American astronomer Simon Newcomb found that in logarithm tables the initial pages (that started with 1) were much more used and worn than the other pages. he then published the results. These are the first known instance of this observation and includes a distribution on the second digit, as well.&lt;/p&gt;
+
+&lt;p&gt;Again in 1938, physicist Frank Benford noticed it and tested it on data from 20 different domains and hence was credited for it.
+His initial data set included the surface areas of 335 rivers, the sizes of 3259 US populations, 104 physical constants, 1800 molecular weights, 5000 entries from a mathematical handbook, 308 numbers contained in an issue of Reader’s Digest, the street addresses of the first 342 persons listed in American Men of Science and 418 death rates. The total number of observations used in the paper was 20,229. This discovery was later named after Benford.&lt;/p&gt;
+
+&lt;h2&gt;Applications&lt;/h2&gt;
+
+&lt;p&gt;Benford law is widely used in fraud and error detection. As a large set of numbers follows the law, so accountants, auditors, economists, and tax professionals have a benchmark of what the normal levels of any particular number in a set are.&lt;/p&gt;
+
+&lt;p&gt;•       &lt;b&gt;Accounting fraud detection&lt;/b&gt;- The law can be used to detect possible fraud in lists of socio-economic data submitted in support of public planning decisions. When we simply compare the first-digit frequency distribution from the data with the expected distribution according to Benford’s law any major fluctuations can be a cause of concern and hence needs to be taken into account. 
+Ponzi schemes can be detected using the law. Unrealistic returns fall far from the expected Benford probability distribution.&lt;/p&gt;
+
+&lt;p&gt;•       &lt;b&gt;Election data&lt;/b&gt; - Another major use of Benford law is to detect fraud in elections it was used as evidence of fraud in the 2009 Iranian elections. An analysis found that the second digits in vote counts for the winner of the election tended to differ significantly from the expectations of Benford’s law upon further inspection a widespread ballot stuffing was found. Similar deviations found in the 2009 Iranian presidential election helped predict the fraud.&lt;/p&gt;
+
+&lt;p&gt;Other applications include forensic auditing and fraud detection. On data from the 2003 California gubernatorial election, the 2000 and 2004 United States presidential elections, and the 2009 German federal election; the Benford’s Law test was found to be worth taking seriously as a statistical test for fraud.&lt;/p&gt;
+
+&lt;p&gt;•       &lt;b&gt;Macroeconomic data&lt;/b&gt; - The macroeconomic data the Greek government reported to the European Union before entering the eurozone was shown to be probably fraudulent using Benford’s law, albeit years after the country joined. The results were indeed manipulated hence, proving the reliability of the law&lt;/p&gt;
+
+&lt;p&gt;•       &lt;b&gt;Genome data&lt;/b&gt;-The law is also widely used in genome data as well. The number of open reading frames and their relationship to genome size differs between eukaryotes and prokaryotes. Benford’s law has been used to test this observation with an excellent fit to the data in both cases.&lt;/p&gt;
+
+&lt;h2&gt;Detection Of Fraud&lt;/h2&gt;
+
+&lt;p&gt;The following chart shows a series randomly generated in excel using a random function. We can see that this chart is nothing even close to a Benford curve, and this straight-line result tends to repeat even when the random numbers are recalculated multiple times. Hence upon seeing such plots we can conclude that the data was artificially produced, which they were using a standard computerized random number generator program.
+&lt;img src=&quot;/blog/BenfordsLaw/3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Similarly, if a person uses a computer’s numeric keypad to create random numbers then also the results will never be close to Benford’s results. Even if a person fabricates numbers mentally (using his or her brain rather than a computer), there is little reason to believe such a mental exercise would produce results that adhere closely to Benford’s curve. It is more likely that the person producing numbers mentally would tend to repeat certain patterns, and charting the frequency of the resulting leading digits might reveal those patterns.
+&lt;img src=&quot;/blog/BenfordsLaw/4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Examples&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;Example 1&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a histogram of the areas of 196 countries (The units are \km^2)
+&lt;img src=&quot;/blog/BenfordsLaw/5.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a table with percentages. The “BL prediction” column is the percentage that Benford’s law predicts for each digit.
+&lt;img src=&quot;/blog/BenfordsLaw/6.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Example 2&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a histogram of the population of each of the 3,142 counties or county equivalents in the United States.
+&lt;img src=&quot;/blog/BenfordsLaw/7.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a table with percentages.
+&lt;img src=&quot;/blog/BenfordsLaw/8.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Conclusion &lt;/h2&gt;
+
+&lt;p&gt;Benford’s law is a very accurate and reliable measure to check for data manipulation. Till now a lot of frauds and other malpractices have been spotted using the law. Some of the popular ones are the 2009 Iranian elections, the 2000 and 2004 United States presidential elections, the 2009 German federal election, the Greek government’s manipulation to enter the European Union, and a lot more.
+However, one of the major limitations is that’s the law can be neither blindly applied to all datasets nor can the result be trusted blindly. Therefore, one should be cautious before applying as well as interpreting the results of the law. The same becomes even more important when we interpret the second and third digits as well of a dataset.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ethics in Data Science</title><link href="http://localhost:4000/blog/Ethics-in-Data-Science/" rel="alternate" type="text/html" title="Ethics in Data Science" /><published>2021-11-29T00:00:00+05:30</published><updated>2021-11-29T00:00:00+05:30</updated><id>http://localhost:4000/blog/Ethics-in-Data-Science</id><content type="html" xml:base="http://localhost:4000/blog/Ethics-in-Data-Science/">&lt;p&gt;&lt;img src=&quot;/blog/EthicsDS.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;“With Great power comes greater responsibility,” as the saying goes. In today’s society, data is becoming as valuable as gold to large corporations. Where does data power come from, and what are the responsibilities for data scientists, in an era when all the big organisations compete to collect and preserve data and gather even more from other sources to get better insights into where data power comes from and what are the responsibilities for data scientists?&lt;/p&gt;
 
@@ -630,107 +695,4 @@ Judge: Well it depends..Which smell do you really hate?&lt;/p&gt;
 
 &lt;p&gt;●	The Lovelace Test 2.0 – A test made to detect AI through its ability to create art.&lt;/p&gt;
 
-&lt;p&gt;●	Winograd Schema Challenge – A test that asks multiple-choice questions in a particular format.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Logistic Regression And Surviving The Titanic</title><link href="http://localhost:4000/blog/Logistic-Regression/" rel="alternate" type="text/html" title="Logistic Regression And Surviving The Titanic" /><published>2021-07-22T00:00:00+05:30</published><updated>2021-07-22T00:00:00+05:30</updated><id>http://localhost:4000/blog/Logistic-Regression</id><content type="html" xml:base="http://localhost:4000/blog/Logistic-Regression/">&lt;p&gt;Logistic Regression, or the Logit Model, is one of the fundamental blocks of statistics and machine learning. It is used when the dependent variable is categorical, and is the go to method for binary classification (two class values). For example, the probability of win/lose or pass/fail an exam. Most popular use of logistic regression today is in determining if an email is spam or not.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic1.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1&gt;How does it work?&lt;/h1&gt;
-&lt;p&gt;At the core of the logistic regression is the logit function, also called the sigmoid function and was developed by statisticians to describe properties of population growth in ecology, biology and environment sciences. It’s an S-shaped curve that maps any real-valued number into a value between 0 and 1, not necessary at only those limits. The equation for Logistic Regression is:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic2.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Where y is the predicted output, B0 is the intercept and B1 is the coefficient for (x). It can be said that Logistic regression is a linear function. However, the predictions are morphed into classification using the logit function.
-Example of Logistic Regression&lt;/p&gt;
-
-&lt;p&gt;We can use an example to learn Logistic Regression better. Let’s say we have data that can be used to predict a person’s gender based on their height. Given a height of 150cm is the person male or female.&lt;/p&gt;
-
-&lt;p&gt;Let’s say that the coefficients are b0 = -100 and b1 = 0.6. The above equation can be utilized to predict if a person is male given a height of 150cm.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;y = e^(b0 + b1&lt;em&gt;x) / (1 + e^(b0 + b1&lt;/em&gt;x))&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;y = e^(-100 + 0.6&lt;em&gt;150) / (1 + e^(-100 + 0.6&lt;/em&gt;x))&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;y = 0.00004539&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;The probability is so low that it can be used as 0, and certainly this person is not male.
-Since, this is classification and we want a crisp answer, we can create bins for a complete classification of the values, for example:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;0 if p(male) &amp;lt; 0.5&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;1 if p(male) &amp;gt;= 0.5&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Logistic regression models are models that have a certain fixed number of parameters that depend on the number of input features, and they output categorical predictions, like for example if a cancer is malignant or not.&lt;/p&gt;
-
-&lt;h1&gt;Types of Logistic Regression&lt;/h1&gt;
-
-&lt;p&gt;&lt;b&gt;Binary Logistic Regression:&lt;/b&gt; The final response has only two possible outcomes. For example, either a student passes an exam or not.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Multinomial Logistic Regression:&lt;/b&gt; More than two possible outcomes, without any ordering. For example, predicting which of the election candidates wins among many.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Ordinal Logistic Regression:&lt;/b&gt; An ordered possibility of outcomes. For example, figuring out the movie rating from 1 to 5.&lt;/p&gt;
-
-&lt;p&gt;However, in this article we’ll be focusing solely on the binary classification type as it is the most popular among the three. ‘&lt;/p&gt;
-
-&lt;h1&gt;Surviving a Disaster and The Titanic Dataset&lt;/h1&gt;
-
-&lt;p&gt;The most popular dataset on Kaggle, undoubtedly, is the Titanic Dataset. It can also be considered a rite of passage for aspiring data scientists learning classification models. And why not, the data is structured in a way that helps people learn the fundamentals of classification and logistic regression.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic3.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The dataset has the following variables (attributes) which are explained very well on Kaggle.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic4.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here, we shall use the train.csv provided to train the model and predict the survival of a passenger based on the given variables.&lt;/p&gt;
-
-&lt;h1&gt;Code &lt;/h1&gt;
-
-&lt;h3&gt;Importing the dataset, and understanding the data: &lt;/h3&gt;
-
-&lt;p&gt;import pandas as pd&lt;/p&gt;
-
-&lt;p&gt;titanic = pd.read_csv(“train.csv”)&lt;/p&gt;
-
-&lt;p&gt;titanic.shape&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic5.jpg&quot; /&gt;
-&lt;img src=&quot;/blog/LogisticRegression/Logistic6.jpg&quot; /&gt;
-&lt;img src=&quot;/blog/LogisticRegression/Logistic7.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Data Preprocessing &lt;/h3&gt;
-
-&lt;p&gt;It is also worth noting that ‘Embarked’ has 3 classes C, Q, S which have to be converted into individual attributes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic8.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here, we’ve used the ‘get_dummies’ function to create separate variables for each Embarked class. And we’ve joined the new dataframe with the original dataframe.&lt;/p&gt;
-
-&lt;p&gt;We’ve created two dataframes X and y, which will be used for Logistic Regression and learning. And dropped multiple non-numeric attributes which have no effect on the survival of a passenger.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic9.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We see that ‘Age’ has many null values, so we use ‘mean’ to impute null values.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic10.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h3&gt;Creating the Model&lt;/h3&gt;
-
-&lt;p&gt;We’ll use ScikitLearn to create the Logistic Regression model, and split the dataset into 80% (used for training the model) and 20% (for testing the model).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic11.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After the model is created, it is necessary to check how well it has performed. The model score for testing is 0.754, which means that 75.4% of the time the model correctly predicts if a passenger has survived the disaster or not. We also figured out the intercept and coefficients (the array is made up of all the attributes used in the model).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic12.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;However, the correlation between the attributes and survival can be better understood with a visual.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/blog/LogisticRegression/Logistic13.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This cell’s output is a heatmap that shows the correlation between all the attributes.
-&lt;img src=&quot;/blog/LogisticRegression/Logistic14.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;h1&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;Logistic regression is one of the most exciting concepts in statistics and a powerful tool to classify data. However, one shortcoming of Logit functions is that they are not able to work well with outliers and leads to overfitting. Hence, we must try and remove outliers from the data provided to make the model more accurate.&lt;/p&gt;
-
-&lt;p&gt;This was the most simple method that can be used to train a ML Logistic model. We can always use more sophisticated models for better prediction and classification using a more detailed analysis of the data and more complex feature engineering.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html">Logistic Regression, or the Logit Model, is one of the fundamental blocks of statistics and machine learning. It is used when the dependent variable is categorical, and is the go to method for binary classification (two class values). For example, the probability of win/lose or pass/fail an exam. Most popular use of logistic regression today is in determining if an email is spam or not.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;●	Winograd Schema Challenge – A test that asks multiple-choice questions in a particular format.&lt;/p&gt;</content><author><name>Shivansh Mehendiratta</name><email>connect@theanalyticsbay.com</email></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bg.jpeg" /><media:content medium="image" url="http://localhost:4000/bg.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
